@@ -1,0 +1,137 @@
+$t-space: 37px;
+
+.footer {
+    background-color: color(secondary, dark);
+    color: white;
+    position: relative;
+    z-index: 2;
+    &-top {
+        .container {
+            padding-top: $t-space;
+            padding-bottom: $t-space;
+            border-bottom: 1px color(gray, medium) solid;
+            .contact-info {
+                @include toRem(font-size, 14);
+                color: color(gray, medium);
+                @include toRem(letter-spacing, .5);
+                line-height: 1.3;
+                &:hover {
+                    span {
+                        text-decoration: underline;
+                    }
+                }
+                &::after {
+                    display: inline-block;
+                    margin-left: 12px;
+                    vertical-align: middle;
+                    @media screen and (min-width: $screen-lg-min) {
+                        display: none;
+                    }
+                }
+                &.address {
+                    @media screen and (min-width: $screen-lg-min) {
+                        width: 245px;
+                    }
+                    &::after {
+                        content: 'Endereço';
+                    }
+                }
+                &.phone {
+                    &::after {
+                        content: 'Telefone';
+                    }
+                }
+                &.contact {
+                    &::after {
+                        content: 'E-mail';
+                    }
+                }
+                [class*="fa-"] {
+                    position: relative;
+                    top: 2px;
+                    color: color(primary, base);
+                }
+            }
+            // .contact-item {
+            //     &:not(:last-child) {
+            //         margin-bottom: 15px;
+            //         @media screen and (min-width: $screen-xl-min) { 
+            //             margin-bottom: 0;
+            //         }
+            //     }
+            // }            
+            .social-networks {
+                .nav-link {
+                    color: inherit;
+                    [class*="fa-"]  {
+                        color: inherit;
+                    }
+                    &:hover {
+                        color: color(primary, base);
+                    }
+                }
+            }  
+        }
+        padding-bottom: $t-space;      
+    }
+    &-bottom {
+        .navigation {
+            > ul {
+                > .menu-item {
+                    display: block;
+                    margin-bottom: $t-space;
+                    > .nav-link {
+                        @include toRem(font-size, 18);
+                        color: color(primary, base);
+                        margin-bottom: 28px;
+                        display: block;
+                    }
+                    .submenu {
+                        .menu-item {
+                            @include toRem(font-size, 14);
+                            display: block;
+                            &:not(:last-of-type) {
+                                margin-bottom: 23px;
+                            }
+                            .nav-link {
+                                color: color(gray, medium);
+                                &:hover {
+                                    color: color(primary, base);;
+                                }
+                            }
+                        }
+                    }
+                    flex: 0 0 auto;
+                    width: 50%;
+                    &:not(:last-of-type):nth-child(2n+1) {
+                        padding-right: $t-space;
+                    }                    
+                    @media screen and (min-width: $screen-lg-min) { 
+                        flex: 1;
+                        &:not(:last-of-type) {
+                            padding-right: 50px;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    .copyright {
+        background-color: black;
+        color: color(secondary, light);
+        @include toRem(font-size, 12);
+        p {
+            text-align: center;
+            a {
+                color: inherit;
+                &:hover {
+                    color: color(primary, base);
+                }
+            }
+        }
+        .container {
+            padding-top: $t-space/2;
+            padding-bottom: $t-space/2;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.newsletter {
+    .wpcf7-form {
+        input[type="email"],
+        input[type="text"] {
+            @include toRem(font-size, 16);
+            color: color(gray, light);
+            background-color: white;
+            border: 2px color(gray, light) solid;
+            width: 100%;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+    }
+}

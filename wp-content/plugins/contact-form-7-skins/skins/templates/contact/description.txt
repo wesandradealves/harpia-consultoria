@@ -1,0 +1,10 @@
+Contact gives you the framework you need to create a beautiful and easy-to-use way for your audience to contact you.
+
+Included in this template are the following fields:
+- Title
+- Main message area that can be expanded for long messages
+- Email address that is starred to indicate it's a required field
+- Submit button
+- Footer text
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

@@ -1,0 +1,356 @@
+/**
+* Style Name: Emerald
+* Description: Emerald is a deep green style with rich colors that will fit in with many themes which use deep or rich greens.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: green, white, dark
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-emerald p {
+}
+
+.wpcf7 .cf7s-emerald em {
+}
+
+.wpcf7 .cf7s-emerald a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-emerald {
+	padding: 20px;
+	color: #488a6e;
+	border: 1px solid #77ab94;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-emerald fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	color: #fff;
+	border: 1px solid #488a6e;
+	background: #488a6e;
+}
+
+.wpcf7 .cf7s-emerald legend {
+	font-size: 1.2em;
+	padding: 2px 10px;
+	color: #fff;
+	border: 5px solid #488a6e;
+	background: #1e4d39;
+}
+
+.wpcf7 .cf7s-emerald label {
+}
+
+.wpcf7 .cf7s-emerald fieldset p {
+}
+
+.wpcf7 .cf7s-emerald fieldset fieldset {
+	margin: 10px 0;
+	border: 1px solid #1e4d39;
+	background: #1e4d39;
+}
+
+.wpcf7 .cf7s-emerald fieldset fieldset legend {
+	color: #1e4d39;
+	border: 5px solid #1e4d39;
+	background: #8ec2ab;
+}
+.wpcf7 .cf7s-emerald fieldset fieldset label{
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald fieldset fieldset textarea {
+	background: #488a6e;
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald textarea {
+	margin-bottom: 8px;
+	padding: 5px 7px;
+	color: #8ec2ab;
+	border: 1px solid #77ab94;
+	background: #1e4d39;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-emerald ol,
+.wpcf7 .cf7s-emerald ul,
+.wpcf7 .cf7s-emerald li {
+}
+
+.wpcf7 .cf7s-emerald ol {
+}
+
+.wpcf7 .cf7s-emerald li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-emerald li label {
+	margin-right: 7px;
+}
+
+.wpcf7 .cf7s-emerald .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-emerald .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-emerald select {
+	padding: 5px;
+	color: #fff;
+	border: 1px solid #77ab94;
+	background: #488a6e;
+}
+
+.wpcf7 .cf7s-emerald select option {
+}
+
+.wpcf7 .cf7s-emerald select option:hover {
+	color: #488a6e;
+	background: #fff;
+}
+
+.wpcf7 .cf7s-emerald .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-emerald .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	border: none;
+	background: #1e4d39;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald input[type="submit"]:hover {
+	background: #000;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-emerald .singleline {
+}
+
+.wpcf7 .cf7s-emerald .singleline li {
+}
+
+.wpcf7 .cf7s-emerald .singleline input {
+}
+
+.wpcf7 .cf7s-emerald .horizontal,
+.wpcf7 .cf7s-emerald .checkbox-horizontal,
+.wpcf7 .cf7s-emerald .radio-horizontal {
+}
+
+.wpcf7 .cf7s-emerald .box {
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #fff;
+	border: 1px solid #77ab94;
+	background: #1e4d39;
+}
+
+.wpcf7 .cf7s-emerald .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald .grid-hover [data-row-span] [data-field-span]:hover {
+	color: #488a6e;
+	background: #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald .grid-lined {
+	border-top: 1px solid #77ab94;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald .grid-lined [data-row-span] {
+	border-bottom: 1px solid #77ab94;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #77ab94;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald.grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #77ab94;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-emerald .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #77ab94;
+			border-left: 1px solid #77ab94;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-emerald.cf7multi {
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-emerald.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .tab {
+	border: 1px solid #488a6e;
+	border-bottom: none;
+	background: #488a6e;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .tab a {
+	color: #fff;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .tab a.active {
+	color: #488a6e;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .epanels {
+	border: 1px solid #488a6e;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-emerald.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .navigation .previous,
+.wpcf7 .cf7s-emerald.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #488a6e;
+	background: #1e4d39;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-emerald.cf7multi .navigation .next:hover {
+	background: #488a6e;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-emerald.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-emerald.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #488a6e;
+	background: #1e4d39;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald.cf7multi .navigation .end:hover {
+	background: #488a6e;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-emerald.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-emerald.cf7multi .cf7m-progress {
+	border: 1px solid #77ab94;
+	background: #488a6e;
+}
+
+.wpcf7 .cf7s-emerald.cf7multi .cf7m-progress div {
+	background: #1e4d39;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-emerald.cf7multi .cf7m-thanks {
+}

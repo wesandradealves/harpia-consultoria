@@ -1,0 +1,2281 @@
+# Copyright (C) 2013 cf7skins
+# This file is distributed under the same license as the Contact Form 7 Skins package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Skins 0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 10:27+0700\n"
+"PO-Revision-Date: 2020-08-12 10:28+0700\n"
+"Last-Translator: Selz <engineer@selz.com>\n"
+"Language-Team: Neil Murray <nmurray@exemail.com.au>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: includes/EDD_SL_Plugin_Updater.php:262
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Versi terbaru %1$s sudah tersedia. %2$sLihat versi %3$s selengkapnya%4$s."
+
+#: includes/EDD_SL_Plugin_Updater.php:270
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Versi terbaru %1$s sudah tersedia. %2$sLihat versi %3$s selengkapnya%4$s "
+"atau %5$sperbarui sekarang%6$s."
+
+#: includes/EDD_SL_Plugin_Updater.php:471
+msgid "F j, Y"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:471
+msgid "g:i a"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:521
+msgid "You do not have permission to install plugin updates"
+msgstr "Anda tidak memiliki perijinan untuk membarui plugin"
+
+#: includes/EDD_SL_Plugin_Updater.php:521
+msgid "Error"
+msgstr "Gagal"
+
+#: includes/admin-notice.php:85
+msgid "Introducing our new drag & drop Visual Editor for Contact Form 7 forms."
+msgstr ""
+"Memperkenalkan seret dan lepas Editor Visual kami untuk formulir Contact "
+"Form 7."
+
+#: includes/admin-notice.php:87
+msgid ""
+"Fast, easy form creation on the new CF7 Skins Form tab. Try it out on a new "
+"form."
+msgstr ""
+"Cepat, pembuatan formulir yang mudah di Formulir CF7 Skins tab yang baru. "
+"Cobalah pada formulir yang baru."
+
+#: includes/admin-notice.php:89
+msgid "Take a tour"
+msgstr "Ikuti tur"
+
+#: includes/admin-notice.php:90
+msgid "Visit our documentation"
+msgstr "Kunjungi dokumentasi kami"
+
+#: includes/admin-visual.php:63
+msgid "Form"
+msgstr "Formulir"
+
+#: includes/admin-visual.php:64
+msgid ""
+"Drag and drop fields up and down  to re-order them. Any field content can be "
+"changed by clicking Edit on the field. Click Save Visual to update your "
+"Contact Form 7 form."
+msgstr ""
+"Seret dan lepas bidang ke atas dan ke bawah untuk memesan ulang. Konten "
+"bidang apa pun dapat diubah dengan mengeklik Ubah pada bidang. Klik Simpan "
+"Visual untuk memperbarui formulir Contact Form 7 Anda."
+
+#: includes/admin-visual.php:65
+msgid ""
+"Create a new form by selecting a template. Or, build your own. Drag and drop "
+"fields into the visual form editor from the Fields section. Edit, duplicate, "
+"or delete a field using the field’s icons."
+msgstr ""
+"Buat formulir baru dengan memilih templat. Atau, buat sendiri. Seret dan "
+"lepas bidang ke editor formulir visual dari bagian Bidang. Ubah, duplikat, "
+"atau hapus bidang menggunakan ikon bidang."
+
+#: includes/admin-visual.php:933
+msgid "Visual Data"
+msgstr "Data Visual"
+
+#: includes/admin-visual.php:936
+msgid "Enable copy & paste of visual data."
+msgstr "Aktifkan salin & tempel data visual."
+
+#: includes/admin-visual.php:941
+msgid "Show Field Names"
+msgstr "Tampilkan Nama Bidang"
+
+#: includes/admin-visual.php:944
+msgid "Show field names on each form field."
+msgstr "Tampilkan nama bidang pada setiap bidang formulir."
+
+#: includes/admin.php:191
+msgid "Loading template..."
+msgstr "Memuat templat..."
+
+#: includes/admin.php:192
+msgid "Empty filter, please select a filter."
+msgstr "Filter kosong, silahkan pilih sebuah filter."
+
+#: includes/admin.php:193 includes/style.php:378 includes/style.php:419
+#: includes/template.php:387 includes/template.php:429
+msgid "Select"
+msgstr "Pilih"
+
+#: includes/admin.php:194 includes/style.php:378 includes/style.php:419
+#: includes/template.php:387 includes/template.php:429
+msgid "Selected"
+msgstr "Terpilih"
+
+#: includes/admin.php:195
+msgid "Deselect"
+msgstr "Hapus"
+
+#: includes/admin.php:196 includes/style.php:428 includes/template.php:438
+msgid "Expanded View"
+msgstr "Tampilan Luas"
+
+#: includes/admin.php:197
+msgid "Click to remove this Style from your form."
+msgstr "Klik untuk menyingkirkan Gaya dari form."
+
+#: includes/admin.php:198
+msgid "Click to remove this Template from your form."
+msgstr "Klik untuk menyingkirkan Templat dari form."
+
+#: includes/admin.php:216 includes/admin.php:246 includes/admin.php:282
+msgid "Skins"
+msgstr "Gaya"
+
+#: includes/admin.php:245
+msgid "Click to toggle"
+msgstr "Klik untuk menampilkan"
+
+#: includes/admin.php:285
+msgid "Toggle panel"
+msgstr "Alihkan panel"
+
+#: includes/export.php:55
+msgid "Export this form and data to WXR format."
+msgstr "Ekspor formulir ini dan datanya ke bentuk WXR."
+
+#: includes/export.php:56 includes/settings.php:221
+msgid "Export Form"
+msgstr "Ekspor Formulir"
+
+#: includes/getting-started.php:11
+msgid "Quick Start Guide"
+msgstr "Panduan Cepat"
+
+#: includes/getting-started.php:13
+msgid "To get started using <strong>CF7 Skins</strong>:"
+msgstr "Untuk mulai menggunakan <strong> CF7 Skins </strong>:"
+
+#: includes/getting-started.php:17
+msgid "Click on <strong>Contact</strong> in the WordPress admin menu."
+msgstr "Klik <strong>Kontak</strong> di menu admin WordPress."
+
+#: includes/getting-started.php:20
+msgid "Select an existing Contact Form 7 form or create a new one."
+msgstr "Pilih formulir Contact Form 7 yang ada atau buat yang baru."
+
+#: includes/getting-started.php:23
+msgid "Scroll down to the <strong>Skins</strong> section."
+msgstr "Gulir ke bawah ke bagian <strong>Skins</strong>."
+
+#: includes/getting-started.php:27
+msgid "Using CF7 Skins"
+msgstr "Menggunakan CF7 Skins"
+
+#: includes/getting-started.php:29
+msgid " Visual Editor"
+msgstr " Editor Visual"
+
+#: includes/getting-started.php:29
+msgid " – where you edit and build your form."
+msgstr " – tempat Anda mengedit dan membuat formulir."
+
+#: includes/getting-started.php:31
+msgid "Start with a CF7 Skins Template."
+msgstr "Mulailah dengan Template CF7 Skins."
+
+#: includes/getting-started.php:35
+msgid ""
+"Select a <strong>Template</strong> to add it to the <strong>Form</strong> "
+"tab."
+msgstr ""
+"Pilih <strong>Template</strong> untuk menambahkannya ke tab "
+"<strong>Formulir</strong>."
+
+#: includes/getting-started.php:38
+msgid "The <strong>Form</strong> tab is where you build your form."
+msgstr "Tab <strong>Formulir</strong> adalah tempat Anda membuat formulir."
+
+#: includes/getting-started.php:42
+msgid "Add fields and arrange them using drag and drop."
+msgstr "Tambahkan bidang dan susun menggunakan seret dan lepas."
+
+#: includes/getting-started.php:46
+msgid "<strong>Drag-and-drop</strong> new fields onto your form."
+msgstr "<strong>Seret dan lepas</strong> bidang baru ke formulir Anda."
+
+#: includes/getting-started.php:49
+msgid "Rearrange fields into the correct position."
+msgstr "Susun ulang bidang ke posisi yang benar."
+
+#: includes/getting-started.php:53
+msgid "Edit the form to match your requirements."
+msgstr "Edit formulir yang sesuai dengan kebutuhan Anda."
+
+#: includes/getting-started.php:57
+msgid ""
+"Click <strong>Edit</strong>, <strong>Duplicate</strong> & <strong>Delete</"
+"strong> to adjust fields."
+msgstr ""
+"Klik <strong>Edit</strong>, <strong>Duplikat</strong> & <strong>Hapus</"
+"strong> untuk menyesuaikan bidang."
+
+#: includes/getting-started.php:60
+msgid ""
+"Add <strong>CF7 Tag</strong> options in the <strong>Edit</strong> dialog."
+msgstr ""
+"Tambahkan opsi <strong>Tag CF7</strong> dalam dialog <strong>Ubah</strong>."
+
+#: includes/getting-started.php:64
+msgid "Review & save your Form."
+msgstr "Tinjau & simpan Formulir Anda."
+
+#: includes/getting-started.php:68
+msgid "<strong>Duplicate</strong> groups of fields to speed form creation."
+msgstr ""
+"<strong>Duplikat</strong> grup bidang untuk mempercepat pembuatan formulir."
+
+#: includes/getting-started.php:71
+msgid ""
+"Click <strong>Save Visual</strong> - your changes are added in the "
+"<strong>CF7 Form</strong> tab."
+msgstr ""
+"Klik <strong>Simpan Visual</strong> - perubahan Anda ditambahkan di tab "
+"<strong>Formulir CF7</strong>."
+
+#: includes/getting-started.php:75 includes/getting-started.php:96
+#: includes/getting-started.php:116 includes/getting-started.php:138
+msgid "Learn More"
+msgstr "Pelajari Lebih Lanjut"
+
+#: includes/getting-started.php:79
+msgid " Templates"
+msgstr " Templat"
+
+#: includes/getting-started.php:79
+msgid " – give you a starting point for your form."
+msgstr " – memberi Anda titik awal untuk formulir Anda."
+
+#: includes/getting-started.php:82
+msgid ""
+"Each <strong>Template</strong> acts as an easy to follow guide, which can be "
+"adapted to your particular requirements."
+msgstr ""
+"Setiap <strong>templat</strong> bertindak sebagai panduan yang mudah "
+"diikuti, yang dapat diadaptasikan sesuai dengan kebutuhan anda."
+
+#: includes/getting-started.php:86
+msgid "The <strong>Template</strong> tab displays the available templates."
+msgstr "Tab <strong>Templat</strong> menampilkan templat yang tersedia."
+
+#: includes/getting-started.php:89
+msgid ""
+"Click <strong>Select</strong> to add this template in the <strong>Form</"
+"strong> tab."
+msgstr ""
+"Klik <strong>Pilih</strong> untuk menambahkan templat ini di tab "
+"<strong>Formulir</strong>."
+
+#: includes/getting-started.php:92
+msgid ""
+"Then use the <strong>Visual Editor</strong> to adjust the form to your "
+"requirements."
+msgstr ""
+"Kemudian gunakan <strong>Editor Visual</strong> untuk menyesuaikan formulir "
+"dengan kebutuhan Anda."
+
+#: includes/getting-started.php:100
+msgid " Styles"
+msgstr " Penggaya"
+
+#: includes/getting-started.php:100
+msgid " – control the appearance for your form."
+msgstr " – kontrol tampilan formulir Anda."
+
+#: includes/getting-started.php:102
+msgid ""
+"Every <strong>Style</strong> covers the full range of Contact Form 7 form "
+"elements."
+msgstr ""
+"Setiap <strong>Gaya</strong> melingkupi semua rentang elemen Contact Form 7."
+
+#: includes/getting-started.php:106
+msgid "View the <strong>Style</strong> tab to see the available styles."
+msgstr "Lihat tab <strong>Gaya</strong> untuk melihat gaya yang tersedia."
+
+#: includes/getting-started.php:109
+msgid "Find a style you like and click <strong>Select</strong>."
+msgstr "Temukan gaya yang Anda sukai dan klik <strong> Pilih </strong>."
+
+#: includes/getting-started.php:112
+msgid ""
+"Then press <strong>Save</strong> or <strong>Save Visual</strong> to apply "
+"the style to your form."
+msgstr ""
+"Lalu tekan <strong> Simpan </strong> atau <strong> Simpan Visual </strong> "
+"untuk menerapkan gaya ke formulir Anda."
+
+#: includes/getting-started.php:120
+msgid "Doing more with CF7 Skins"
+msgstr "Membuat lebih banyak dengan CF7 Skins"
+
+#: includes/getting-started.php:121
+msgid ""
+"To take advantage of the full functionality of CF7 Skins we recommend "
+"reading the following items."
+msgstr ""
+"Untuk memanfaatkan fungsionalitas penuh CF7 Skins, sebaiknya baca item "
+"berikut."
+
+#: includes/getting-started.php:125
+msgid "Getting Started – Using CF7 Skins"
+msgstr "Memulai - Menggunakan CF7 Skins"
+
+#: includes/getting-started.php:128
+msgid "Edit your CF7 Skins Form"
+msgstr "Dipilih oleh team CF7 Skins"
+
+#: includes/getting-started.php:131
+msgid "Fieldset, Legend & Lists in CF7 Skins"
+msgstr "Fieldset, Legend & List pada CF7 Skins"
+
+#: includes/getting-started.php:134
+msgid "Modify your CF7 Skins Style"
+msgstr "Ubah Gaya CF7 Skins anda"
+
+#: includes/getting-started.php:143 includes/pro-version.php:131
+msgid "Do you enjoy using this plugin?"
+msgstr "Apakah anda senang dengan plugin ini?"
+
+#: includes/getting-started.php:144 includes/pro-version.php:132
+msgid "You can help fellow WordPress users in the following simple ways"
+msgstr ""
+"Anda dapat membantu sesama pengguna WordPress dengan cara sederhana berikut "
+"ini"
+
+#: includes/getting-started.php:147 includes/pro-version.php:135
+msgid "Review"
+msgstr "Tinjauan"
+
+#: includes/getting-started.php:147 includes/pro-version.php:135
+msgid "leave a  plugin review on WordPress.org"
+msgstr "buat tinjauan plugin di WordPress.org"
+
+#: includes/getting-started.php:150 includes/pro-version.php:138
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: includes/getting-started.php:150 includes/pro-version.php:138
+msgid "add your Testimonial to those listed"
+msgstr "tambahkan Testimonial anda ke daftar tersebut"
+
+#: includes/getting-started.php:153 includes/pro-version.php:141
+msgid "Feedback"
+msgstr "Umpan Balik"
+
+#: includes/getting-started.php:153 includes/pro-version.php:141
+msgid "help us to improve CF7 Skins by offering feedback"
+msgstr "bantu kami untuk mengembangkan CF7 Skins dengan memberikan umpan balik"
+
+#: includes/getting-started.php:157 includes/getting-started.php:164
+#: includes/getting-started.php:187 includes/pro-version.php:145
+#: includes/pro-version.php:152 includes/pro-version.php:175
+#: includes/style-instructions.php:17 includes/tab.php:354
+#: includes/template-instructions.php:17
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: includes/getting-started.php:158 includes/pro-version.php:146
+msgid "Our in-depth documentation is a great place to find detailed answers"
+msgstr ""
+"Dokumentasi mendalam kami adalah tempat yang tepat untuk menemukan jawaban "
+"terperinci"
+
+#: includes/getting-started.php:161 includes/getting-started.php:187
+#: includes/pro-version.php:149 includes/pro-version.php:175
+#: includes/style-instructions.php:17 includes/tab.php:355
+#: includes/template-instructions.php:17
+msgid "FAQ"
+msgstr "Tanya Jawab"
+
+#: includes/getting-started.php:161 includes/pro-version.php:149
+msgid "browse over some commonly asked questions."
+msgstr "telusuri beberapa pertanyaan yang sering diajukan."
+
+#: includes/getting-started.php:164 includes/pro-version.php:152
+msgid "search by Categories & Tags or Keywords."
+msgstr "cari dengan menggunakan Kategory & Tag ataupun Kata Kunci."
+
+#: includes/getting-started.php:167 includes/getting-started.php:187
+#: includes/pro-version.php:155 includes/pro-version.php:175
+#: includes/style-instructions.php:17 includes/tab.php:356
+#: includes/template-instructions.php:17
+msgid "Tutorials"
+msgstr "Tutorial"
+
+#: includes/getting-started.php:167 includes/pro-version.php:155
+msgid "to help you get started quickly with CF7 Skins."
+msgstr "untuk membantu anda memulai dengan cepat menggunakan CF7 Skins."
+
+#: includes/getting-started.php:171 includes/pro-version.php:159
+msgid "Need some help?"
+msgstr "Butuh bantuan?"
+
+#: includes/getting-started.php:172 includes/pro-version.php:160
+msgid "You have a number of options to help you use CF7 Skins"
+msgstr "Anda memiliki sejumlah opsi untuk membantu Anda menggunakan CF7 Skins"
+
+#: includes/getting-started.php:174 includes/pro-version.php:162
+msgid "Free Version"
+msgstr "Versi Pro"
+
+#: includes/getting-started.php:177 includes/pro-version.php:165
+msgid "WordPress.org Support Forum"
+msgstr "Forum Bantuan WordPress.org"
+
+#: includes/getting-started.php:177 includes/pro-version.php:165
+msgid ""
+"community based support offered by other CF7 Skin users (we visit the forum "
+"intermittently to assist with plugin bugs only)."
+msgstr ""
+"bantuan komunitas yang ditawarkan oleh pengguna CF7 Skins lain (kami hanya "
+"mengunjungi form forum tersebut sewatu-waktu untuk membantu bug plugin)"
+
+#: includes/getting-started.php:180 includes/getting-started.php:187
+#: includes/getting-started.php:189 includes/getting-started.php:191
+#: includes/pro-version.php:11 includes/pro-version.php:13
+#: includes/pro-version.php:168 includes/pro-version.php:175
+#: includes/settings.php:59 includes/tab.php:284
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: includes/getting-started.php:183 includes/pro-version.php:171
+msgid "Premium Email Support"
+msgstr "Bantuan Email Premium"
+
+#: includes/getting-started.php:183 includes/pro-version.php:171
+msgid ""
+"available (for current paid licenses) to deal with users questions and "
+"problems."
+msgstr ""
+"tersedia (untuk lisensi berbayar saat ini) untuk menangani pertanyaan dan "
+"masalah pengguna."
+
+#: includes/getting-started.php:187 includes/pro-version.php:175
+msgid "Website"
+msgstr "Situs web"
+
+#: includes/getting-started.php:191 includes/pro-version.php:13
+#, php-format
+msgid ""
+"Ongoing development of CF7 Skins is made possible by sales of renewable "
+"annual licenses of our %1$s."
+msgstr ""
+"Pengembangan tanpa henti dari CF7 Skins memungkinkan dengan penjualan "
+"pembaruan lisensi anual dari %1$s."
+
+#: includes/getting-started.php:195
+msgid "CF7 Skins Pro"
+msgstr "CF7 Skins Pro"
+
+#: includes/getting-started.php:195
+msgid "Extra Templates & Styles"
+msgstr "Tambahan Templat dan Gaya"
+
+#: includes/getting-started.php:198
+msgid "CF7 Skins Ready"
+msgstr "CF7 Skins Ready"
+
+#: includes/getting-started.php:198
+msgid "Useful styling options"
+msgstr "Opsi penggaya yang berguna"
+
+#: includes/getting-started.php:201
+msgid "CF7 Skins Multi"
+msgstr "CF7 Skins Multi"
+
+#: includes/getting-started.php:201
+msgid "Multi-part forms"
+msgstr "Formulir multi-bagian"
+
+#: includes/getting-started.php:204
+msgid "CF7 Skins Logic"
+msgstr "CF7 Skins Logic"
+
+#: includes/getting-started.php:204
+msgid "Conditional logic for your forms"
+msgstr "Logika bersyarat untuk formulir Anda"
+
+#: includes/getting-started.php:208 includes/pro-version.php:28
+msgid "Our range of"
+msgstr "Rentang dari"
+
+#: includes/getting-started.php:208 includes/pro-version.php:28
+msgid ""
+"brings the functionality available in other premium WordPress form plugins "
+"directly within Contact Form 7."
+msgstr ""
+"membawa fungsionalitas yang tersedia pada plugin form WordPress premium "
+"lainnya secara langsung dengan Contact Form 7."
+
+#: includes/pro-version.php:15
+msgid "CF7 Skins Add-ons offer a number of advantages:"
+msgstr "Add-ons CF7 Skins memberikan sejumlah keuntungan:"
+
+#: includes/pro-version.php:18
+msgid ""
+"Your existing familiarity with using Contact Form 7 - you don't need to "
+"learn another WordPress form plugin"
+msgstr ""
+"Kebiasan anda  menggunakan Contact Form 7 - and tidak perlu mempelajari "
+"plugin form WordPress yang lain"
+
+#: includes/pro-version.php:21
+msgid ""
+"You can still use the many plugins available that extend Contact Form 7 - "
+"both free & premium"
+msgstr ""
+"Anda masih bisa menggunakan banyak plugin yang tersedia yang menggembangkan "
+"Contact Form 7 - gratis & premium"
+
+#: includes/pro-version.php:24
+msgid ""
+"Purchase only the CF7 Skins Add-ons your require - mix and match to suit "
+"your needs"
+msgstr ""
+"Cukup beli Add-ons CF7 Skins yang anda butuhkan - campur dan gabungkan "
+"sesuai kebutuhan anda"
+
+#: includes/pro-version.php:35
+msgid "- offers a wider range of Templates & Styles for commonly used forms"
+msgstr ""
+"- menawarkan berbagai Templat & Gaya untuk formulir yang umum digunakan"
+
+#: includes/pro-version.php:37
+msgid ""
+"is provided by paid staff to deal with Premium users questions and problems"
+msgstr ""
+"diberikan oleh staf berbayar untuk berhubungan dengan pertanyaan dan masalah "
+"pengguna Premium"
+
+#: includes/pro-version.php:45
+msgid ""
+"- provides a range of useful pre-defined styles that can be used in all "
+"Contact Form 7 forms:"
+msgstr ""
+"- memberikan serangkaian gaya buatan yang berguna yang bisa digunakan pada "
+"semua formulir Contact Form 7:"
+
+#: includes/pro-version.php:49
+msgid "box"
+msgstr "kotak"
+
+#: includes/pro-version.php:49
+msgid "displays enclosed elements in a surrounding box"
+msgstr "menampilkan lampiran element pada kotak tertutup"
+
+#: includes/pro-version.php:52
+msgid "column"
+msgstr "kolom"
+
+#: includes/pro-version.php:52
+msgid "displays enclosed elements in a vertical column"
+msgstr "menampilkan elemen yang tertutup dengan kolum vertikal"
+
+#: includes/pro-version.php:55
+msgid "grid"
+msgstr "grid"
+
+#: includes/pro-version.php:55
+msgid "implements a CSS form grid"
+msgstr "menerapkan sebuah grid form CSS"
+
+#: includes/pro-version.php:58
+msgid "singleline"
+msgstr "singleline"
+
+#: includes/pro-version.php:58
+msgid "displays enclosed elements on a single line"
+msgstr "menampilkan lampiran elemen pada sebuah garis tunggal"
+
+#: includes/pro-version.php:61
+msgid "horizontal"
+msgstr "mendatar"
+
+#: includes/pro-version.php:61
+msgid "displays checkbox & radio button elements in horizontal line"
+msgstr ""
+"menampilkan elemen kotak centangan dan tombol radio pada garis horizontal"
+
+#: includes/pro-version.php:71
+msgid ""
+"- includes the features you need to make user friendly multi-part Contact "
+"Form 7 forms:"
+msgstr ""
+"- termasuk fitur-fitur yang anda butuhkan untuk membuat formulir multi-"
+"bagian Contact Form 7  yang mudah:"
+
+#: includes/pro-version.php:75
+msgid "Tab Titles"
+msgstr "Judul Tab"
+
+#: includes/pro-version.php:75
+msgid "with click Navigation"
+msgstr "dengan Navigasi klik"
+
+#: includes/pro-version.php:78
+msgid "Progress Bar"
+msgstr "Batang Progres"
+
+#: includes/pro-version.php:78
+msgid "indicates to users where they are"
+msgstr "mengindikasikan kepada pengguna dimanakah mereka sekarang"
+
+#: includes/pro-version.php:81
+msgid "Navigation Buttons"
+msgstr "Tombol Navigasi"
+
+#: includes/pro-version.php:81
+msgid "Previous & Next on each Tab"
+msgstr "Sebelumnya & Berikutnya untuk setiap Tab"
+
+#: includes/pro-version.php:84
+msgid "Pagination"
+msgstr "Halaman"
+
+#: includes/pro-version.php:84
+msgid "current page / total no."
+msgstr "halaman sekarang / jumlah total."
+
+#: includes/pro-version.php:87
+msgid "Start & End Tabs"
+msgstr "Tab Awal & Akhir"
+
+#: includes/pro-version.php:87
+msgid "additional Navigation Buttons"
+msgstr "tombol Navigasi tambahan"
+
+#: includes/pro-version.php:90
+msgid "Thank You Tab"
+msgstr "Tab Terima Kasih"
+
+#: includes/pro-version.php:90
+msgid "extra page displayed only after completed form submission"
+msgstr ""
+"halaman tambahan yang ditampilkan hanya setelah form diajukan sepenuhnya"
+
+#: includes/pro-version.php:93
+msgid "Design Matches CF7 Skins Style"
+msgstr "Desain Yang Cocok Gaya CF7 Skins"
+
+#: includes/pro-version.php:93
+msgid "styling of multi-form elements matches selected CF7 Skins Style"
+msgstr ""
+"penggayaan dari elemen-elemen multi-form yang sesuai dengan Gaya CF7 Skins "
+"yang dipilih"
+
+#: includes/pro-version.php:103
+msgid "- provides Conditional Logic for Contact Form 7 forms:"
+msgstr "- memberikan Logika Kondisi untuk formulir Contact Form 7:"
+
+#: includes/pro-version.php:107
+msgid "Show or Hide"
+msgstr "Tampilkan atau Sembunyikan"
+
+#: includes/pro-version.php:107
+msgid "fields"
+msgstr "field"
+
+#: includes/pro-version.php:110
+msgid "Criteria"
+msgstr "Kriteria"
+
+#: includes/pro-version.php:110
+msgid "field, user and post info"
+msgstr "field, pengguna ataupun info pos"
+
+#: includes/pro-version.php:113
+msgid "Value"
+msgstr "Nilai"
+
+#: includes/pro-version.php:113
+msgid "equals, not equals, contains or changed"
+msgstr "sama, tidak sama, mengandung atau diubah"
+
+#: includes/pro-version.php:116
+msgid "Compare"
+msgstr "Bandingkan"
+
+#: includes/pro-version.php:116
+msgid "numeric or text values"
+msgstr "angka ataupun teks"
+
+#: includes/pro-version.php:119
+msgid "Multiple logic statements"
+msgstr "Pernyataan logika jamak"
+
+#: includes/pro-version.php:119
+msgid "if all & if any"
+msgstr "jika semua & jika salah satu"
+
+#: includes/pro-version.php:122
+msgid "Multiple fields"
+msgstr "Field Jamak"
+
+#: includes/pro-version.php:122
+msgid "with varying logic"
+msgstr "dengan logika berubah-ubah"
+
+#: includes/settings.php:58
+msgid "Options"
+msgstr "Pilihan"
+
+#: includes/settings.php:60 includes/tab.php:285
+msgid "Getting Started"
+msgstr "Memulai"
+
+#: includes/settings.php:65 includes/settings.php:66 includes/settings.php:108
+msgid "CF7 Skins Settings"
+msgstr "Pengaturan CF7 Skins"
+
+#: includes/settings.php:131
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: includes/settings.php:177
+msgid "Asterisk"
+msgstr "Tanda Bintang"
+
+#: includes/settings.php:180
+msgid "Add asterisk to required fields."
+msgstr "Tambahkan tanda bintang pada bidang yang wajib diisi."
+
+#: includes/settings.php:184
+msgid "Admin Color Scheme"
+msgstr "Skema Warna Admin"
+
+#: includes/settings.php:187
+msgid ""
+"Select color scheme for CF7 Skins admin interface. (WP Admin only not form "
+"colors) "
+msgstr ""
+"Pilih warna skema untuk tampilan admin CF7 Skins.  (Hanya WP Admin bukan "
+"warna formulir) "
+
+#: includes/settings.php:224
+msgid "Enable export of individual CF7 Skins form."
+msgstr "Aktifkan ekspor formulir CF7 Skins individual."
+
+#: includes/settings.php:228
+msgid "Delete Settings"
+msgstr "Hapus Pengaturan"
+
+#: includes/settings.php:231
+msgid "Remove all plugin data on plugin deletion."
+msgstr "Hapus semua data saat penghapusan plugin."
+
+#: includes/settings.php:371
+msgid "active"
+msgstr "aktif"
+
+#: includes/settings.php:372
+msgid "Deactivate License"
+msgstr "Non-aktifkan Lisensi"
+
+#: includes/settings.php:375
+msgid "invalid"
+msgstr "absah"
+
+#: includes/settings.php:377
+msgid "Activate License"
+msgstr "Aktifkan Lisensi"
+
+#: includes/settings.php:420
+msgid "Default"
+msgstr "Standar"
+
+#: includes/settings.php:427
+msgid "Wheat"
+msgstr "Gandum"
+
+#: includes/settings.php:434
+msgid "Ocean"
+msgstr "Lautan"
+
+#: includes/style-instructions.php:11
+msgid ""
+"Click <strong>Expanded View</strong> for more information on the color and "
+"formatting used, and what this style looks like applied to all types of "
+"Contact Form 7 form fields."
+msgstr ""
+"Klik <strong>Tampilan Luas</strong> untuk informasi lebih lengkap untuk "
+"warna dan format penggunaan, dan bagaimana gaya ini ditampilkan untuk semua "
+"tipe dari field form Contact Form 7."
+
+#: includes/style-instructions.php:13
+msgid "To choose this <strong>Style</strong> click <strong>Select</strong>."
+msgstr ""
+"Untuk menggunakan <strong>Gaya</strong> ini klik <strong>Pilih</strong>."
+
+#: includes/style-instructions.php:15
+msgid ""
+"You can move on to choosing a <strong>Template</strong> or, if you already "
+"have a template, scroll up to the top of the page and click the "
+"<strong>Save</strong> button."
+msgstr ""
+"Anda bisa mengganti sebuah <strong>Templat</strong> atau, jika anda sudah "
+"memiliki templat, gulir ke atas halaman dan klik tombol <strong>Simpan</"
+"strong>."
+
+#: includes/style-instructions.php:17 includes/tab.php:357
+#: includes/template-instructions.php:17
+msgid "Knowledge Base"
+msgstr "Pengatahuan Dasar"
+
+#: includes/style.php:144 includes/style.php:222 includes/style.php:311
+msgid "Colors"
+msgstr "Warna"
+
+#: includes/style.php:145
+msgid "Black"
+msgstr "Hitam"
+
+#: includes/style.php:146
+msgid "Brown"
+msgstr "Coklat"
+
+#: includes/style.php:147
+msgid "Gray"
+msgstr "Abu-abu"
+
+#: includes/style.php:148
+msgid "Green"
+msgstr "Hijau"
+
+#: includes/style.php:149
+msgid "Orange"
+msgstr "Oranye"
+
+#: includes/style.php:150
+msgid "Pink"
+msgstr "Merah Jambu"
+
+#: includes/style.php:151
+msgid "Purple"
+msgstr "Ungu"
+
+#: includes/style.php:152
+msgid "Red"
+msgstr "Merah"
+
+#: includes/style.php:153
+msgid "Silver"
+msgstr "Perak"
+
+#: includes/style.php:154
+msgid "Tan"
+msgstr "Coklat"
+
+#: includes/style.php:155
+msgid "White"
+msgstr "Putih"
+
+#: includes/style.php:156
+msgid "Yellow"
+msgstr "Kuning"
+
+#: includes/style.php:157
+msgid "Dark"
+msgstr "Hitam"
+
+#: includes/style.php:158
+msgid "Light"
+msgstr "Cerah"
+
+#: includes/style.php:161
+msgid "Layout"
+msgstr "Tatanan Tertentu"
+
+#: includes/style.php:162 includes/template.php:178
+msgid "Fixed Layout"
+msgstr "Tatanan Tertentu"
+
+#: includes/style.php:163 includes/template.php:179
+msgid "Fluid Layout"
+msgstr "Tatanan Fluid"
+
+#: includes/style.php:164 includes/template.php:180
+msgid "Responsive Layout"
+msgstr "Tatanan Fleksibel"
+
+#: includes/style.php:165 includes/template.php:181
+msgid "One Column"
+msgstr "Satu Kolom"
+
+#: includes/style.php:166 includes/template.php:182
+msgid "One or Two Column"
+msgstr "Satu atau Dua Kolom"
+
+#: includes/style.php:167 includes/template.php:183
+msgid "One, Two or Three Column"
+msgstr "Satu, Dua atau Tiga Kolom"
+
+#: includes/style.php:170
+msgid "Features"
+msgstr "Difiturkan"
+
+#: includes/style.php:171 includes/template.php:187
+msgid "Fieldsets"
+msgstr "Fieldset"
+
+#: includes/style.php:172 includes/template.php:188
+msgid "Background"
+msgstr "Warna latar"
+
+#: includes/style.php:173 includes/template.php:189
+msgid "Gradients"
+msgstr "Gradien"
+
+#: includes/style.php:176 skins/templates/complaint/complaint.php:18
+msgid "Subject"
+msgstr "Subjek"
+
+#: includes/style.php:177 includes/template.php:193
+msgid "Business"
+msgstr "Bisnis"
+
+#: includes/style.php:178 includes/template.php:194
+#: skins/templates/event/event.php:15
+msgid "Event"
+msgstr "Peristiwa"
+
+#: includes/style.php:179 includes/template.php:195
+msgid "Holiday"
+msgstr "Liburan"
+
+#: includes/style.php:180 includes/template.php:196
+msgid "Individual"
+msgstr "Pribadi"
+
+#: includes/style.php:181 includes/template.php:197
+msgid "Seasonal"
+msgstr "Musiman"
+
+#: includes/style.php:201 includes/style.php:287
+msgid "All available Styles"
+msgstr "Semua Gaya yang tersedia"
+
+#: includes/style.php:201 includes/style.php:287 includes/template.php:217
+#: includes/template.php:300
+msgid "All"
+msgstr "Semuanya"
+
+#: includes/style.php:202 includes/style.php:288
+msgid "Selected by the CF7 Skins team"
+msgstr "Dipilih oleh team CF7 Skins"
+
+#: includes/style.php:202 includes/style.php:288 includes/template.php:218
+#: includes/template.php:301
+msgid "Featured"
+msgstr "Difiturkan"
+
+#: includes/style.php:203 includes/style.php:289 includes/template.php:219
+#: includes/template.php:302
+msgid "Commonly used"
+msgstr "Yang sering digunakan"
+
+#: includes/style.php:203 includes/style.php:289 includes/template.php:219
+#: includes/template.php:302
+msgid "Popular"
+msgstr "Populer"
+
+#: includes/style.php:204 includes/style.php:290 includes/template.php:220
+#: includes/template.php:303
+msgid "Recently added"
+msgstr "Terbaru ditambahkan"
+
+#: includes/style.php:204 includes/style.php:290 includes/template.php:220
+#: includes/template.php:303
+msgid "Latest"
+msgstr "Terbaru"
+
+#: includes/style.php:208 includes/style.php:294 includes/template.php:224
+#: includes/template.php:307
+msgid "Narrow your choices based on your specific requirements"
+msgstr "Batasi pilihan anda berdasarkan persayaratan spesifik"
+
+#: includes/style.php:213 includes/style.php:304
+msgid ""
+"Check all the boxes that meet your specific requirements and then click "
+"apply filters."
+msgstr ""
+"Centang semua kotak yang sesuai dengan persayaratan spesifik anda and tekan "
+"gunakan filter."
+
+#: includes/style.php:213 includes/style.php:304 includes/template.php:229
+#: includes/template.php:317
+msgid "Apply Filters"
+msgstr "Gunakan Filter"
+
+#: includes/style.php:214 includes/style.php:305 includes/template.php:230
+#: includes/template.php:318
+msgid "Clear"
+msgstr "Bersihkan"
+
+#: includes/style.php:241 includes/style.php:329 includes/template.php:254
+#: includes/template.php:338
+msgid "Filtering by:"
+msgstr "Memfilter dengan:"
+
+#: includes/style.php:243 includes/style.php:331 includes/template.php:256
+#: includes/template.php:340
+msgid "Edit"
+msgstr "Ubah"
+
+#: includes/style.php:248 includes/style.php:336 includes/template.php:261
+#: includes/template.php:345
+msgid ""
+"Sort by Name, Date and License (free or pro) – use arrow to reverse sort "
+"order"
+msgstr ""
+"Urut berdasarkan Nama, Tanggal dan Lisensi (gratis atau pro) – gunakan panah "
+"untuk membalikkan urutan"
+
+#: includes/style.php:248 includes/style.php:336 includes/template.php:261
+#: includes/template.php:345
+msgid "Sort by"
+msgstr "Urut dengan"
+
+#: includes/style.php:250 includes/style.php:338 includes/template.php:263
+#: includes/template.php:347 skins/templates/event/event.php:17
+#: skins/templates/fieldset-basic/fieldset-basic.php:17
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:17
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:17
+#: skins/templates/registration/registration.php:17
+#: skins/templates/testimonial/testimonial.php:28
+msgid "Name"
+msgstr "Nama"
+
+#: includes/style.php:251 includes/style.php:339 includes/template.php:264
+#: includes/template.php:348
+msgid "Date"
+msgstr "Tanggal"
+
+#: includes/style.php:252 includes/style.php:340 includes/template.php:265
+#: includes/template.php:349
+msgid "License"
+msgstr "Lisensi"
+
+#: includes/style.php:256 includes/style.php:298
+msgid "Search Styles"
+msgstr "Cari Gaya"
+
+#: includes/style.php:257 includes/style.php:299
+msgid "Search styles..."
+msgstr "Cari gaya..."
+
+#: includes/style.php:398 includes/style.php:429
+msgid ""
+"Select to apply the Style to your form - is applied to your form once you "
+"Save."
+msgstr ""
+"Pilih untuk menerapkan Gaya tersebut ke form anda - diterapkan ke form anda "
+"setelah disimpan."
+
+#: includes/style.php:399
+msgid ""
+"Show detailed information about this Style - overview of the appearance and "
+"layout with description and usage details."
+msgstr ""
+"Menampilkan informasi detail mengenai Gaya ini - peninjauan tampilan dan "
+"susunan dengan detail gambaran dan penggunaan."
+
+#: includes/style.php:399 includes/template.php:409
+#: skins/templates/suggestion/suggestion.php:21
+msgid "Details"
+msgstr "Detail"
+
+#: includes/style.php:428
+msgid ""
+"Use Expanded View to view Styles features - shows all form fields available "
+"in Contact Form 7."
+msgstr ""
+"Gunakan Tampilan Luas untuk melihat fitur gaya - menampilkan semua bagian "
+"form yang tersedia di Contact Form 7."
+
+#: includes/style.php:430
+msgid "Return to Style Gallery/Grid view."
+msgstr "Kembalik ke Galeri Gaya/tampilan Grid."
+
+#: includes/style.php:430 includes/style.php:447 includes/template.php:440
+#: includes/template.php:457
+msgid "Close"
+msgstr "Tutup"
+
+#: includes/style.php:435 includes/style.php:455 includes/template.php:445
+#: includes/template.php:465
+msgid "Description"
+msgstr "Deskripsi"
+
+#: includes/style.php:438 includes/style.php:458 includes/template.php:448
+#: includes/template.php:468
+msgid "Instructions"
+msgstr "Instruksi"
+
+#: includes/style.php:445 includes/template.php:455
+msgid "Return to Details View"
+msgstr "Kembali ke Tampilan Detail"
+
+#: includes/style.php:445 includes/template.php:455
+msgid "Details View"
+msgstr "Tampilan Detail"
+
+#: includes/style.php:446
+msgid ""
+"Select to apply the Style to your form - is applied to your form once you "
+"Save"
+msgstr ""
+"Pilih untuk menarapkan Gaya ke form anda -  diterapkan pada saat anda "
+"menyimpan"
+
+#: includes/style.php:447
+msgid "Return to Style Gallery/Grid View"
+msgstr "Kembalik ke Galeri Gaya/Tampilan Kotak"
+
+#: includes/tab.php:123
+msgid "No templates found. Try a different search."
+msgstr "Templat tidak ditemukan. Coba pencarian lain."
+
+#: includes/tab.php:199
+msgid "No styles found. Try a different search."
+msgstr "Gaya tidak ditemukan. Coba pencarian lain."
+
+#: includes/tab.php:227 includes/tab.php:280
+msgid "Template"
+msgstr "Templat"
+
+#: includes/tab.php:228
+msgid ""
+"Templates are pre-created forms that automatically create the form’s "
+"structure and content for you. Each template works as an easy to follow "
+"guide."
+msgstr ""
+"Templat adalah formulir yang dibuat sebelumnya yang secara otomatis membuat "
+"struktur dan konten formulir untuk Anda. Setiap template berfungsi sebagai "
+"panduan yang mudah diikuti."
+
+#: includes/tab.php:229
+msgid ""
+"Select a template that closely matches your needs then switch to the CF7 "
+"Skins Form  tab to add, duplicate or remove fields to match your "
+"requirements. Any field content can be changed by clicking Edit on the field."
+msgstr ""
+"Pilih templat yang sesuai dengan kebutuhan Anda kemudian beralih ke tab "
+"Formulir CF7 Skins untuk menambah, menduplikasi atau menghapus bidang yang "
+"sesuai dengan kebutuhan Anda. Konten bidang apa pun dapat diubah dengan "
+"mengeklik Edit pada bidang."
+
+#: includes/tab.php:234 includes/tab.php:281
+msgid "Style"
+msgstr "Gaya"
+
+#: includes/tab.php:235
+msgid ""
+"Styles are pre-created designs (CSS code) that are automatically applied to "
+"your entire form. They cover all standard Contact Form 7 elements."
+msgstr ""
+"Gaya adalah desain yang dibuat sebelumnya (kode CSS) yang secara otomatis "
+"diterapkan ke seluruh formulir Anda. Mereka mencakup semua elemen Contact "
+"Form 7 standar."
+
+#: includes/tab.php:236
+msgid ""
+"Select a style that aligns with your site’s design. To see the style "
+"applied, save and go to the page that has the form. To change the style, "
+"select another any time."
+msgstr ""
+"Pilih gaya yang selaras dengan desain situs anda. Untuk melihat gaya yang "
+"diterapkan, simpan dan buka halaman yang memiliki formulir. Untuk mengubah "
+"gaya, pilih yang lain kapan saja."
+
+#: includes/tab.php:256 includes/tab.php:265
+#, php-format
+msgid "%s-missing"
+msgstr "%s-tidak ditemukan"
+
+#: includes/tab.php:257
+msgid "Selected CF7 Skins Template is not available"
+msgstr "Templat CF7 Skins yang dipilih tidak ditemukan"
+
+#: includes/tab.php:266
+msgid "Selected CF7 Skins Style is not available"
+msgstr "Penggaya CF7 Skins yang dipilih tidak ditemukan"
+
+#: includes/tab.php:275
+msgid "!"
+msgstr "!"
+
+#: includes/tab.php:276 includes/tab.php:383
+msgid "?"
+msgstr "?"
+
+#: includes/tab.php:369
+msgid "Support"
+msgstr "Bantuan"
+
+#: includes/tab.php:370
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/tab.php:371
+msgid "Pro Version"
+msgstr "Versi Pro"
+
+#: includes/template-instructions.php:11
+msgid ""
+"Click <strong>Expanded View</strong> for more detailed information about "
+"this Template."
+msgstr ""
+"Klik <strong>Tampilan Luas</strong> untuk informasi lebih lengkap tentang "
+"Tempat ini."
+
+#: includes/template-instructions.php:13
+msgid ""
+"To choose this <strong>Template</strong>, click <strong>Select</strong>."
+msgstr ""
+"Untuk memilih <strong>Templat</strong> ini, klik <strong>Pilih</strong>."
+
+#: includes/template-instructions.php:15
+msgid ""
+"You can move on to choosing a <strong>Style</strong> or, if you already have "
+"a style, scroll up to the top of the page and click the <strong>Save</"
+"strong> button."
+msgstr ""
+"Anda bisa beranjak dengan memilih sebuah <strong>Gaya</strong>, atau jika "
+"anda memiliki sebuah gaya, geser ke atas ke awal halaman dan klik tombol "
+"<strong>Simpan</strong>."
+
+#: includes/template.php:217 includes/template.php:300
+msgid "All available Templates"
+msgstr "Semua templat yang tersedia"
+
+#: includes/template.php:218 includes/template.php:301
+msgid "Selected by CF7 Skins Team"
+msgstr "Dipilih oleh team CF7 Skins"
+
+#: includes/template.php:224 includes/template.php:307
+msgid "Feature Filter"
+msgstr "Fitur Filter"
+
+#: includes/template.php:269 includes/template.php:311
+msgid "Search Templates"
+msgstr "Cari Templat"
+
+#: includes/template.php:270 includes/template.php:312
+msgid "Search templates..."
+msgstr "Cari templat..."
+
+#: includes/template.php:408
+msgid ""
+"Select to apply the Template to your form - appears in the form editing "
+"area, where you can edit your requirements."
+msgstr ""
+"Pilih untuk menerapkan Templat ke form anda - ditampilkan pada bagian "
+"penyuntingan form, dimana anda dapat menyunting sesuai kebutuhan."
+
+#: includes/template.php:409
+msgid ""
+"Show detailed information about this Template, with layout, description and "
+"usage details."
+msgstr ""
+"Menampilkan informasi detail mengenai Templat ini, dengan susunan, "
+"penjelasan dan detail penggunaan."
+
+#: includes/template.php:438
+msgid ""
+"Use Expanded View to view Template features - shows layout, description & "
+"usage details."
+msgstr ""
+"Gunakan Tampilan Luas untuk melihat fitur templat - menampilkan susunan, "
+"penjelasan dan detail penggunaan."
+
+#: includes/template.php:439
+msgid ""
+"Select to apply the Template to your form - appears in the Form Editing "
+"area, where you can edit to your requirements."
+msgstr ""
+"Pilih untuk menerapkan Templat ke form anda - tampil di bagaian penyuntingan "
+"form, dimana anda bisa menyuntuk sesuai kebutuhan."
+
+#: includes/template.php:440
+msgid "Return to Template Gallery/Grid view."
+msgstr "Kembali ke Galeri Templat/Tampilan Grid."
+
+#: includes/template.php:456
+msgid ""
+"Select to apply the Template to your form - appears in the Form editing "
+"area, where you can edit to your requirements."
+msgstr ""
+"Pilih untuk menerapkan Templat ke form anda - tampil di bagaian penyuntingan "
+"form, dimana anda bisa menyuntuk sesuai kebutuhan."
+
+#: includes/template.php:457
+msgid "Return to Template Gallery/ Grid View"
+msgstr "Kembali ke Galeri Templat/Tampilan Grid"
+
+#: index.php:206
+#, php-format
+msgid "<a href=\"%s\">Contact Form 7</a> must be installed to use this plugin."
+msgstr ""
+"Silahkan install <a href=\"%s\">Contact Form 7</a> agar plugin ini berfungsi."
+
+#: skins/templates/complaint/complaint.php:12
+msgid "Complaint Form"
+msgstr "Formulir Keluhan"
+
+#: skins/templates/complaint/complaint.php:13
+#: skins/templates/suggestion/suggestion.php:16
+#: skins/templates/testimonial/testimonial.php:13
+msgid "Please let us know what you think."
+msgstr "Beritahukan kami apa pendapat anda."
+
+#: skins/templates/complaint/complaint.php:15
+msgid "Which Department did you do business with?"
+msgstr "Dengan departemen mana Anda berbisnis?"
+
+#: skins/templates/complaint/complaint.php:15
+msgid "Sales"
+msgstr "Penjualan"
+
+#: skins/templates/complaint/complaint.php:15
+msgid "Marketing"
+msgstr "Pemasaran"
+
+#: skins/templates/complaint/complaint.php:15
+msgid "Accounting"
+msgstr "Akuntansi"
+
+#: skins/templates/complaint/complaint.php:15
+msgid "Customer Services"
+msgstr "Layanan Pelanggan"
+
+#: skins/templates/complaint/complaint.php:16
+msgid "My complaint involves"
+msgstr "Keluahan saya melibatkan"
+
+#: skins/templates/complaint/complaint.php:16
+msgid "A pre-purchase problem"
+msgstr "Masalah pra pembelian"
+
+#: skins/templates/complaint/complaint.php:16
+msgid "A post-purchase problem"
+msgstr "Masalah pasca pembelian"
+
+#: skins/templates/complaint/complaint.php:16
+msgid "A problem during purchase"
+msgstr "Masalah selama pembelian"
+
+#: skins/templates/complaint/complaint.php:16
+#: skins/templates/testimonial/testimonial.php:15
+msgid "Other"
+msgstr "Lainnya"
+
+#: skins/templates/complaint/complaint.php:17
+msgid "State Of Residence"
+msgstr "Daerah tempat tinggal"
+
+#: skins/templates/complaint/complaint.php:17
+msgid "Alabama"
+msgstr "Alabama"
+
+#: skins/templates/complaint/complaint.php:17
+msgid "California"
+msgstr "California"
+
+#: skins/templates/complaint/complaint.php:17
+msgid "Florida"
+msgstr "Florida"
+
+#: skins/templates/complaint/complaint.php:19
+#: skins/templates/fieldset-basic/fieldset-basic.php:20
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:20
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:20
+#: skins/templates/registration/registration.php:23
+msgid "Message"
+msgstr "Pesan"
+
+#: skins/templates/complaint/complaint.php:20
+msgid "Please enter your email if you'd like us to follow up with you."
+msgstr ""
+"Silahkan masukkan surel anda jika anda mengingini kami menghubungi anda."
+
+#: skins/templates/complaint/complaint.php:22
+#: skins/templates/contact/contact.php:21 skins/templates/event/event.php:25
+#: skins/templates/fieldset-basic/fieldset-basic.php:22
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:31
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:32
+#: skins/templates/registration/registration.php:28
+#: skins/templates/suggestion/suggestion.php:26
+#: skins/templates/survey/survey.php:27
+#: skins/templates/testimonial/testimonial.php:40
+msgid "Submit"
+msgstr "Ajukan"
+
+#: skins/templates/contact/contact.php:15
+msgid "Contact Form"
+msgstr "Form Kontak"
+
+#: skins/templates/contact/contact.php:17
+msgid "Your Name (required)"
+msgstr "Nama Anda (dibutuhkan)"
+
+#: skins/templates/contact/contact.php:18
+msgid "Email Address (required)"
+msgstr "Alamat Surel (dibutuhkan)"
+
+#: skins/templates/contact/contact.php:19
+msgid "Your Message"
+msgstr "Pesan Anda"
+
+#: skins/templates/contact/contact.php:22 skins/templates/event/event.php:26
+#: skins/templates/fieldset-basic/fieldset-basic.php:23
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:32
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:33
+msgid "Required"
+msgstr "Dibutuhkan"
+
+#: skins/templates/event/event.php:18
+#: skins/templates/registration/registration.php:21
+msgid "Phone Number"
+msgstr "Nomor Telepon"
+
+#: skins/templates/event/event.php:19
+#: skins/templates/fieldset-basic/fieldset-basic.php:18
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:18
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:18
+#: skins/templates/registration/registration.php:22
+#: skins/templates/registration/registration.php:24
+#: skins/templates/testimonial/testimonial.php:37
+msgid "Email"
+msgstr "Surel"
+
+#: skins/templates/event/event.php:20
+msgid "Which workshops will you be attending?"
+msgstr "Bengkel mana yang sering anda kunjungi?"
+
+#: skins/templates/event/event.php:20 skins/templates/event/event.php:22
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:26
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:27
+#: skins/templates/registration/registration.php:25
+#: skins/templates/registration/registration.php:26
+#: skins/templates/suggestion/suggestion.php:23
+#: skins/templates/suggestion/suggestion.php:24
+msgid "Option 1"
+msgstr "Pilihan 1"
+
+#: skins/templates/event/event.php:20 skins/templates/event/event.php:22
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:26
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:27
+#: skins/templates/registration/registration.php:25
+#: skins/templates/registration/registration.php:26
+#: skins/templates/suggestion/suggestion.php:23
+#: skins/templates/suggestion/suggestion.php:24
+msgid "Option 2"
+msgstr "Pilihan 2"
+
+#: skins/templates/event/event.php:20 skins/templates/event/event.php:22
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:26
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:27
+#: skins/templates/registration/registration.php:25
+#: skins/templates/registration/registration.php:26
+#: skins/templates/suggestion/suggestion.php:23
+#: skins/templates/suggestion/suggestion.php:24
+msgid "Option 3"
+msgstr "Pilihan 3"
+
+#: skins/templates/event/event.php:21
+msgid "Are you an existing customer?"
+msgstr "Apakah anda pelanggan tetap?"
+
+#: skins/templates/event/event.php:21
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:27
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:28
+msgid "Yes"
+msgstr "Ya"
+
+#: skins/templates/event/event.php:21
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:27
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:28
+msgid "No"
+msgstr "Tidak"
+
+#: skins/templates/event/event.php:22
+msgid "How did find out about this event?"
+msgstr "Bagaimana anda mengetahui acara ini?"
+
+#: skins/templates/event/event.php:23
+msgid "Comments or Questions"
+msgstr "Komentar atau Pertanyaan"
+
+#: skins/templates/fieldset-basic/fieldset-basic.php:15
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:15
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:15
+msgid "Your Details"
+msgstr "Detail Anda"
+
+#: skins/templates/fieldset-basic/fieldset-basic.php:19
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:19
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:19
+#: skins/templates/registration/registration.php:24
+msgid "Phone"
+msgstr "Telepon"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:24
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:25
+msgid "Your Requirements"
+msgstr "Permintaan Anda"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:26
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:27
+#: skins/templates/registration/registration.php:26
+#: skins/templates/suggestion/suggestion.php:24
+msgid "Checkboxes"
+msgstr "Kotak centang"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:27
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:28
+msgid "Radio Buttons"
+msgstr "Tombol radio"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:28
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:29
+msgid "Dropdown Select"
+msgstr "Tombol Pilihan"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:28
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:29
+msgid "Item 1"
+msgstr "Item 1"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:28
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:29
+msgid "Item 2"
+msgstr "Item 2"
+
+#: skins/templates/fieldset-in-fieldset/fieldset-in-fieldset.php:28
+#: skins/templates/fieldset-multiple/fieldset-multiple.php:29
+msgid "Item 3"
+msgstr "Item 3"
+
+#: skins/templates/registration/registration.php:15
+msgid "Registration"
+msgstr "Registrasi"
+
+#: skins/templates/registration/registration.php:18
+msgid "Address"
+msgstr "Alamat"
+
+#: skins/templates/registration/registration.php:19
+msgid "City"
+msgstr "Kota"
+
+#: skins/templates/registration/registration.php:20
+msgid "State / Province / Region"
+msgstr "Negara / Provinse / Wilayah"
+
+#: skins/templates/registration/registration.php:24
+msgid "Preferred Contact Method"
+msgstr "Cara Kontak yang Disukai"
+
+#: skins/templates/registration/registration.php:25
+msgid "Drop-down menu"
+msgstr "Menu pilihan"
+
+#: skins/templates/suggestion/suggestion.php:15
+msgid "Suggestion Form"
+msgstr "Halaman Anjuran"
+
+#: skins/templates/suggestion/suggestion.php:18
+msgid "In which of the following areas do you have a suggestion?"
+msgstr "Dibagian mana anda memiliki anjuran?"
+
+#: skins/templates/suggestion/suggestion.php:18
+msgid "Area 1"
+msgstr "Area 1"
+
+#: skins/templates/suggestion/suggestion.php:18
+msgid "Area 2"
+msgstr "Area 2"
+
+#: skins/templates/suggestion/suggestion.php:18
+msgid "Area 3"
+msgstr "Area 3"
+
+#: skins/templates/suggestion/suggestion.php:18
+msgid "Area 4"
+msgstr "Area 4"
+
+#: skins/templates/suggestion/suggestion.php:19
+msgid "Note: You can select multiple items (Use Shift or Ctrl/Cmd + Click)"
+msgstr ""
+"Catatan: Anda bisa memilih beberapa item (Gunakan Shift atau Ctrl/Cmd + Klik)"
+
+#: skins/templates/suggestion/suggestion.php:20
+msgid "Suggestion"
+msgstr "Anjuran"
+
+#: skins/templates/suggestion/suggestion.php:22
+msgid ""
+"Your Email - please enter your email if you would like us to follow up with "
+"you."
+msgstr ""
+"Surel Anda - mohon dimasukkan surel anda jika anda ingin kami menghubungi "
+"anda."
+
+#: skins/templates/suggestion/suggestion.php:23
+msgid "Radio buttons"
+msgstr "Tombol radio"
+
+#: skins/templates/survey/survey.php:15
+msgid "Survey Form"
+msgstr "Form Survei"
+
+#: skins/templates/survey/survey.php:18
+msgid "Overall, how satisfied are you with our product / service?"
+msgstr "Keseluruhan, betapa puas anda dengan produk/layanan kami?"
+
+#: skins/templates/survey/survey.php:18
+msgid "Very Satisfied"
+msgstr "Sangat Puas"
+
+#: skins/templates/survey/survey.php:18
+msgid "Satisfied"
+msgstr "Puas"
+
+#: skins/templates/survey/survey.php:18 skins/templates/survey/survey.php:23
+msgid "Neutral"
+msgstr "Netral"
+
+#: skins/templates/survey/survey.php:18
+msgid "Unsatisfied"
+msgstr "Tidak Puas"
+
+#: skins/templates/survey/survey.php:18
+msgid "Very Unsatisfied"
+msgstr "Sangat Tidak Puas"
+
+#: skins/templates/survey/survey.php:19
+msgid "Would you recommend our product / service to others?"
+msgstr "Maukah anda merekomendasikan produk/layanan kami ke orang lain?"
+
+#: skins/templates/survey/survey.php:19
+msgid "Definitely"
+msgstr "Sudah Pasti"
+
+#: skins/templates/survey/survey.php:19
+msgid "Probably"
+msgstr "Mungkin"
+
+#: skins/templates/survey/survey.php:19
+msgid "Not Sure"
+msgstr "Kurang Pasti"
+
+#: skins/templates/survey/survey.php:19
+msgid "Probably Not"
+msgstr "Mungkin Tidak"
+
+#: skins/templates/survey/survey.php:19
+msgid "Definitely Not"
+msgstr "Tidak Sama Sekali"
+
+#: skins/templates/survey/survey.php:20
+msgid "How long have you used our product / service?"
+msgstr "Sudah berapa lama anda menggunakan produk kami?"
+
+#: skins/templates/survey/survey.php:20
+msgid "Less than a month"
+msgstr "Kurang dari sebulan"
+
+#: skins/templates/survey/survey.php:20
+msgid "1-6 months"
+msgstr "1-6 bulan"
+
+#: skins/templates/survey/survey.php:20
+msgid "1-3 years"
+msgstr "1-3 tahun"
+
+#: skins/templates/survey/survey.php:20
+msgid "Over 3 Years"
+msgstr "Lebih dari 3 tahun"
+
+#: skins/templates/survey/survey.php:20
+msgid "Never used"
+msgstr "Belum pernah menggunakan"
+
+#: skins/templates/survey/survey.php:21
+msgid "How often do you use our product / service?"
+msgstr "Seberapa sering anda menggunakan produk/layanan kami?"
+
+#: skins/templates/survey/survey.php:21
+msgid "Once a week"
+msgstr "Sekali seminggu"
+
+#: skins/templates/survey/survey.php:21
+msgid "2 to 3 times a month"
+msgstr "2 - 3 kali sebulan"
+
+#: skins/templates/survey/survey.php:21
+msgid "Once a month"
+msgstr "Sekali sebulan"
+
+#: skins/templates/survey/survey.php:21
+msgid "Less than once a month"
+msgstr "Kurang dari sekali sebulan"
+
+#: skins/templates/survey/survey.php:22
+msgid "What aspect of the product / service were you most satisfied by?"
+msgstr "Aspek apa dari produk/layanan kami yang paling anda sukai?"
+
+#: skins/templates/survey/survey.php:22
+msgid "Quality"
+msgstr "Kualitas"
+
+#: skins/templates/survey/survey.php:22
+msgid "Price"
+msgstr "Harga"
+
+#: skins/templates/survey/survey.php:22
+msgid "Purchase Experience"
+msgstr "Pengalaman Pembelian"
+
+#: skins/templates/survey/survey.php:22
+msgid "Usage Experience"
+msgstr "Pengalaman Penggunaan"
+
+#: skins/templates/survey/survey.php:22
+msgid "Customer Service"
+msgstr "Layanan Pengguna"
+
+#: skins/templates/survey/survey.php:23
+msgid "Overall, the product / service met my expectations?"
+msgstr "Kesemuanya, produk/layanan yang sesuai dengan harapan saya?"
+
+#: skins/templates/survey/survey.php:23
+msgid "Strongly Agree"
+msgstr "Sangat Setuju"
+
+#: skins/templates/survey/survey.php:23
+msgid "Agree"
+msgstr "Setuju"
+
+#: skins/templates/survey/survey.php:23
+msgid "Disagree"
+msgstr "Tidak Setuju"
+
+#: skins/templates/survey/survey.php:23
+msgid "Strongly Disagree"
+msgstr "Sangat Tidak Setuju"
+
+#: skins/templates/survey/survey.php:23 skins/templates/survey/survey.php:25
+msgid "Don't Know"
+msgstr "Tidak Tahu"
+
+#: skins/templates/survey/survey.php:24
+msgid "What do you like about the product / service?"
+msgstr "Apa yang anda sukai dari produk/layanan kami?"
+
+#: skins/templates/survey/survey.php:25
+msgid ""
+"Thinking of similar products / services offered by others, how would you "
+"compare the product / service offered by us?"
+msgstr ""
+"Berkenaan dengan produk/layanan pihak lain, bagaimana pandangan anda "
+"mengenai produk/layanan yang kami berikan?"
+
+#: skins/templates/survey/survey.php:25
+msgid "Much Better"
+msgstr "Lebih Baik"
+
+#: skins/templates/survey/survey.php:25
+msgid "Somewhat Better"
+msgstr "Sedikit Baik"
+
+#: skins/templates/survey/survey.php:25
+msgid "About the Same"
+msgstr "Sama saja"
+
+#: skins/templates/survey/survey.php:25
+msgid "Somewhat Worse"
+msgstr "Sedikit Buruk"
+
+#: skins/templates/survey/survey.php:25
+msgid "Much Worse"
+msgstr "Lebih Buruk"
+
+#: skins/templates/testimonial/testimonial.php:12
+msgid "Testimonial Form"
+msgstr "Formulir Testimonial"
+
+#: skins/templates/testimonial/testimonial.php:15
+msgid "Which product did you buy?"
+msgstr "Produk mana yang anda beli?"
+
+#: skins/templates/testimonial/testimonial.php:15
+msgid "Product 1"
+msgstr "Produk 1"
+
+#: skins/templates/testimonial/testimonial.php:15
+msgid "Product 2"
+msgstr "Produk 2"
+
+#: skins/templates/testimonial/testimonial.php:15
+msgid "Product 3"
+msgstr "Produk 3"
+
+#: skins/templates/testimonial/testimonial.php:16
+msgid "What did you find as a result of buying this product?"
+msgstr "Apa yang anda temukan setelah membeli produk ini?"
+
+#: skins/templates/testimonial/testimonial.php:17
+msgid "What specific feature did you like most about this product?"
+msgstr "Fitur spesifik apa yang anda sukai dari produk ini?"
+
+#: skins/templates/testimonial/testimonial.php:18
+msgid "What would be three other benefits about this product?"
+msgstr "Tiga hal lain apa yang menguntungkan dari produk ini?"
+
+#: skins/templates/testimonial/testimonial.php:19
+msgid "Would you recommend this product? If so why?"
+msgstr ""
+"Maukah anda merekomendasikan produk/layanan kami ke orang lain? Jika iya "
+"mengapa?"
+
+#: skins/templates/testimonial/testimonial.php:20
+msgid "Is there anything you'd like to add?"
+msgstr "Apakah ada hal lain yang ingin anda tambahkan?"
+
+#: skins/templates/testimonial/testimonial.php:23
+msgid "Contact Information"
+msgstr "Informasi Kontak"
+
+#: skins/templates/testimonial/testimonial.php:24
+msgid ""
+"Please enter your contact information if you'd like for us to follow up with "
+"you."
+msgstr ""
+"Silahkan masukkan kontak informasi anda jika anda mengingi kami menghubungi "
+"anda."
+
+#: skins/templates/testimonial/testimonial.php:33
+msgid "First"
+msgstr "Depan"
+
+#: skins/templates/testimonial/testimonial.php:33
+msgid "First Name"
+msgstr "Nama Depan"
+
+#: skins/templates/testimonial/testimonial.php:34
+msgid "Last"
+msgstr "Belakang"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default value"
+#~ msgstr "Standar"
+
+#, fuzzy
+#~| msgid "Phone Number"
+#~ msgid "Number"
+#~ msgstr "Nomor Telepon"
+
+#, fuzzy
+#~| msgid "Suggestion"
+#~ msgid "Question 1"
+#~ msgstr "Anjuran"
+
+#, fuzzy
+#~| msgid "Suggestion"
+#~ msgid "Question 2"
+#~ msgstr "Anjuran"
+
+#, fuzzy
+#~| msgid "Radio Buttons"
+#~ msgid "Radio Button (option)"
+#~ msgstr "Tombol radio"
+
+#, fuzzy
+#~| msgid "Option 1"
+#~ msgid "Form Options"
+#~ msgstr "Pilihan 1"
+
+#, fuzzy
+#~| msgid "Required"
+#~ msgid "* Required"
+#~ msgstr "Dibutuhkan"
+
+#~ msgid "Send"
+#~ msgstr "Kirim"
+
+#, fuzzy
+#~| msgid "Fieldsets"
+#~ msgid "Field Type"
+#~ msgstr "Fieldset"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default Value"
+#~ msgstr "Standar"
+
+#, fuzzy
+#~| msgid "Orange"
+#~ msgid "Range"
+#~ msgstr "Oranye"
+
+#, fuzzy
+#~| msgid "Compare"
+#~ msgid "Compact"
+#~ msgstr "Bandingkan"
+
+#~ msgid "Save"
+#~ msgstr "Save"
+
+#, fuzzy
+#~| msgid "Expanded View"
+#~ msgid "Expand"
+#~ msgstr "Tampilan Luas"
+
+#, fuzzy
+#~| msgid "Add-ons"
+#~ msgid "Add-on options"
+#~ msgstr "Add-ons"
+
+#, fuzzy
+#~| msgid "CF7 Skins"
+#~ msgid "CF7 Skins Multi."
+#~ msgstr "CF7 Skins"
+
+#, fuzzy
+#~| msgid "CF7 Skins"
+#~ msgid "CF7 Skins Ready."
+#~ msgstr "CF7 Skins"
+
+#, fuzzy
+#~| msgid "CF7 Skins"
+#~ msgid "CF7 Skins Ready "
+#~ msgstr "CF7 Skins"
+
+#, fuzzy
+#~| msgid "Modify your CF7 Skins Style"
+#~ msgid "Find a better fit in our CF7 Skins Pro Styles."
+#~ msgstr "Ubah Gaya CF7 Skins anda"
+
+#, fuzzy
+#~| msgid "CF7 Skins"
+#~ msgid "CF7 Skins Logic."
+#~ msgstr "CF7 Skins"
+
+#~ msgid "CF7 Skins Add-ons."
+#~ msgstr "CF7 Skins Add-ons."
+
+#~ msgid ""
+#~ "Make sure your form is set up correctly the first time by talking to our "
+#~ "trained support staff, available with our"
+#~ msgstr ""
+#~ "Pastikan formulir Anda disiapkan dengan benar pertama kali dengan "
+#~ "berbicara dengan staf pendukung kami yang terlatih, tersedia dengan"
+
+#~ msgid "CF7 Skins Pro Add-on."
+#~ msgstr "CF7 Skins Pro Add-on."
+
+#~ msgid ""
+#~ "The WordPress support community is available to answer questions. Or, "
+#~ "save time searching & ask us directly with our "
+#~ msgstr ""
+#~ "Komunitas dukungan WordPress tersedia untuk menjawab pertanyaan. Atau, "
+#~ "hemat waktu mencari & bertanya langsung dengan kami "
+
+#~ msgid "Premium Email support."
+#~ msgstr "Bantuan Email Premium."
+
+#~ msgid ""
+#~ "Double check your mail settings to avoid problems sending & receiving "
+#~ "forms. Set it up correctly from the start with our"
+#~ msgstr ""
+#~ "Periksa pengaturan email Anda untuk menghindari masalah pengiriman & "
+#~ "penerimaan formulir. Atur dengan benar dari awal dengan"
+
+#~ msgid "Tip"
+#~ msgstr "Tip"
+
+#~ msgid "Unable to use this skin. Please go to Form Tab."
+#~ msgstr "Tidak dapat menggunakan Gaya ini. Silahkan ke Tab Form."
+
+#~ msgid ""
+#~ "makes it easier for regular WordPress users to create Contact Form 7 "
+#~ "forms using built in <strong>Templates</strong> and <strong>Styles</"
+#~ "strong>."
+#~ msgstr ""
+#~ "mempermudah pengguna regular WordPress untuk membuat formulir menggunakan "
+#~ "<strong>Templat</strong> dan <strong>Gaya</strong> yang telah disediakan."
+
+#~ msgid ""
+#~ "Simply select from a list of compatible <strong>Templates</strong> that "
+#~ "cover many common forms and then choose from a range of professional and "
+#~ "beautiful <strong>Styles</strong>."
+#~ msgstr ""
+#~ "Cukup dengan memilih <strong>Templat</strong> melingkupi form tertentu "
+#~ "dan pilihlah <strong>Gaya</strong> dari yang profesional sampai yang "
+#~ "indah."
+
+#~ msgid ""
+#~ "CF7 Skins appears in an extra <strong>Skins</strong> section in the "
+#~ "Contact Form 7 form interface. Click on <strong>Contact</strong> in the "
+#~ "WordPress admin menu and select an existing Contact Form 7 form or create "
+#~ "a new one, then scroll down to the <strong>Skins</strong> section."
+#~ msgstr ""
+#~ "CF7 Skins tampil di sebuah bagian tambahan <strong>Skins</strong> pada "
+#~ "tampilan form Contact Form 7. Klik pada <strong>Kontak</strong> di menu "
+#~ "admin WordPress dan pilih sebuah form Contact Form 7 yang tersedia atau "
+#~ "buat yang baru, kemudian geser kebawah ke bagian <strong>Skins</strong>."
+
+#~ msgid ""
+#~ "The <strong>Template</strong> tab displays the available templates. Click "
+#~ "on <strong>Details</strong> below each template to show more information. "
+#~ "Click on <strong>Select</strong> to apply this template in the Form "
+#~ "editing area, where you can adjust the fields to match your requirements."
+#~ msgstr ""
+#~ "<strong>Templat</strong> menampilkan templat yang tersedia. Klik pada "
+#~ "<strong>Detail</strong> dibawah setiap templat untuk menampilkan "
+#~ "informasi lain. Klik pada <strong>Pilih</strong> untuk menerapkan templat "
+#~ "ini pada bagian persuntingan Form, dimana anda bisa mengatur field agar "
+#~ "sesuai dengan kebutuhan anda."
+
+#~ msgid ""
+#~ "Click on the <strong>Style</strong> tab to view the list of available "
+#~ "styles to choose from. <strong>Details</strong> below each style gives "
+#~ "more information about each style. Find a style that you like and click "
+#~ "<strong>Select</strong>. Then press <strong>Save</strong> to apply the "
+#~ "style to your form."
+#~ msgstr ""
+#~ "Klik pada tab <strong>Gaya</strong>untuk melihat daftar dari gaya-gaya "
+#~ "yang tersedia untuk dipilih. <strong>Detail</strong> pada setiap gaya "
+#~ "memberikan informasi lebih mengenai gaya tersebut. Cari sebuah gaya yang "
+#~ "anda sukai dan klik <strong>Pilih</strong>. Kemudian tekan "
+#~ "<strong>Simpan</strong> untuk menerapkan gaya tersebut pada form anda."
+
+#~ msgid ""
+#~ "The CF7 Skins Knowledge Base can help you get more out of using CF7 Skins "
+#~ "with your Contact Form 7 forms."
+#~ msgstr ""
+#~ "Pengetahuan Dasar CF7 Skins mampu membantu anda dalam menggunakan CF7 "
+#~ "Skins dengan form Contact Form 7 anda."
+
+#~ msgid ""
+#~ "covers from how to get started up to how to customize your forms and "
+#~ "everything else in between."
+#~ msgstr ""
+#~ "melingkupi dari bagaimana cara memulai sampai bagaimana mengubah form "
+#~ "anda."
+
+#~ msgid "you can search by Categories & Tags or Keywords."
+#~ msgstr ""
+#~ "anda bisa mencari dengan menggunakan Kategori & Tag ataupun Kata Kunci."
+
+#~ msgid "to help you get started using CF7 Skins quickly & easily."
+#~ msgstr ""
+#~ "untuk membantu anda memulai menggunakan CF7 Skins dengan cepat dan mudah."
+
+#~ msgid "Compatibility"
+#~ msgstr "Kesesuaian"
+
+#~ msgid "log in & vote \"works\" on your current versions"
+#~ msgstr "log in & vote \"bekerja\" pada versi yang sekarang"
+
+#~ msgid "a great place to find detailed answers."
+#~ msgstr "sebuah tempat yang baik untuk mendapatkan jawaban lengkap."
+
+#~ msgid "Pro Version & Add-ons"
+#~ msgstr "Versi Pro & Addons"
+
+#~ msgid "Licenses"
+#~ msgstr "Lisensi"
+
+#~ msgid "Active Licenses"
+#~ msgstr "Lisensi Aktif"
+
+#~ msgid "Plugin Name"
+#~ msgstr "Nama Plugin"
+
+#~ msgid "License Key"
+#~ msgstr "Kode Lisensi Skins"
+
+#~ msgid "Site URL"
+#~ msgstr "URL Situs"
+
+#~ msgid "checkbox-radio-horizontal"
+#~ msgstr "kotak centang-radio-horizontal"
+
+#~ msgid ""
+#~ "browse over some commonly asked questions. Chances are your question has "
+#~ "been asked before and answered here."
+#~ msgstr ""
+#~ "telusuri beberapa pertanyaan umum yang sering ditanyakan. Ada kemungkinan "
+#~ "pertanyaan anda sudah ditanyakan sebelumnya dan dijawab disini."
+
+#~ msgid ""
+#~ "a great place to find detailed answers. It covers how to get started, how "
+#~ "to customize your forms with CF7 Skins and everything else in between."
+#~ msgstr ""
+#~ "sebuah tempat yang bagus untuk mencari jawaban yang lengkap. Melingkupi "
+#~ "tentang bagaimana cara memulai, cara membuat form anda dengan CF7 Skins "
+#~ "dan lain sebagainya."
+
+#~ msgid ""
+#~ "maintained by the CF7 Skins Support Team to help you solve most "
+#~ "questions. You can search it either by Categories & Tags or Keywords."
+#~ msgstr ""
+#~ "dijalankan oleh Tim Pendukung CF7 Skins untuk membantu anda menjawab "
+#~ "sebagian besar pertanyaan. Anda bisa mencari berdasarkan Kategori & Tag "
+#~ "ataupun Kata Kunci."
+
+#~ msgid "General"
+#~ msgstr "Umum"
+
+#~ msgid "Advanced"
+#~ msgstr "Tingkat Lanjut"
+
+#~ msgid ""
+#~ "Each Template acts as an easy to follow guide, which can be adapted to "
+#~ "your requirements"
+#~ msgstr ""
+#~ "Setiap templat bertindak sebagai panduan yang mudah diikuti, dan dapat "
+#~ "diadaptasikan sesua dengan kebutuhan anda < Templat >"
+
+#~ msgid ""
+#~ "Choose a Template for your form – then you can add, copy or remove fields "
+#~ "to match your requirements."
+#~ msgstr ""
+#~ "Pilih sebuah templat untuk form anda – kemudian anda bisa manambahkan, "
+#~ "menyalin atau menghapus bagian form sesuai dengan kebutuhan anda."
+
+#~ msgid ""
+#~ "Each Style covers the full range of standard form elements available "
+#~ "within Contact Form 7"
+#~ msgstr ""
+#~ "Setiap Gaya melingkupi seluruh rentang elemen form standar yang tersedia "
+#~ "pada Contact Form 7 <Gaya>"
+
+#~ msgid ""
+#~ "You can change the Style applied to your form by simply selecting a "
+#~ "different Style"
+#~ msgstr ""
+#~ "Anda bisa mengubah Gaya yang diterapkan dengan memilih Gaya yang lain"
+
+#~ msgid "Your Email (required)"
+#~ msgstr "Email Anda (dibutuhkan)"
+
+#~ msgid "and"
+#~ msgstr "dan"
+
+#~ msgid "To choose this"
+#~ msgstr "Untuk memilih ini"
+
+#~ msgid "click"
+#~ msgstr "klik"
+
+#~ msgid "button"
+#~ msgstr "Tombol radio"
+
+#~ msgid "Simply select from a list of compatible"
+#~ msgstr "Cukup dengan memilih dari daftar yang memadai."
+
+#~ msgid "Logs"
+#~ msgstr "Log"
+
+#~ msgid "Get Version"
+#~ msgstr "Minta Versi"
+
+#~ msgid "Activation"
+#~ msgstr "Aktivasi"
+
+#~ msgid "Deactivation"
+#~ msgstr "Deaktivasi"
+
+#~ msgid "Not available"
+#~ msgstr "Tidak tersedia"
+
+#~ msgid "Display Log"
+#~ msgstr "Tampilan Log"
+
+#~ msgid "Displays plugin log tab."
+#~ msgstr "Tampilkan papan log plugin"
+
+#~ msgid "Enter your CF7 Skins license key and save before activating."
+#~ msgstr ""
+#~ "Masukkan kode lisensi CF7 Skins anda dan simpan sebelum melakukan "
+#~ "aktivasi."
+
+#~ msgid ""
+#~ "Please activate your <a href=\"%1$s\" target=\"_blank\">License Key</a> "
+#~ "to access Contact Form 7 Skins plus automatic upgrades and premium email "
+#~ "support. Need a license key? <a href=\"%1$s\" target=\"_blank\">Purchase "
+#~ "one now</a>."
+#~ msgstr ""
+#~ "Mohon aktifkan <a href=\"%1$s\" target=\"_blank\">Kode Lisensi</a> anda "
+#~ "untuk mengakses Contact Form 7 Skins dan pembaruan otomatis serta layanan "
+#~ "bantuan surel. Butuh kode lisensi? <a href=\"%1$s\" target=\"_blank"
+#~ "\">Beli satu sekarang</a>."
+
+#~ msgid "Version: "
+#~ msgstr "Versi:"
+
+#~ msgid "Custom Styles & Scripts"
+#~ msgstr "Tambahan Gaya & Skrip"
+
+#~ msgid ""
+#~ "Print your custom scripts or styles with the tag to push to the wp_head()."
+#~ msgstr "Cetak tambahan gaya atau skrip dengan tag ke wp_head()"
+
+#~ msgid "Link 1"
+#~ msgstr "Tautan 1"
+
+#~ msgid "Link 2"
+#~ msgstr "Tautan 2"
+
+#~ msgid "Link 3"
+#~ msgstr "Tautan 3"
+
+#~ msgid "Link 4"
+#~ msgstr "Tautan 4"
+
+#~ msgid "Link A"
+#~ msgstr "Tautan A"
+
+#~ msgid "Link B"
+#~ msgstr "Tautan B"
+
+#~ msgid "Link C"
+#~ msgstr "Tautan C"
+
+#~ msgid "Installed"
+#~ msgstr "Terinstal"

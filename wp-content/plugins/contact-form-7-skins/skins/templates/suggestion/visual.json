@@ -1,0 +1,186 @@
+[
+    {
+        "cf7sType":"fieldset",
+        "cf7Name":"fieldset",
+        "cf7sLabel":"Suggestion Form",
+        "expanded":true,
+        "children":[
+            {
+                "cf7sType":"paragraph",
+                "cf7Name":"paragraph",
+                "cf7sContent":"<strong>Please let us know what you think.</strong>"
+            },
+            {
+                "cf7sType":"list-ol",
+                "cf7Name":"list-ol",
+                "expanded":true,
+                "children":[
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"select",
+                                "cf7Name":"cf7s-select1",
+                                "cf7sLabel":" In which of the following areas do you have a suggestion?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Area 1",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Area 2",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Area 3",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Area 4",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7Required":"",
+                                "cf7Multiple":true,
+                                "cf7IncludeBlank":false,
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"paragraph",
+                                "cf7Name":"paragraph",
+                                "cf7sContent":"Note: You can select multiple items (Use Shift or Ctrl/Cmd + Click)"
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"text",
+                                "cf7Name":"cf7s-suggestion",
+                                "cf7sLabel":"Suggestion",
+                                "cf7Required":"",
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"textarea",
+                                "cf7Name":"cf7s-details",
+                                "cf7sLabel":"Details",
+                                "cf7Required":"",
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"email",
+                                "cf7Name":"cf7s-email",
+                                "cf7sLabel":"Your Email - please enter your email if you would like us to follow up with you.",
+                                "cf7Required":"",
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-radio1",
+                                "cf7sLabel":"Radio buttons",
+                                "cf7Options":[
+                                    {
+                                        "value":"Option 1",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Option 2",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Option 3",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"checkbox",
+                                "cf7Name":"cf7s-checkbox1",
+                                "cf7sLabel":"Checkboxes",
+                                "cf7Options":[
+                                    {
+                                        "value":"Option 1",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Option 2",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Option 3",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7Required":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cf7sType":"submit",
+                "cf7Name":"submit",
+                "cf7sLabel":"Submit",
+                "cf7ClassAttribute":"",
+                "cf7IdAttribute":""
+            }
+        ]
+    },
+    {
+        "cf7sType":"paragraph",
+        "cf7Name":"paragraph",
+        "cf7sContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus pharetra vehicula. Aliquam pellentesque mi non scelerisque placerat."
+    }
+]

@@ -1,0 +1,17 @@
+.wpnp_section_title p a {
+	display: block;
+	cursor: pointer;
+	background: #999;
+	margin: 1em 0;
+	padding: 5px 15px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+.wpnp_section_wrap {
+	display: none;
+}
+
+p.selected_segment {
+	display: none;
+}

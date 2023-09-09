@@ -1,0 +1,18 @@
+The Registration template is the perfect template for gathering general registration information from your audience. Clear and concise, this template has everything you need to quickly have a registration form ready for your website. 
+
+Included in this template are the following fields:	
+- Title
+- Name
+- Address
+- City
+- State/Province/Region
+- Phone number
+- Email
+- Open message section
+- Radio buttons for preferred contact method (for single selection)
+- Drop-down menu with options (for single selection)
+- Checkboxes with options (for single or multiple selection)
+- Submit button
+- Footer text
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

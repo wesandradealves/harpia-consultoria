@@ -1,0 +1,19 @@
+Fieldset in Fieldset provides extra structure to your form. Rather than just a simple long form, this template makes it easy for you to easily segment your form. 
+
+For example, a form section with general contact information, could be split from a section containing your products or services. 
+
+Included in this template are the following fields:	
+- Main title
+- Name
+- Email (marked with a star to indicate it's required)
+- Phone number
+- Open message section
+- Secondary title
+- Checkboxes (for single or multiple selections) 
+- Radio buttons (for single selection)
+- Drop-down menu (for single selection)
+- Fieldset within fieldset
+- Submit button
+- Footer text
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

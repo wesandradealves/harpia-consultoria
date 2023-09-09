@@ -1,0 +1,25 @@
+.dicas-e-novidades {
+    background-color: color(white, light);
+    @media screen and (min-width: $screen-lg-min) {
+        background-color: transparent;
+        @media screen and (min-width: $screen-xl-min) {
+            padding-bottom: 120px;
+        }        
+    }
+    > .container {
+        @media screen and (min-width: $screen-lg-min) {
+            background-color: color(white, light);
+            @media screen and (min-width: $screen-xl-min) {
+                height: 520px;
+            }
+        }
+    }
+    .section-header {
+        .title {
+            text-align: center;
+        }
+        .container {
+            padding: 0;
+        }
+    }  
+}

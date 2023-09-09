@@ -1,0 +1,356 @@
+/**
+* Style Name: Wild West
+* Description: Wild West is a soft brown style with rounded edges and strong Legends that will fit in well with themes that follow a similar color scheme. 
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: popular, brown, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-wild-west p {
+}
+
+.wpcf7 .cf7s-wild-west em {
+}
+
+.wpcf7 .cf7s-wild-west a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-wild-west {
+	padding: 20px;
+	color: #4f2a0f;
+	border: 2px solid #f6efdf;
+	border-radius: 7px;
+	background: #dcc8a5;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-wild-west fieldset {
+	margin: 10px 0;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;  /** Not working in IE **/
+	background: #dcc8a5;
+}
+
+.wpcf7 .cf7s-wild-west legend {
+	font-weight: bold;
+	padding: 2px 10px;
+	color: #fff;
+	border: 2px solid #f6efdf;
+	border-radius: 7px;
+	background: #4f2a0f;
+}
+
+.wpcf7 .cf7s-wild-west label {
+}
+
+.wpcf7 .cf7s-wild-west fieldset p {
+}
+
+.wpcf7 .cf7s-wild-west fieldset fieldset {
+	margin: 10px 0;  /* Above CSS overwritten by cf7s-default */
+}
+
+.wpcf7 .cf7s-wild-west fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west textarea {
+	margin-bottom: 8px;
+	padding: 5px 7px;
+	color: #000;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+	background: #f6efdf;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-wild-west ol,
+.wpcf7 .cf7s-wild-west ul,
+.wpcf7 .cf7s-wild-west li {
+}
+
+.wpcf7 .cf7s-wild-west ol {
+}
+
+.wpcf7 .cf7s-wild-west li {
+}
+
+.wpcf7 .cf7s-wild-west li label {
+}
+
+.wpcf7 .cf7s-wild-west .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-wild-west .wpcf7-list-item-label {
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="radio"] {
+	background: none;
+}
+
+.wpcf7 .cf7s-wild-west select {
+	margin-bottom: 8px;
+	background: #f6efdf;
+	border: 1px solid #ccb58c;
+}
+
+.wpcf7 .cf7s-wild-west select option {
+}
+
+.wpcf7 .cf7s-wild-west select option:hover {
+	background: #4f2a0f;
+	color: #fff;
+}
+
+.wpcf7 .cf7s-wild-west .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-wild-west .wpcf7-radio .wpcf7-list-item {
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="submit"] {
+	font-weight: bold;
+	padding: 5px 15px;
+	color: #fff;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+	background: #4f2a0f;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west input[type="submit"]:hover {
+	background: #000;
+}
+
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-wild-west .singleline {
+}
+
+.wpcf7 .cf7s-wild-west .singleline li {
+}
+
+.wpcf7 .cf7s-wild-west .singleline input {
+}
+
+.wpcf7 .cf7s-wild-west .horizontal,
+.wpcf7 .cf7s-wild-west .checkbox-horizontal,
+.wpcf7 .cf7s-wild-west .radio-horizontal {
+}
+
+.wpcf7 .cf7s-wild-west .box {
+	padding: 10px;
+	border: 3px solid #ccb58c;
+	border-radius:7px;
+	background: #f6efdf;
+}
+
+.wpcf7 .cf7s-wild-west .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-hover [data-row-span] [data-field-span]:hover { 
+	background: #fffded;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined {
+	border-top: 2px solid #ccb58c;
+	border-radius:7px;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined [data-row-span] {
+	border-bottom: 2px solid #ccb58c;
+	border-radius:7px;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined [data-row-span] [data-field-span] {
+	border-right: 2px solid #ccb58c;
+	border-radius:7px;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 2px solid #ccb58c;
+	border-radius:7px;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-wild-west .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #ccb58c;
+			border-left: 1px solid #ccb58c;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-wild-west.cf7multi {
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-wild-west.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .tab {
+	border: 2px solid #ccb58c;
+	border-bottom: none;
+	background: #dcc8a5;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .tab a {
+	color: #4f2a0f;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .tab.active {
+	top: 2px;
+	background: #f6efdf;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .epanels {
+	border: 2px solid #ccb58c;
+	background: #f6efdf;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-wild-west.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .previous,
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .next {
+	font-weight: normal;
+	padding: 5px 10px;
+	color: #fff;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+	background: #4f2a0f;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .next:hover {
+	background: #000;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-wild-west.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west.cf7multi .navigation .end {
+	font-weight: normal;
+	padding: 5px 10px;
+	color: #fff;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+	background: #4f2a0f;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west.cf7multi .navigation .end:hover {
+	background: #000;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-wild-west.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-wild-west.cf7multi .cf7m-progress {
+	border: 1px solid #ccb58c;
+	background: #dcc8a5;
+}
+
+.wpcf7 .cf7s-wild-west.cf7multi .cf7m-progress div {
+	border-radius: 3px 0 0 3px;
+	background: #4f2a0f;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-wild-west.cf7multi .cf7m-thanks {
+}

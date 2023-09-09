@@ -1,0 +1,377 @@
+/**
+* Style Name: Golden Brown
+* Description: Never a frown with this distinctive, brown and gold style, Golden Brown will blend in well to any website with a similar color scheme but also stand out and look great on a light website with its strong brown hues and detail.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: yellow, brown, orange, dark
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-golden-brown p {
+}
+
+.wpcf7 .cf7s-golden-brown em {
+}
+
+.wpcf7 .cf7s-golden-brown a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-golden-brown {
+	padding: 20px 50px;
+	color: #fff;
+	border: 1px solid #9c4a39;
+	background: #853c1b;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-golden-brown fieldset {
+	margin: 10px 0;	
+	padding: 10px 15px;
+	border: 1px solid #87230e;
+	background: #bb763d;
+}
+
+.wpcf7 .cf7s-golden-brown legend {
+	font-weight: bold;
+	padding: 5px 50px;
+	color: #cc9f58;
+	border: 1px solid #cc9f58;
+	background: #200d05;
+}
+
+.wpcf7 .cf7s-golden-brown label {
+	font-weight:bold;
+}
+
+.wpcf7 .cf7s-golden-brown fieldset p {
+}
+
+.wpcf7 .cf7s-golden-brown fieldset fieldset {
+	margin: 10px 0;
+	background: #853c1b;
+}
+
+.wpcf7 .cf7s-golden-brown fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown textarea {
+	margin-bottom: 8px;
+	padding: 8px;
+	border: 1px solid #87230e;
+	background: #cc9f58;
+}
+
+	/*** FIX - Placeholder text */
+
+	.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown ::-webkit-input-placeholder {
+    color: #bb763d;
+	}
+	.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown :-moz-placeholder {
+	   color: #bb763d;
+	   opacity: 1;
+	}
+	.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown ::-moz-placeholder {
+	   color: #bb763d;
+	   opacity: 1;
+	}
+	.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown :-ms-input-placeholder {
+	   color: #bb763d;
+	}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type=file] {
+}
+
+.wpcf7 .cf7s-golden-brown input[type="text"] {
+}
+
+.wpcf7 .cf7s-golden-brown input[type="email"] {
+}
+
+.wpcf7 .cf7s-golden-brown input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-golden-brown ol,
+.wpcf7 .cf7s-golden-brown ul,
+.wpcf7 .cf7s-golden-brown li {
+}
+
+.wpcf7 .cf7s-golden-brown ol {
+}
+
+.wpcf7 .cf7s-golden-brown li {
+}
+
+.wpcf7 .cf7s-golden-brown li label {
+}
+
+.wpcf7 .cf7s-golden-brown .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-golden-brown .wpcf7-list-item-label {
+	font-weight: normal;	
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-golden-brown select {
+	margin-bottom: 8px;
+	padding: 5px;
+	color: #200d05;
+	border: 1px solid #87230e;
+	background: #dfc9a7;
+}
+
+.wpcf7 .cf7s-golden-brown select option {
+	padding: 2px 5px;
+}
+
+.wpcf7 .cf7s-golden-brown select option:hover {
+	background: #cc9f58;
+}
+
+.wpcf7 .cf7s-golden-brown .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-golden-brown .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="submit"] {
+	font-weight: bold;
+	padding: 5px 50px;
+	color: #cc9f58;
+	border: 1px solid #cc9f58;
+	background: #200d05;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown input[type="submit"]:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-golden-brown .singleline {
+}
+
+.wpcf7 .cf7s-golden-brown .singleline li {
+}
+
+.wpcf7 .cf7s-golden-brown .singleline input {
+}
+
+.wpcf7 .cf7s-golden-brown .horizontal,
+.wpcf7 .cf7s-golden-brown .checkbox-horizontal,
+.wpcf7 .cf7s-golden-brown .radio-horizontal {
+}
+
+.wpcf7 .cf7s-golden-brown .box {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #853c1b;
+	background: #cc9f58;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .box input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .box textarea {
+	color: #853c1b;
+	background: #fff;
+}
+
+.wpcf7 .cf7s-golden-brown .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #dfc9a7;
+	color: #200d05;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined {
+	border-top: 1px solid #853c1b;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined [data-row-span] {
+	border-bottom: 1px solid #853c1b;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #853c1b;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #853c1b;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-golden-brown .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #853c1b;
+			border-left: 1px solid #853c1b;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-golden-brown.cf7multi {
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-golden-brown.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .tab {
+	border: 1px solid #cc9f58;
+	border-bottom: none;
+	background: #200d05;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .tab a {
+	color: #cc9f58;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .tab.active {
+	background: #dfc9a7;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .tab a.active {
+	color: #200d05;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .epanels {
+	border: 1px solid #cc9f58;
+	background: #dfc9a7;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .previous,
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .next {
+	color: #cc9f58;
+	border: 1px solid #cc9f58;
+	background: #200d05;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .next:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-golden-brown.cf7multi .pagination {
+	color: #200d05;
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #cc9f58;
+	border: 1px solid #cc9f58;
+	background: #200d05;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown.cf7multi .navigation .end:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown.cf7multi .navigation .end {
+	font-weight: normal;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-golden-brown.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-golden-brown.cf7multi .cf7m-progress {
+	border: 1px solid #cc9f58;
+	background: #dfc9a7;
+}
+
+.wpcf7 .cf7s-golden-brown.cf7multi .cf7m-progress div {
+	background: #200d05;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-golden-brown.cf7multi .cf7m-thanks {
+}

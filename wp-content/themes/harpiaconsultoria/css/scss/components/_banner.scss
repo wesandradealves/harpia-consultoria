@@ -1,0 +1,120 @@
+$maskBottomPosition: -85px;
+
+body {
+    &:not(.home) {
+        .banner {
+            min-height: 80px;
+            @media screen and (min-width: $screen-md-min) {
+                margin-bottom: -110px;
+                min-height: 160px;
+                @media screen and (min-width: $screen-lg-min) {
+                    min-height: 290px;
+                    margin-bottom: -80px;
+                }
+            }
+            .container {
+                padding: 0;  
+                &::after {
+                    bottom: initial;
+                    top: 55px;
+                    @media screen and (min-width: $screen-lg-min) {
+                        top: 155px;
+                    }
+                }           
+            }
+        }
+    }
+}
+
+.banner {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    & ~ section {
+        position: relative;
+        z-index: 2;
+    }
+    @media screen and (min-width: $screen-md-min) {
+        text-align: initial;
+    }
+    .mask {
+        position: absolute;
+        bottom: $maskBottomPosition;
+        height: 220px;
+        width: 100%;
+        background: url(./img/banner-mask.png) center center / auto 240px no-repeat transparent;
+        z-index: 2;
+        @media screen and (max-width: $screen-lg-min) {
+            // transform: rotateY(180deg);
+            background-position: right center;
+        }
+    }
+    .container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;         
+        @media screen and (min-width: $screen-md-min) {
+            padding-top: 120px;
+            padding-bottom: 120px;  
+        }
+        position: relative;
+        &::before {
+            position: absolute;
+            right: 55px;
+            top: 35px;
+            display: block;
+            z-index: 1;
+        }
+        * {
+            position: relative;
+            z-index: 3;
+        }
+        &::after {
+            @media screen and (min-width: $screen-lg-min) {
+                content: '';
+            }
+            position: absolute;
+            bottom: $maskBottomPosition;
+            height: 220px;
+            width: 100vw;
+            background-color: white;
+            z-index: 2;        
+            left: -100vw;
+        }
+        .title {
+            @include toRem(font-size, 27);
+            @media screen and (min-width: $screen-md-min) {
+                @include toRem(font-size, 38);
+            }
+            line-height: 1.2;
+            font-weight: bold;
+        }    
+        .subtitle {
+            @include toRem(font-size, 12);
+            @include toRem(letter-spacing, 2); 
+            color: color(primary, base);
+        } 
+        .text {
+            @include toRem(font-size, 16);
+            line-height: 1.5;
+        }
+        .actions {
+            @media screen and (min-width: $screen-md-min) {
+                margin-top: 99px !important;
+            }
+            .btn {
+                transition: 200ms ease all;
+                @media screen and (min-width: $screen-lg-min) {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

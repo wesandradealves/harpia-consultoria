@@ -1,0 +1,108 @@
+.home {
+    &.scrolled {
+        .banner {
+            .container {
+                &::before {
+                    position: fixed;
+                    right: calc(50% - 280px);
+                }
+            }
+        }
+    }
+    .banner {
+        @media screen and (min-width: $screen-lg-min) {
+            margin-bottom: -135px;
+        }         
+        .container {
+            &::before {
+                @media screen and (min-width: $screen-lg-min) {
+                    content: url(./img/detail.png);
+                }
+            }
+        }
+    }
+    .quem-somos {
+        .section-header {
+            .text {
+                color: color(gray, base); 
+                p {
+                    color: inherit;
+                }
+            }
+        }
+    }
+    .taxonomy-panel {
+        &-content {
+            &--inner {
+                @media screen and (min-width: $screen-md-min) {
+                    height: 425px;
+                }
+                .taxonomy-panel-list {
+                    &-item {
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        &--inner {
+                            &::after {
+                                display: block;
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                height: 100%;
+                                width: 100%;
+                                z-index: 1;
+                                transition: 500ms ease all;
+                                background-color: rgba(0,0,0,.5);
+                                opacity: 1;
+                            }                         
+                            &:hover {
+                                @media screen and (min-width: $screen-md-min) {
+                                    &::after {
+                                        background-color: rgba(0,0,0,.8);
+                                    }
+                                    .info {
+                                        .title {
+                                            color: white;
+                                        }
+                                        .description {
+                                            max-height: 300px;
+                                            padding: 10px 0 0;
+                                            margin: 10px 0 0;
+                                            border-top: 1px color(orange, base) solid;
+                                        }
+                                    }
+                                }
+                            }  
+                            .info {
+                                padding: 60px 30px;
+                                @media screen and (min-width: $screen-md-min) {
+                                    padding: 30px 30px 40px;     
+                                }
+                                .title {
+                                    @include toRem(letter-spacing, 4);
+                                    .description {
+                                        letter-spacing: initial;
+                                    }
+                                }
+                                .description {
+                                    @media screen and (min-width: $screen-md-min) {
+                                        transition:  400ms ease-in-out all;
+                                        max-height: 0;
+                                    }
+                                    overflow: hidden;
+                                    a {
+                                        @include toRem(letter-spacing, 4);
+                                        text-transform: uppercase;
+                                        text-decoration: underline;
+                                        color: color(orange, base);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

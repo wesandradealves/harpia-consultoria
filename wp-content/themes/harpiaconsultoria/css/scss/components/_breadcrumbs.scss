@@ -1,0 +1,39 @@
+.breadcrumbs {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    & + section {
+        .container {
+            padding-top: 0;
+        }
+    }
+    @media screen and (min-width: $screen-lg-min) {
+        padding-top: 0;
+        &:first-child {
+            padding-top: 80px;
+        }
+    }
+    .aioseo-breadcrumbs {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .aioseo-breadcrumb {
+            @include toRem(font-size, 10);
+            text-transform: uppercase;
+            @include toRem(letter-spacing, 1.5);
+            color: color(orange, base);
+            a {
+                color: inherit;
+            }
+            &-separator {
+                overflow: hidden;
+                height: 20px;
+                flex: 0 0 auto;
+                width: 20px;
+                content: url(./img/Icon-Down.png);
+                margin: 0 10px;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}

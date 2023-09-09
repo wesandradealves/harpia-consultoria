@@ -1,0 +1,21 @@
+.page-template-obrigado,
+.error404 {
+    .accordion{
+        & > .container::after {
+            content: initial;
+        }
+        .media {
+            img {
+                height: 100%;
+                object-fit: cover;
+                margin-left: initial !important;
+                @media screen and (min-width: $screen-xl-min) {
+                    margin-right: -210px;
+                    @media screen and (min-width: $screen-xxl-min) {
+                        margin-right: -120px;
+                    }                    
+                }                      
+            }         
+        }        
+    }
+}

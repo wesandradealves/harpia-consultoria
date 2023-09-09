@@ -1,0 +1,159 @@
+.map,
+.sidebar {
+    &.blog {
+        .close {
+            display: none;
+            &-button {
+                color: color(gray, medium);
+                [class*="fa"] {
+                    color: color(orange, base);
+                }
+            }
+        }
+        &:not(.mobile) {
+            transition: 500ms ease max-height;
+            overflow: hidden;        
+            @media screen and (max-width: $screen-sm-min) {
+                max-height: 90px;
+            }
+        }
+        &.mobile {
+            .close {
+                display: flex;
+            }
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            z-index: 90;
+            overflow: auto;
+            max-height: calc(100vh - 151px);
+            &.is-active {
+                display: block !important;
+                .searchbar {
+                    input {
+                        display: block !important;
+                        &:not(.d-md-block) {
+                            display: none !important;
+                        }
+                    }
+                    button {
+                        .fa-filter {
+                            display: none !important;
+                        }
+                        .fa-magnifying-glass {
+                            display: block !important;
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar-inner {
+            background-color: color(white, light);
+            padding: 20px;
+        }
+        .recent-posts {
+            .thumbnail {
+                width: 70px;
+                height: 70px;
+                background-size: cover;
+            }
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+                &:hover {
+                    .title {
+                        a {
+                            color: color(orange, base);
+                        }
+                    }
+                }
+                .title {
+                    color: color(gray, medium);
+                    line-height: 1.4;
+                    a {
+                        color: inherit
+                    }
+                    @include toRem(font-size, 12);
+                }
+            }
+        }
+        .searchbar {
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px 15px;
+            input {
+                border: 0;
+                flex: 1;
+                width: 100%;
+                outline: 0;
+                color: color(gray, light);
+                @include toRem(font-size, 16);                
+            }
+            button {
+                flex: 0 0 auto;
+                margin: 0;
+                background-color: transparent;
+                border: 0;
+                [class*="fa"] {
+                    color: color(orange, base);
+                }
+            }
+        }
+        color: color(gray, medium);
+        .text {
+            @include toRem(font-size, 14);
+            line-height: 1.4;
+        }
+        .title {
+            color: color(gray, base);
+            @include toRem(font-size, 16);
+            @include toRem(letter-spacing, 1.8);
+        }
+        li > .title {
+            text-transform: uppercase;
+        }
+        .cat {
+            color: color(gray, medium);
+            text-transform: uppercase;
+            @include toRem(font-size, 12);
+            @include toRem(letter-spacing, 1.8);       
+            [class*="fa"] {
+                color: color(orange, base);
+            }     
+            &:hover {
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .contact-info {
+        color: color(gray, base);
+        @include toRem(font-size, 14);
+        line-height: 1.4;
+        flex-wrap: wrap;
+        &:hover {
+            span {
+                text-decoration: underline;
+            }
+        }
+        span {
+            flex: 1;
+        }
+        [class*="fa"] {
+            position: relative;
+            flex: 0 0 auto;
+            top: 2px;
+            width: 17px;
+            color: color(orange, base);
+        }
+    }
+    .social-networks .nav-link {
+        color: color(orange, base);
+        &:hover {
+            color: color(gray, base);
+        }
+    }    
+}

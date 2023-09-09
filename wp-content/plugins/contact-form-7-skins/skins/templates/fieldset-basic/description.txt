@@ -1,0 +1,12 @@
+Fieldset Basic is a standard contact form that uses a fieldset and legend structure for the form. It is a simple, easy and effective contact form for your website.
+
+Included in this template are the following fields:
+- Title
+- Name
+- Email (marked with a star to indicate it's required)
+- Phone number
+- Message box area
+- Submit button
+- Footer text (for adding text to the bottom of form)
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

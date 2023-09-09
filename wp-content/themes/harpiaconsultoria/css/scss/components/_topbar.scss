@@ -1,0 +1,35 @@
+$gap: 40px;
+$t-space: 11px;
+
+.topbar {
+    [class*="fa-"] {
+        margin-right: 17.5px;
+        color: color(primary, base);
+    }          
+    .container {
+        padding-top: $t-space;
+        padding-bottom: $t-space;
+        .social-networks {
+            .nav-link {
+                color: color(gray, medium);
+                [class*="fa-"]  {
+                    color: inherit;
+                }
+                &:hover {
+                    color: color(primary, base);
+                }
+            }
+        }
+        p {
+            color: color(gray, base);
+            @include toRem(letter-spacing, 1.5);
+            @include toRem(font-size, 14);
+            a {
+                color: color(gray, medium);
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+} 

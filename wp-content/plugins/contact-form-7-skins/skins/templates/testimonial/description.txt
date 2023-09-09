@@ -1,0 +1,13 @@
+Testimonial template allows you to gather the testimonies of your customers from a single form. You can customize the form as necessary.
+
+Included in this template are the following fields:
+• Title
+• Tagline
+• Radio buttons (for selecting a single option)
+• Single line text area
+• Multiple line text area
+• Name field
+• Email field
+• Submit button
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

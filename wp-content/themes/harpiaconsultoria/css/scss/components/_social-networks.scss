@@ -1,0 +1,13 @@
+.social-networks {
+    .nav-item {
+        &:not(:last-of-type) {
+            margin-right: 14px;
+        }  
+        .nav-link {
+            [class*="fa-"] {
+                @include toRem(font-size, 15);
+                margin: 0;
+            }
+        }    
+    }
+}

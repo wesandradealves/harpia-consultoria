@@ -1,0 +1,14 @@
+Planning or scheduling an event or workshop? The Event form makes it easy to customize the content of multiple fields, checkboxes, radio buttons, and drop-down menus with options so you can gather information from possible attendees quickly and easily. 
+
+Included in this template are the following fields:
+- Title
+- Name
+- Phone number
+- Email address (marked with a star to indicate it's required)
+- Questions with choices listed in checkboxes (for selecting single or multiple options) and radio buttons (for selecting a single option).
+- Menu with options (for selecting a single option)
+- Message box (for open questions that the attendee may have)
+- Submit button
+- Footer text (for adding text to the bottom of form)
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

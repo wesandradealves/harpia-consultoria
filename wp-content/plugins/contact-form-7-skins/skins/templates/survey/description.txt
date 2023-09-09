@@ -1,0 +1,11 @@
+Personalizing and creating your own survey is easy with the Survey template. You can add or customize as many radio, checkbox and open message options as you like to gather the information you need. 
+
+Included in this template are the following fields:	
+- Title
+- Introduction text
+- Questions with possible choices listed in radio buttons (for selecting a single option) or checkboxes (for both single & multiple selection options)
+- Open message box
+- Submit button
+- Footer text (for adding text to the bottom of form)
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

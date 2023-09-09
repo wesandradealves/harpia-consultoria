@@ -1,0 +1,668 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-30T15:51:32+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: contact-form-7-skins\n"
+
+#: visual.js:43745
+msgid "Save Visual"
+msgstr ""
+
+#: visual.js:44187
+msgid "Field Type"
+msgstr ""
+
+#: visual.js:44196
+msgid "Spinbox"
+msgstr ""
+
+#: visual.js:44199
+msgid "Slider"
+msgstr ""
+
+#: visual.js:44206
+msgid "Required"
+msgstr ""
+
+#: visual.js:44224
+msgid "Name"
+msgstr ""
+
+#: visual.js:44246
+msgid "Condition"
+msgstr ""
+
+#: visual.js:44268
+msgid "Label"
+msgstr ""
+
+#: visual.js:44290
+msgid "Default Value"
+msgstr ""
+
+#: visual.js:44325
+msgid "This field requires author's name"
+msgstr ""
+
+#: visual.js:44332
+msgid "This field requires author's email address"
+msgstr ""
+
+#: visual.js:44339
+msgid "This field requires author's URL"
+msgstr ""
+
+#: visual.js:44350
+msgid "Range"
+msgstr ""
+
+#: visual.js:44356
+msgid "Min"
+msgstr ""
+
+#: visual.js:44363
+msgid "Max"
+msgstr ""
+
+#: visual.js:44381
+msgid "Content"
+msgstr ""
+
+#: visual.js:44397
+msgid "See paragraph permitted phrasing content specification"
+msgstr ""
+
+#: visual.js:44412
+#: visual.js:44455
+msgid "Options"
+msgstr ""
+
+#: visual.js:44463
+msgid "Default"
+msgstr ""
+
+#: visual.js:44463
+msgid "Answer"
+msgstr ""
+
+#: visual.js:44529
+msgid "Add Other as last option"
+msgstr ""
+
+#: visual.js:44571
+msgid "Other"
+msgstr ""
+
+#: visual.js:44702
+msgid "Size"
+msgstr ""
+
+#: visual.js:44711
+msgid "Normal"
+msgstr ""
+
+#: visual.js:44718
+msgid "Compact"
+msgstr ""
+
+#: visual.js:44722
+msgid "Theme"
+msgstr ""
+
+#: visual.js:44731
+msgid "Light"
+msgstr ""
+
+#: visual.js:44738
+msgid "Dark"
+msgstr ""
+
+#: visual.js:44751
+msgid "Id Attribute"
+msgstr ""
+
+#: visual.js:44773
+msgid "Class Attribute"
+msgstr ""
+
+#: visual.js:44902
+msgid "Save"
+msgstr ""
+
+#: visual.js:44902
+msgid "Done"
+msgstr ""
+
+#: visual.js:45112
+msgid "Drag/Move"
+msgstr ""
+
+#: visual.js:45128
+msgid "Collapse"
+msgstr ""
+
+#: visual.js:45128
+msgid "Expand"
+msgstr ""
+
+#: visual.js:45667
+msgid "edit"
+msgstr ""
+
+#: visual.js:45677
+msgid "duplicate"
+msgstr ""
+
+#: visual.js:45687
+msgid "delete"
+msgstr ""
+
+#: visual.js:45700
+msgid "Add-on options"
+msgstr ""
+
+#: visual.js:46018
+msgid "Dismiss this notice"
+msgstr ""
+
+#: visual.js:46411
+msgid "Forms are easier to follow along with when questions are on separate pages."
+msgstr ""
+
+#: visual.js:46415
+msgid "CF7 Skins Multi makes separate pages possible."
+msgstr ""
+
+#: visual.js:46415
+msgid "Your form is less likely to be completed if it’s too long. Separate it using"
+msgstr ""
+
+#: visual.js:46419
+#: visual.js:46423
+#: visual.js:46431
+msgid "CF7 Skins Multi."
+msgstr ""
+
+#: visual.js:46419
+msgid "Progress bars make long forms feel less daunting. Add this in using "
+msgstr ""
+
+#: visual.js:46423
+msgid "Emphasize privacy policy acceptance by putting them on a second page."
+msgstr ""
+
+#: visual.js:46427
+msgid "CF7 Skins Multi"
+msgstr ""
+
+#: visual.js:46427
+msgid " makes this easy to do."
+msgstr ""
+
+#: visual.js:46427
+msgid "Your form is more likely to be completed if it isn’t cluttered. Separate information onto different pages using"
+msgstr ""
+
+#: visual.js:46432
+msgid "Put name and email address fields beside each other easily using CF7 Skins Ready."
+msgstr ""
+
+#: visual.js:46436
+msgid "Read more about CF7 Skins Ready."
+msgstr ""
+
+#: visual.js:46436
+msgid "Don’t forget that your form fields need to be mobile optimized, especially if fields are beside each other."
+msgstr ""
+
+#: visual.js:46440
+msgid "CF7 Skins Ready handles this for you."
+msgstr ""
+
+#: visual.js:46440
+msgid "Make your form easier to read by grouping together similar fields."
+msgstr ""
+
+#: visual.js:46444
+#: visual.js:46464
+#: visual.js:46476
+msgid "CF7 Skins Ready makes this easy to do."
+msgstr ""
+
+#: visual.js:46444
+msgid "Visually grouping similar fields together improves the flow of your form. A good way to do this is by drawing a box around the group using"
+msgstr ""
+
+#: visual.js:46448
+#: visual.js:46452
+#: visual.js:46472
+msgid "CF7 Skins Ready."
+msgstr ""
+
+#: visual.js:46448
+msgid "Separate cluttered form content into 2 columns or more using"
+msgstr ""
+
+#: visual.js:46452
+msgid "Looking to arrange your form fields into 2 or more columns?"
+msgstr ""
+
+#: visual.js:46456
+msgid "CF7 Skins Ready "
+msgstr ""
+
+#: visual.js:46456
+msgid "makes this easy to do."
+msgstr ""
+
+#: visual.js:46456
+msgid "Increase the chances of your form being completed by aligning the fields. Use the grid structure in"
+msgstr ""
+
+#: visual.js:46460
+msgid "CF7 Skins Ready"
+msgstr ""
+
+#: visual.js:46460
+msgid "to get a head start."
+msgstr ""
+
+#: visual.js:46460
+msgid "More complex form layouts should follow a grid system."
+msgstr ""
+
+#: visual.js:46464
+msgid "You can align fields, put them side-by-side, and more with our easy-to-use"
+msgstr ""
+
+#: visual.js:46468
+msgid "CF7 Skins Ready Add-on."
+msgstr ""
+
+#: visual.js:46468
+msgid "Have a yes/no radio button field? Display them horizontally on the same line using"
+msgstr ""
+
+#: visual.js:46472
+msgid "Very good, good, neutral? For a survey form, put checkboxes or radio buttons on the same horizontal line."
+msgstr ""
+
+#: visual.js:46477
+msgid "It is more professional looking to have a form style that matches your site."
+msgstr ""
+
+#: visual.js:46481
+msgid "Find a better fit in our CF7 Skins Pro Styles."
+msgstr ""
+
+#: visual.js:46481
+msgid "Having more templates means you save time creating forms from scratch."
+msgstr ""
+
+#: visual.js:46485
+msgid "Get more templates to choose from."
+msgstr ""
+
+#: visual.js:46485
+msgid "For custom style options, you can use CSS to adjust the form’s style."
+msgstr ""
+
+#: visual.js:46488
+msgid "To get help, our premium email support team is available."
+msgstr ""
+
+#: visual.js:46488
+msgid "Ensure error-free forms by using templates and the visual editor."
+msgstr ""
+
+#: visual.js:46491
+msgid "Get more templates with the CF7 Skins Pro Add-on."
+msgstr ""
+
+#: visual.js:46492
+msgid "Show specific fields to customers based on their responses with"
+msgstr ""
+
+#: visual.js:46495
+#: visual.js:46501
+msgid "CF7 Skins Logic."
+msgstr ""
+
+#: visual.js:46495
+msgid "You may not need to show all of the possible fields to all of your customers."
+msgstr ""
+
+#: visual.js:46498
+msgid "Keep forms short & relevant with CF7 Skins Logic."
+msgstr ""
+
+#: visual.js:46498
+msgid "You can dynamically show and hide form fields using"
+msgstr ""
+
+#: visual.js:46501
+msgid "Dynamic form fields are possibly when you add logic to the fields."
+msgstr ""
+
+#: visual.js:46504
+msgid "CF7 Skins Logic makes dynamic forms possible."
+msgstr ""
+
+#: visual.js:46505
+msgid "Feeling frustrated? Get 1-1 personalized, real-human responses to your tough questions with any of our"
+msgstr ""
+
+#: visual.js:46508
+msgid "CF7 Skins Add-ons."
+msgstr ""
+
+#: visual.js:46508
+msgid "Make sure your form is set up correctly the first time by talking to our trained support staff, available with our"
+msgstr ""
+
+#: visual.js:46511
+msgid "CF7 Skins Pro Add-on."
+msgstr ""
+
+#: visual.js:46511
+msgid "The WordPress support community is available to answer questions. Or, save time searching & ask us directly with our "
+msgstr ""
+
+#: visual.js:46514
+#: visual.js:46517
+msgid "Premium Email support."
+msgstr ""
+
+#: visual.js:46514
+msgid "Double check your mail settings to avoid problems sending & receiving forms. Set it up correctly from the start with our"
+msgstr ""
+
+#: visual.js:46541
+msgid "Tip"
+msgstr ""
+
+#: visual.js:46672
+msgid "FIELDS (CF7 TAGS)"
+msgstr ""
+
+#: visual.js:46674
+msgid "Drag and drop or click a Contact Form 7 Tag to add it to the visual form editor."
+msgstr ""
+
+#: visual.js:46674
+msgid "To see how Fields are used, select a template it's a great way to get started quickly."
+msgstr ""
+
+#: visual.js:46674
+msgid "Any field content can be changed by clicking Edit on the field."
+msgstr ""
+
+#: visual.js:46689
+msgid "FIELDS (CF7 SKINS ITEMS)"
+msgstr ""
+
+#: visual.js:46691
+msgid "Use CF7 Skins Fields for the layout of your form."
+msgstr ""
+
+#: visual.js:46691
+msgid "Fieldsets, legends, and lists are used to group related fields, and allow for more detailed styling."
+msgstr ""
+
+#: visual.js:46844
+#: visual.js:46849
+#: visual.js:48483
+msgid "Form Options"
+msgstr ""
+
+#: visual.js:46845
+msgid "Configure this forms options"
+msgstr ""
+
+#: visual.js:46859
+#: visual.js:46864
+msgid "Visual Data"
+msgstr ""
+
+#: visual.js:46860
+msgid "Copy & paste visual form data"
+msgstr ""
+
+#: visual.js:47151
+msgid "Error, the result is not an object or null."
+msgstr ""
+
+#: visual.js:47158
+msgid "Error: treeData, form or callbacks property is not available."
+msgstr ""
+
+#: visual.js:47876
+msgid "Unable to add the item."
+msgstr ""
+
+#: visual.js:47911
+msgid "There is no edit field available for this item."
+msgstr ""
+
+#: visual.js:48033
+msgid "Unable to duplicate!"
+msgstr ""
+
+#: visual.js:48119
+msgid "Unable to change the item."
+msgstr ""
+
+#: visual.js:48324
+msgid "Visual Object Data is not valid ( JSON parse error )"
+msgstr ""
+
+#: visual.js:48332
+msgid "Visual data is empty."
+msgstr ""
+
+#: visual.js:48353
+msgid "Visual data is not valid."
+msgstr ""
+
+#: visual.js:48705
+msgid "Error, templateTree is not an array!"
+msgstr ""
+
+#: visual.js:48916
+msgid "Acceptance (confirm)"
+msgstr ""
+
+#: visual.js:48948
+msgid "Checkbox (option)"
+msgstr ""
+
+#: visual.js:48986
+msgid "Date"
+msgstr ""
+
+#: visual.js:48993
+#: visual.js:49082
+#: visual.js:49215
+#: visual.js:49238
+#: visual.js:49267
+#: visual.js:49290
+msgid "Default value"
+msgstr ""
+
+#: visual.js:49002
+#: visual.js:49091
+msgid "Range - min"
+msgstr ""
+
+#: visual.js:49006
+#: visual.js:49095
+msgid "Range - max"
+msgstr ""
+
+#: visual.js:49019
+msgid "Email"
+msgstr ""
+
+#: visual.js:49036
+#: visual.js:49248
+#: visual.js:49300
+msgid "Akismet - this field requires author's email address"
+msgstr ""
+
+#: visual.js:49048
+msgid "File (upload)"
+msgstr ""
+
+#: visual.js:49070
+msgid "Number"
+msgstr ""
+
+#: visual.js:49110
+msgid "Quiz"
+msgstr ""
+
+#: visual.js:49117
+msgid "Question 1"
+msgstr ""
+
+#: visual.js:49118
+msgid "Answer 1"
+msgstr ""
+
+#: visual.js:49120
+msgid "Question 2"
+msgstr ""
+
+#: visual.js:49121
+msgid "Answer 2"
+msgstr ""
+
+#: visual.js:49129
+msgid "Radio Button (option)"
+msgstr ""
+
+#: visual.js:49147
+#: visual.js:49181
+msgid "Option 1"
+msgstr ""
+
+#: visual.js:49152
+#: visual.js:49184
+msgid "Option 2"
+msgstr ""
+
+#: visual.js:49163
+msgid "Select (dropdown)"
+msgstr ""
+
+#: visual.js:49195
+msgid "Submit"
+msgstr ""
+
+#: visual.js:49208
+msgid "Telephone"
+msgstr ""
+
+#: visual.js:49231
+msgid "Text (short text)"
+msgstr ""
+
+#: visual.js:49260
+msgid "Textarea (long text)"
+msgstr ""
+
+#: visual.js:49283
+msgid "URL (website link)"
+msgstr ""
+
+#: visual.js:49327
+msgid "Fieldset (with legend)"
+msgstr ""
+
+#: visual.js:49330
+msgid "Legend .."
+msgstr ""
+
+#: visual.js:49336
+msgid "List - ol"
+msgstr ""
+
+#: visual.js:49345
+msgid "List Item - li"
+msgstr ""
+
+#: visual.js:49354
+msgid "Paragraph - p"
+msgstr ""
+
+#: visual.js:49603
+msgid "Only one reCAPTCHA per form allowed."
+msgstr ""
+
+#: visual.js:49618
+msgid "Only one submit for each form."
+msgstr ""
+
+#: visual.js:49781
+msgid "Only one %s allowed in a form."
+msgstr ""
+
+#: visual.js:49786
+msgid "Node has recaptcha children. Only one recaptcha allowed in a form."
+msgstr ""
+
+#: visual.js:49790
+msgid "Node has submit children. Only one submit allowed in a form."
+msgstr ""
+
+#: visual.js:49987
+msgid "Your Name (required)"
+msgstr ""
+
+#: visual.js:49993
+msgid "Email Address (required)"
+msgstr ""
+
+#: visual.js:50001
+msgid "Your Message"
+msgstr ""
+
+#: visual.js:50008
+msgid "* Required"
+msgstr ""
+
+#: visual.js:50011
+msgid "Send"
+msgstr ""
+
+#: visual.js:50045
+msgid "Can not save! window.cf7svisual or post ID does not exist."
+msgstr ""
+
+#: visual.js:50129
+msgid "Dismiss this notice."
+msgstr ""
+
+#: visual.js:50132
+msgid "Visual saved!"
+msgstr ""
+
+#: visual.js:50150
+msgid "Namespace %s is undefined!"
+msgstr ""
+
+#: visual.js:50160
+msgid "Function %1$s.%2$s is undefined!"
+msgstr ""
+
+#: visual.js:50168
+msgid "Function %s is undefined!"
+msgstr ""

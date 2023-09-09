@@ -1,0 +1,361 @@
+/**
+* Style Name: Pina Colada
+* Description: Pina Colada is a simple yet attractive style that will blend in nicely with many themes. Its clean detailing and soft colors will add a smart and sophisticated appearance to your website forms.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: featured, red, brown, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-pina-colada p {
+}
+
+.wpcf7 .cf7s-pina-colada em {
+}
+
+.wpcf7 .cf7s-pina-colada a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-pina-colada {
+	padding: 20px;
+	color: #000;
+	border: 1px solid #d7cfb9;
+	background :#fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-pina-colada fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #d7cfb9;
+	background: #efe6ce;
+}
+
+.wpcf7 .cf7s-pina-colada legend {
+	padding: 2px 10px;
+	color: #fff;
+	background: #65001d;
+}
+
+.wpcf7 .cf7s-pina-colada label {
+	color: #4a003a;
+	font-weight: bold;
+}
+
+.wpcf7 .cf7s-pina-colada fieldset p {
+}
+
+.wpcf7 .cf7s-pina-colada fieldset fieldset {
+	margin: 10px 0; /* Above CSS overwritten by cf7s-default */
+	background: #fff;
+}
+
+.wpcf7 .cf7s-pina-colada fieldset  fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada textarea {
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	border: 1px solid #d7cfb9;
+	background: #fafafa;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada textarea {
+	padding: 5px 7px;  /* deliberately different from Input */
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-pina-colada ol,
+.wpcf7 .cf7s-pina-colada ul,
+.wpcf7 .cf7s-pina-colada li {
+}
+
+.wpcf7 .cf7s-pina-colada ol {
+}
+
+.wpcf7 .cf7s-pina-colada li {
+}
+
+.wpcf7 .cf7s-pina-colada li label {
+}
+
+.wpcf7 .cf7s-pina-colada .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-pina-colada .wpcf7-list-item-label {
+	color: #000;  /* needed to have consistent Radio Button labels color */
+	font-weight: normal;  /* needed because labels bold */
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="radio"] {
+	background: none;  /* needed for IE - cf7s-default is not specific enough */
+}
+
+.wpcf7 .cf7s-pina-colada select {
+	margin-bottom: 8px;
+}
+
+.wpcf7 .cf7s-pina-colada select option {
+}
+
+.wpcf7 .cf7s-pina-colada select option:hover {
+	background: #efe6ce;
+}
+
+.wpcf7 .cf7s-pina-colada .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-pina-colada .wpcf7-radio .wpcf7-list-item {
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="submit"] {
+	padding: 7px 10px;
+	color: #fff;
+	background: #4b0016; /* Old browsers */
+	background: -moz-linear-gradient(top, #4b0016 0%, #77003a 47%, #720031 50%, #670020 53%, #99005d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b0016), color-stop(47%,#77003a), color-stop(50%,#720031), color-stop(53%,#670020), color-stop(100%,#99005d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b0016', endColorstr='#99005d',GradientType=0 ); /* IE6-9 */
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada input[type="submit"]:hover {
+	background: #000;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-pina-colada .singleline {
+}
+
+.wpcf7 .cf7s-pina-colada .singleline li {
+}
+
+.wpcf7 .cf7s-pina-colada .singleline input {
+}
+
+.wpcf7 .cf7s-pina-colada .horizontal,
+.wpcf7 .cf7s-pina-colada .checkbox-horizontal,
+.wpcf7 .cf7s-pina-colada .radio-horizontal {
+}
+
+.wpcf7 .cf7s-pina-colada .checkbox-horizontal .wpcf7-list-item ,
+.wpcf7 .cf7s-pina-colada .radio-horizontal .wpcf7-list-item {
+	margin: 0 30px 0 0;  /*	provides space between radio options */
+}
+
+.wpcf7 .cf7s-pina-colada .box {
+	padding: 10px 20px;
+	border: 1px solid #d7cfb9;
+	background:#fff;
+}
+
+.wpcf7 .cf7s-pina-colada .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #fffded;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined {
+	border-top: 1px solid #333333;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined [data-row-span] {
+	border-bottom: 1px solid #333333;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #333333;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #333333;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-pina-colada .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #333333;
+			border-left: 1px solid #333333;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-pina-colada.cf7multi {
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-pina-colada.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .tab {
+	border: 1px solid #d7cfb9;
+	border-bottom: none;
+	background: #efe6ce;
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .tab a {
+	color: #4a003a;
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .epanels {
+	border: 1px solid #d7cfb9;
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .previous,
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .next {
+	color: #fff;
+	background: #4b0016; /* Old browsers */
+	background: -moz-linear-gradient(top, #4b0016 0%, #77003a 47%, #720031 50%, #670020 53%, #99005d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b0016), color-stop(47%,#77003a), color-stop(50%,#720031), color-stop(53%,#670020), color-stop(100%,#99005d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b0016', endColorstr='#99005d',GradientType=0 ); /* IE6-9 */
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .next:hover {
+	background: #000;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-pina-colada.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	background: #4b0016; /* Old browsers */
+	background: -moz-linear-gradient(top, #4b0016 0%, #77003a 47%, #720031 50%, #670020 53%, #99005d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b0016), color-stop(47%,#77003a), color-stop(50%,#720031), color-stop(53%,#670020), color-stop(100%,#99005d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4b0016 0%,#77003a 47%,#720031 50%,#670020 53%,#99005d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b0016', endColorstr='#99005d',GradientType=0 ); /* IE6-9 */
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada.cf7multi .navigation .end:hover {
+	background: #000;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-pina-colada.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-pina-colada.cf7multi .cf7m-progress {
+	border: 1px solid #d7cfb9;
+	background: #efe6ce;
+}
+
+.wpcf7 .cf7s-pina-colada.cf7multi .cf7m-progress div {
+	border-radius: 3px 0 0 3px;
+	background: #65001d;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-pina-colada.cf7multi .cf7m-thanks {
+}

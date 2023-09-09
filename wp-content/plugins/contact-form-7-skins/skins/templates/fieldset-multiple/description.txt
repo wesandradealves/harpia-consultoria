@@ -1,0 +1,17 @@
+The Fieldset - Multiple template makes it easy to segment a long, complicated form into multiple sections. Separating your form helps your audience better understand longer forms. 
+
+Included in this template are the following fields:	
+- Main title
+- Name
+- Email (marked with a star to indicate it's required)
+- Phone number
+- Open message section
+- Secondary Title
+- Checkboxes (for single or multiple selections) 
+- Radio buttons (for single selection)
+- Drop-down menus (for single selection)
+- Multiple Fieldsets
+- Submit button
+- Footer
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

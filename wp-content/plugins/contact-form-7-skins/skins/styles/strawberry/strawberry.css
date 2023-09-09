@@ -1,0 +1,349 @@
+/**
+* Style Name: Strawberry
+* Description: Strawberry is a soft style that will add a delicate touch to your forms. It uses pastel colors which will blend into many themes following a similar color scheme.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: pink, brown, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-strawberry p {
+}
+
+.wpcf7 .cf7s-strawberry em {
+}
+
+.wpcf7 .cf7s-strawberry a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-strawberry {
+	padding: 20px;
+	color: #aa7163;
+	border: 1px solid #f8cfbd;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-strawberry fieldset {
+	margin: 10px 0;
+	padding: 15px 25px;
+	border: 1px solid #f8cfbd;
+	background: #ffdfd2;
+}
+
+.wpcf7 .cf7s-strawberry legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #f8cfbd;
+	background: #cc9487;
+}
+
+.wpcf7 .cf7s-strawberry label {
+}
+
+.wpcf7 .cf7s-strawberry fieldset p {
+}
+
+.wpcf7 .cf7s-strawberry fieldset fieldset {
+	margin: 10px 0;
+	background: #ffe9e1;
+}
+
+.wpcf7 .cf7s-strawberry fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry fieldset fieldset input, 
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry fieldset fieldset textarea {
+	border: 1px solid #eebda8;
+	background: #fff;
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry textarea {
+	margin-bottom: 8px;
+	padding: 8px;
+	color: #aa7163;
+	border: 1px solid #f8cfbd;
+	background: #ffe9e0;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-strawberry ol,
+.wpcf7 .cf7s-strawberry ul,
+.wpcf7 .cf7s-strawberry li {
+}
+
+.wpcf7 .cf7s-strawberry ol {
+}
+
+.wpcf7 .cf7s-strawberry li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-strawberry li label {
+}
+
+.wpcf7 .cf7s-strawberry .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-strawberry .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-strawberry select {
+	margin-bottom: 8px;
+	padding: 5px;
+	color: #cc9486;
+	border: 1px solid #eebda8;
+}
+
+.wpcf7 .cf7s-strawberry select option {
+}
+
+.wpcf7 .cf7s-strawberry select option:hover {
+	background: #cc9486;
+	color: #fff;
+}
+
+.wpcf7 .cf7s-strawberry .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-strawberry .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #f8cfbd;
+	background: #aa7163;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry input[type="submit"]:hover {
+	color: #aa7163;
+	background: #ffdfd1;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-strawberry .singleline {
+}
+
+.wpcf7 .cf7s-strawberry .singleline li {
+}
+
+.wpcf7 .cf7s-strawberry .singleline input {
+}
+
+.wpcf7 .cf7s-strawberry .horizontal,
+.wpcf7 .cf7s-strawberry .checkbox-horizontal,
+.wpcf7 .cf7s-strawberry .radio-horizontal {
+}
+
+.wpcf7 .cf7s-strawberry .box {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #f8cfbd;
+	background: #ffe9e0;
+}
+
+.wpcf7 .cf7s-strawberry .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #fff4ef;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined {
+	border-top: 1px solid #cc9487;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined [data-row-span] {
+	border-bottom: 1px solid #cc9487;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #cc9487;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #cc9487;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-strawberry .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #cc9487;
+			border-left: 1px solid #cc9487;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-strawberry.cf7multi {
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-strawberry.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .tab {
+	border: 1px solid #f8cfbd;
+	border-bottom: none;
+	background: #ffdfd2;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .tab a {
+	color: #aa7163;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .epanels {
+	border: 1px solid #f8cfbd;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-strawberry.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .previous,
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #f8cfbd;
+	background: #aa7163;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .next:hover {
+	color: #aa7163;
+	background: #ffdfd1;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-strawberry.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #f8cfbd;
+	background: #aa7163;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry.cf7multi .navigation .end:hover {
+	color: #aa7163;
+	background: #ffdfd1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-strawberry.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-strawberry.cf7multi .cf7m-progress {
+	border: 1px solid #f8cfbd;
+	background: #ffdfd2;
+}
+
+.wpcf7 .cf7s-strawberry.cf7multi .cf7m-progress div {
+	background: #cc9487;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-strawberry.cf7multi .cf7m-thanks {
+}

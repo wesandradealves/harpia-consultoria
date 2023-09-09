@@ -1,0 +1,15 @@
+Suggestion provides a simple and effective form structure for your audience to send suggestions and feedback for your products and/or services. Customize the fields and get the most out of your customer's feedback. 
+
+Included in this template are the following fields:	
+- Title
+- Tagline
+- Drop down menu (for selecting a single option)
+- Single line text area
+- Multiple line message area
+- Email address
+- Radio button options (for selecting a single option)
+- Checkbox options (for selecting single or multiple options)
+- Submit button
+- Footer text (for adding text to the bottom of form)
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

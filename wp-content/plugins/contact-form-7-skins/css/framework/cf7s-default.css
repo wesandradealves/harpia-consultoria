@@ -1,0 +1,273 @@
+/*
+ * Style Name: cf7s-default
+ * Default Contact Form 7 Skins Styling - provides base styling for all CF7 Skins Forms
+ * Version: 2.0
+ * Version Date: 2019-05-30
+*/
+ 
+/* Table of Contents
+* Import
+* Resets
+* Form & Controls
+* Fieldset, Legend, Label
+* Text Fields
+* Ordered & Unordered lists
+* Labels
+* Checkboxes, Radio Buttons and Drop Down Menus
+* Other Fields
+* Submit Buttons
+* Special Classes 
+* Ready Styles
+* Multi Styles
+*/
+
+/* Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/* Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+
+/* Alters the box model so that any border or padding property values are included within the width and height of an element */
+
+.wpcf7-form.cf7skins *,
+.wpcf7-form.cf7skins *:before,
+.wpcf7-form.cf7skins *:after {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+}
+
+.wpcf7-form.cf7skins p {
+	margin: 0; /* Overide the current themes default <p> element style within CF7 forms */
+	padding: 0;  /* NOTE: vertical margins combine while paddings don't */
+}
+
+.wpcf7-form.cf7skins em {
+}
+
+.wpcf7-form.cf7skins a {
+}
+
+.wpcf7-form.cf7skins span {
+}
+
+/* Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins {
+	color: #000; /* Need to take control of this within CF7 Skins forms */
+}
+
+.wpcf7-form.cf7skins .wpcf7-form-control {
+}
+.wpcf7-form.cf7skins .wpcf7-form-control-wrap {
+}
+
+/* Fieldset & Legend
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins fieldset {
+	margin: 0;  /* Removes normalize.css defaults  margin: 0 2px; */
+}
+
+.wpcf7-form.cf7skins legend {
+}
+
+.wpcf7-form.cf7skins fieldset p {
+}
+
+.wpcf7-form.cf7skins fieldset fieldset {
+	margin: 0; 
+}
+
+.wpcf7-form.cf7skins fieldset fieldset legend {
+}
+
+.wpcf7-form.cf7skins fieldset fieldset input,
+.wpcf7-form.cf7skins fieldset fieldset textarea {
+}
+
+/* Text Fields
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins input {
+	width: auto;  /* Some themes set these items - need to take control within CF7 Skins forms */
+	padding: 5px;
+	box-shadow: none;
+}
+
+.wpcf7-form.cf7skins input[type="text"],
+.wpcf7-form.cf7skins input[type="email"],
+.wpcf7-form.cf7skins input[type="tel"],
+.wpcf7-form.cf7skins input[type="url"],
+.wpcf7-form.cf7skins input[type="number"],
+.wpcf7-form.cf7skins input[type="range"],
+.wpcf7-form.cf7skins input[type=date],
+.wpcf7-form.cf7skins input[type=file] {
+	width: 100%;  /* Set default width at 100% in all CF7 forms */
+	border: 1px solid #c0c0c0;  /* Color is same as used in normalize.css for Fieldset border */
+	background: #fafafa; /* Some older themes do not style the newer HTML5 elements */
+}
+
+/* This needs to be the same as other Input fields */
+.wpcf7-form.cf7skins textarea {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #c0c0c0;
+	background: #fafafa;
+	box-shadow: none;
+}
+
+.wpcf7-form.cf7skins .wpcf7-text {
+}
+.wpcf7-form.cf7skins .wpcf7-email {
+}
+.wpcf7-form.cf7skins .wpcf7-tel {
+}
+.wpcf7-form.cf7skins .wpcf7-textarea {
+}
+
+/* Ordered & Unordered lists
+------------------------------------------------------------ */
+
+/* Reset all lists within CF7 Skins forms - overide current themes default list styles */
+.wpcf7-form.cf7skins ol,
+.wpcf7-form.cf7skins ul,
+.wpcf7-form.cf7skins li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wpcf7-form.cf7skins ol {
+}
+
+.wpcf7-form.cf7skins li {
+}
+
+.wpcf7-form.cf7skins .wpcf7-list-item {
+}
+
+.wpcf7-form.cf7skins .wpcf7-list-item-label {
+}
+ 
+.wpcf7-form.cf7skins span.wpcf7-list-item {
+	margin-left: 0;
+/*	Removes margin set by Contact For 7 plugin
+	span.wpcf7-list-item {
+	margin-left: 0.5em;	 in ./contact-form-7/includes/css/styles.css */
+}
+
+/* Labels
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins label {
+}
+
+.wpcf7-form.cf7skins li label {
+}
+
+.wpcf7-form.cf7skins li label .cf7s-reqd {
+}
+
+/* Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+
+/**
+ * normalize.css says:
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ */
+ 
+.wpcf7-form.cf7skins input[type="checkbox"],
+.wpcf7-form.cf7skins input[type="radio"] { 
+	border: none;
+	background: none;  /* needed for IE */
+}
+
+/* Add minimum margin & padding to all drop-down select boxes */
+.wpcf7-form.cf7skins select {
+	display: block;  /* Added so can remove from .wpcf7-form li label {} */
+	margin-left: 3px; 
+	padding: 3px;
+}
+	
+.wpcf7-form.cf7skins select option {
+}
+
+.wpcf7-form.cf7skins select option:hover {
+	background: #dfdfdf;  /* Add Default hover style in all browsers */
+}
+
+.wpcf7-form.cf7skins .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7-form.cf7skins .wpcf7-radio .wpcf7-list-item {
+	display: block;  /* Sets default display of checkboxes & radio buttons as vertical */
+	margin-left: 3px;  /* Add minimum margin to all checkbox & radio button items */
+}
+
+.wpcf7-form.cf7skins .wpcf7-checkbox {
+}
+.wpcf7-form.cf7skins .wpcf7-radio {
+}
+.wpcf7-form.cf7skins .wpcf7-select {
+}
+
+/* Other Fields
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins .wpcf7-url {
+}
+.wpcf7-form.cf7skins .wpcf7-number {
+}
+.wpcf7-form.cf7skins .wpcf7-range {
+}
+.wpcf7-form.cf7skins .wpcf7-date {
+}
+.wpcf7-form.cf7skins .wpcf7-file {
+}
+.wpcf7-form.cf7skins .wpcf7-quiz {
+}
+.wpcf7-form.cf7skins .wpcf7-quiz-label {
+}
+.wpcf7-form.cf7skins .wpcf7-acceptance {
+}
+.wpcf7-form.cf7skins .wpcf7-captchac {
+}
+.wpcf7-form.cf7skins .wpcf7-captchar {
+}
+
+/* Submit Buttons
+------------------------------------------------------------ */
+
+.wpcf7-form.cf7skins input[type="submit"] {
+	margin: 4px 0 0;  /* Added to separate Submit from other fields */
+}
+
+.wpcf7-form.cf7skins input[type="submit"]:hover { 
+}
+
+/* 
+.wpcf7-form.cf7skins input[type="button"] {
+}
+.wpcf7-form.cf7skins input[type="button"]:hover { 
+}
+*/
+ 
+.cf7skins .wpcf7-submit {
+}
+
+ /* Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form
+------------------------------------------------------------ */
+
+
+/* Ready Styles
+------------------------------------------------------------ */
+
+
+/** Multi Styles
+------------------------------------------------------------ */

@@ -1,0 +1,82 @@
+[
+    {
+        "cf7sType":"fieldset",
+        "cf7Name":"fieldset",
+        "cf7sLabel":"Contact Form",
+        "expanded":true,
+        "children":[
+            {
+                "cf7sType":"list-ol",
+                "cf7Name":"list-ol",
+                "expanded":true,
+                "children":[
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"text",
+                                "cf7Name":"cf7s-name",
+                                "cf7sLabel":"Your Name (required)",
+                                "cf7Required":true,
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"email",
+                                "cf7Name":"cf7s-email-address",
+                                "cf7sLabel":"Email Address (required)",
+                                "cf7Required":true,
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"textarea",
+                                "cf7Name":"cf7s-message",
+                                "cf7sLabel":"Your Message",
+                                "cf7Required":"",
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cf7sType":"submit",
+                "cf7Name":"submit",
+                "cf7sLabel":"Submit",
+                "cf7ClassAttribute":"",
+                "cf7IdAttribute":""
+            },
+            {
+                "cf7sType":"paragraph",
+                "cf7Name":"paragraph",
+                "cf7sContent":"* Required"
+            }
+        ]
+    },
+    {
+        "cf7sType":"paragraph",
+        "cf7Name":"paragraph",
+        "cf7sContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus pharetra vehicula. Aliquam pellentesque mi non scelerisque placerat."
+    }
+]

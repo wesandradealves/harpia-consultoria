@@ -1,0 +1,348 @@
+/**
+* Style Name: Berry Delight
+* Description: Berry Delight is likely to fit well in websites with softer colors, especially those which follow its peachy-pink color scheme. Use this style to create eye catching forms for any website.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: pink, grey, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-berry-delight p {
+}
+
+.wpcf7 .cf7s-berry-delight em {
+}
+
+.wpcf7 .cf7s-berry-delight a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-berry-delight {
+	padding: 20px;
+	color: #363233;
+	border: 1px solid #fbd4cf;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-berry-delight fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #fbd4cf;
+	background: #fbd4cf;
+}
+
+.wpcf7 .cf7s-berry-delight legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 6px solid #fbd4cf;
+	border-bottom: 0px solid #fbd4cf;
+	background: #545454;
+}
+
+.wpcf7 .cf7s-berry-delight label {
+}
+
+.wpcf7 .cf7s-berry-delight fieldset p {
+}
+
+.wpcf7 .cf7s-berry-delight fieldset fieldset {
+	margin: 10px 0;
+	background: #f6babc;
+}
+
+.wpcf7 .cf7s-berry-delight fieldset fieldset legend {
+	border: 6px solid #f6babc;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight fieldset fieldset input, 
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight fieldset fieldset textarea {
+	color: #363233;
+	border: 1px solid #d77c7f;
+	background: #fbd4d0;
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input, 
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	color: #fff;
+	border: 1px solid #ffe0dc;
+	background: #f6babc;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-berry-delight ol,
+.wpcf7 .cf7s-berry-delight ul,
+.wpcf7 .cf7s-berry-delight li {
+}
+
+.wpcf7 .cf7s-berry-delight ol {
+}
+
+.wpcf7 .cf7s-berry-delight li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-berry-delight li label {
+}
+
+.wpcf7 .cf7s-berry-delight .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-berry-delight .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-berry-delight select {
+	padding: 5px;
+	border: 1px solid #d67c7e;
+	background:#fbd4cf;
+}
+
+.wpcf7 .cf7s-berry-delight select option {
+}
+
+.wpcf7 .cf7s-berry-delight select option:hover {
+	background: #f6babc;
+}
+
+.wpcf7 .cf7s-berry-delight .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-berry-delight .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	background: #404040;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight input[type="submit"]:hover {
+	background: #f6babc;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-berry-delight .singleline {
+}
+
+.wpcf7 .cf7s-berry-delight .singleline li {
+}
+
+.wpcf7 .cf7s-berry-delight .singleline input {
+}
+
+.wpcf7 .cf7s-berry-delight .horizontal,
+.wpcf7 .cf7s-berry-delight .checkbox-horizontal,
+.wpcf7 .cf7s-berry-delight .radio-horizontal {
+}
+
+.wpcf7 .cf7s-berry-delight .box {
+	padding: 10px;
+	border: 1px solid #fff;
+	background: #f6babc;
+}
+
+.wpcf7 .cf7s-berry-delight .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #ffefef;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined {
+	border-top: 1px solid #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined [data-row-span] {
+	border-bottom: 1px solid #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #fff;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #fff;
+			border-left: 1px solid #fff; 
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-berry-delight.cf7multi {
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-berry-delight.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .tab {
+	border: 1px solid #fbd4cf;
+	border-bottom: none;
+	background: #fbd4cf;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .tab a {
+	color: #363233;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .epanels {
+	border: 1px solid #fbd4cf;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .previous,
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .next {
+	font-weight: bold;
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #ffe0dc;
+	background: #f6babc;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .next:hover {
+	background: #404040;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-berry-delight.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight.cf7multi .navigation .end {
+	font-weight: bold;
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #ffe0dc;
+	background: #f6babc;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight.cf7multi .navigation .end:hover {
+	background: #404040;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-berry-delight.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-berry-delight.cf7multi .cf7m-progress {
+	border: 1px solid #fbd4cf;
+	background: #fbd4cf;
+}
+
+.wpcf7 .cf7s-berry-delight.cf7multi .cf7m-progress div {
+	background: #f6babc;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-berry-delight.cf7multi .cf7m-thanks {
+}

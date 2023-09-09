@@ -1,0 +1,12 @@
+Complaint Form provides a simple form structure for your audience for submitting a complaint about your products and/or services. You can customize the fields as you need to gather the information. 
+
+Included in this template are the following fields:
+• Title
+• Tagline
+• Radio button options (for selecting a single option)
+• Single line text area
+• Drop down menu (for selecting a single option)
+• Multiple line text area
+• Submit button
+
+You can copy, add, remove and alter fields, text, titles and fieldsets and more to customize the form to suit your needs.

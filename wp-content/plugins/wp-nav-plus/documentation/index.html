@@ -1,0 +1,426 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WP Nav Plus Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">WP Nav Plus v3.4+ Documentation by Matt Keys</h3>
+		
+		<hr>
+		
+		<h1 class="center">WP Nav Plus</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 06/10/2013<br>
+					Modified: 09/01/2017<br>
+					By: Matt Keys<br>
+					<a href="http://mattkeys.me/">Contact Me</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for using WP Nav Plus. If you have any questions that are beyond the scope of this help file, please use the WordPress support forums from this plugins page.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#split_menus">Split Menus</a></li>
+			<li><a href="#divided_menus">Divided Menus</a></li>
+			<li><a href="#limit_offset">Limit and Offset</a></li>
+			<li><a href="#menu_segment">Menu Segments</a></li>
+			<li><a href="#all_options">All Advanced Method Options</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="overview"><strong>A) Overview</strong> - <a href="#toc">top</a></h3>
+		<p>WP Nav Plus has been designed to fill gaps in the WordPress menu system which make it difficult to accomplish many popular website design patterns. I have created this plugin to be helpful and usable for novice or professional users.</p>
+
+		<hr>
+		
+		<h3 id="installation"><strong>B) Installation</strong> - <a href="#toc">top</a></h3>
+		<p>To install WP Nav Plus:</p>
+		
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Plugins screen and then click the "Add New" button</li>
+			<li>Click on the "Upload" link near the top of the page and browse for the WP Nav Plus zip file</li>
+			<li>Upload the file, and click "Activate Plugin" after the installation completes</li>
+			<li>Congratulations, installation is complete!</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="split_menus"><strong>C) Split Menus</strong> - <a href="#toc">top</a></h3>
+
+		<p>Many website designs call for a submenu, often right below the primary navigation in the header, or in a sidebar on interior pages. These submenu's are designed to show the children of the currently active menu item. WP Nav Plus makes it super simple to build out these types of menus, known as "split menus."</p>
+
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/cnhB-AJeAOI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+		<p>This can be accomplished in one of two ways:</p>
+
+		<h4 id="split_easy"><strong>Easy Method (Widget)</strong></h4>
+
+		<p>The easiest way to get up and running quickly with WP Nav Plus is to make use of the widget. In this section I will show you how to implement a basic split menu using the WP Nav Plus widget.</p> 
+
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Widgets screen (Under "Appearance")</li>
+			<li>Notice the new widget called "WP Nav Plus" (pictured below)<br />
+			<img src="assets/images/wp_nav_plus_inactive_widget.png" alt="WP Nav Plus Inactive Widget" /></li>
+			<li>Click and drag this widget into the desired sidebar placement (pictured below). NOTE: My sidebar is called "Primary Sidebar", your sidebar may be named differently. Please see your theme documentation for additional details about your sidebars.<br />
+			<img src="assets/images/wp_nav_plus_widget_split_menu.png" alt="WP Nav Plus Active Widget" /></li>
+			<li>Congratulations, your widget has been successfully installed! Configure the Menu Name, Start Depth, and Depth as needed to reach your desired output.</li>
+		</ol>
+
+		<h4 id="split_adv"><strong>Advanced Method (Function)</strong></h4>
+
+		<p>The documentation above has focused on using the WP Nav Plus widget as the easiest way to get started with WP Nav Plus. However for advanced users who want more control over the output of their menu, WP Nav Plus can be used with the built in WordPress <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank">wp_nav_menu function</a></p>
+		
+		<p>WP Nav Plus adds a two arguments to the wp_nav_menu function for us with split menus.</p>
+		
+		<table>
+			<thead>
+				<th>option</th>
+				<th>type</th>
+				<th>default</th>
+				<th>desctiption</th>
+			</thead>
+			<tr>
+				<td><strong>start_depth</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Use this to specify the number of levels "deep" in a nested menu that you wish to start your output from. A setting of 1 will ignore all top level menu items, only showing the nested children menu items associated with the currently active page (if any).</td>
+			</tr>
+			<tr>
+				<td><strong>default_category</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>When the active page being viewed is a post that is not in the menu structure, it will automatically look for the post index page in your menu to associate the current page with. The default_category option can be used to specify a "fallback" if not post index page is located. Accepts category ID.</td>
+			</tr>
+		</table>
+
+		<p><strong>Basic Example:</strong></p>
+
+		<pre>
+		wp_nav_menu(
+			array(
+				'theme_location' => 'my_menu',
+				'start_depth' => 1,
+				'depth' => 1
+			)
+		);
+		</pre>
+
+		<p>The above example would create a menu which does not display any top-level menu items, but does show the children menu items from the active page.</p>
+		
+		<hr>
+		
+		<h3 id="divided_menus"><strong>D) Divided Menus</strong> - <a href="#toc">top</a></h3>
+
+		<p>A fairly common website design pattern you may see online calls for the header navigation menu to be placed left and right of a central object, like the site logo. WP Nav Plus makes it very easy to build out these "divided menus."</p>
+
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/aneT0HWor74?rel=0" frameborder="0" allowfullscreen></iframe>
+
+		<p>Build a divided menu with WP Nav Plus using one of the two following methods:</p>
+
+		<h4 id="divided_easy"><strong>Easy Method (Widget)</strong></h4>
+
+		<p>The easiest way to get up and running quickly with WP Nav Plus is to make use of the widget. In this section I will show you how to implement a basic divided menu using the WP Nav Plus widget.</p> 
+
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Widgets screen (Under "Appearance")</li>
+			<li>Notice the new widget called "WP Nav Plus" (pictured below)<br />
+			<img src="assets/images/wp_nav_plus_inactive_widget.png" alt="WP Nav Plus Inactive Widget" /></li>
+			<li>Click and drag this widget into the desired sidebar placement (pictured below). NOTE: My sidebar is called "Primary Sidebar", your sidebar may be named differently. Please see your theme documentation for additional details about your sidebars.<br />
+			<img src="assets/images/wp_nav_plus_widget_divided_menu.png" alt="WP Nav Plus Active Widget" /></li>
+			<li>Add your divider_html into the provided textarea.</li>
+			<li>Congratulations, your widget has been successfully installed! Configure the Divider HTML, and Divider Offset as needed to reach your desired output.</li>
+		</ol>
+
+		<h4 id="divided_adv"><strong>Advanced Method (Function)</strong></h4>
+
+		<p>The documentation above has focused on using the WP Nav Plus widget as the easiest way to get started with WP Nav Plus. However for advanced users who want more control over the output of their menu, WP Nav Plus can be used with the built in WordPress <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank">wp_nav_menu function</a></p>
+		
+		<p>WP Nav Plus adds a five arguments to the wp_nav_menu function for us with divided menus.</p>
+		
+		<table>
+			<thead>
+				<th>option</th>
+				<th>type</th>
+				<th>default</th>
+				<th>desctiption</th>
+			</thead>
+			<tr>
+				<td><strong>divider_html</strong></td>
+				<td>string</td>
+				<td>false</td>
+				<td>Enter any HTML here that you wish to be injected into your menu. WP Nav Plus will wrap your entered html with a container and place it into the middle of your menu output.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_offset</strong></td>
+				<td>int</td>
+				<td>0</td>
+				<td>The Divider HTML will automatically try to place itself into the middle of your menu output, however this can be tweaked using the divider_offset. Pass a positive number to move your Divider HTML down the DOM structure. Pass a negative number to move your Divider HTML up the DOM structure.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_class</strong></td>
+				<td>string</td>
+				<td>menu-divider-item</td>
+				<td>Override the Divider HTML element default class with any class name of your choice.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_id</strong></td>
+				<td>string</td>
+				<td>false</td>
+				<td>Add an ID to your Divider HTML element.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_container</strong></td>
+				<td>string</td>
+				<td>li</td>
+				<td>Override the Divider container type with any valid HTML element of your choice.</td>
+			</tr>
+		</table>
+
+		<p><strong>Basic Example:</strong></p>
+
+		<pre>
+		$divider_html = '&lt;a href="/"&gt;&lt;img src="/path/to/my/logo.png" /&gt;&lt;/a&gt;';
+
+		wp_nav_menu(
+			array(
+				'theme_location' => 'my_menu',
+				'divider_html' => $divider_html
+			)
+		);
+		</pre>
+
+		<p>The above example would create a menu with the $divider_html specified above in the middle of the markup. Use divider_offset to tweak the position of the $divider_html.</p>
+
+		<hr>
+		
+		<h3 id="limit_offset"><strong>E) Limit and Offset</strong> - <a href="#toc">top</a></h3>
+
+		<p>Often website designs call for a menu to be split up into multiple columns, or rows. Such as a multi-column footer sitemap. WP Nav Plus provides the capabilities you need to quickly build these custom menu layouts using Limit and Offset.</p>
+
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/BXk4yt508Qk?rel=0" frameborder="0" allowfullscreen></iframe>
+
+		<p>Build your custom menu layout in one of two ways:</p>
+
+		<h4 id="lo_easy"><strong>Easy Method (Widget)</strong></h4>
+
+		<p>The easiest way to get up and running quickly with WP Nav Plus is to make use of the widget. In this section I will show you how to implement a basic divided menu using the WP Nav Plus widget.</p> 
+
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Widgets screen (Under "Appearance")</li>
+			<li>Notice the new widget called "WP Nav Plus" (pictured below)<br />
+			<img src="assets/images/wp_nav_plus_inactive_widget.png" alt="WP Nav Plus Inactive Widget" /></li>
+			<li>Click and drag this widget into the desired sidebar placement (pictured below). NOTE: My sidebar is called "Primary Sidebar", your sidebar may be named differently. Please see your theme documentation for additional details about your sidebars.<br />
+			<img src="assets/images/wp_nav_plus_widget_lo_menu.png" alt="WP Nav Plus Active Widget" /></li>
+			<li>Specify your menu "limit" and/or your menu "offset" as needed to reach your desired output.</li>
+			<li>Use multiple widgets as needed to complete your custom layout.</li>
+		</ol>
+
+		<h4 id="lo_adv"><strong>Advanced Method (Function)</strong></h4>
+
+		<p>The documentation above has focused on using the WP Nav Plus widget as the easiest way to get started with WP Nav Plus. However for advanced users who want more control over the output of their menu, WP Nav Plus can be used with the built in WordPress <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank">wp_nav_menu function</a></p>
+		
+		<p>WP Nav Plus adds a two arguments to the wp_nav_menu function for us with custom menu layouts.</p>
+		
+		<table>
+			<thead>
+				<th>option</th>
+				<th>type</th>
+				<th>default</th>
+				<th>desctiption</th>
+			</thead>
+			<tr>
+				<td><strong>limit</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Limit the number of top-level menu items to return when displaying your menu. Given a menu with 10 top-level items in it, and a limit set to 5, only the first 5 top-level items would be displayed. All menu children belonging to the displayed top-level menu items will be left alone.</td>
+			</tr>
+			<tr>
+				<td><strong>offset</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Offset or "skip" a set number of top-level menu items when displaying your menu. Given a menu with 10 top-level items in it, and an offset of 3, only the last 7 top-level menu items would be displayed.</td>
+			</tr>
+		</table>
+
+		<p><strong>Basic Example:</strong> (assumes a menu with 10 items in it)</p>
+
+		<pre>
+		wp_nav_menu(
+			array(
+				'theme_location' => 'my_menu',
+				'limit' => 5,
+				'offset' => 2
+			)
+		);
+		</pre>
+
+		<p>The above example would create a menu which displayed only 5 menu items, skipping over the first two menu items, showing the next five, and then nothing after those five.</p>
+
+		<hr>
+		
+		<h3 id="menu_segment"><strong>F) Menu Segments</strong> - <a href="#toc">top</a></h3>
+
+		<p>It is sometimes useful to display a particular segment of your WordPress menu on its own. Menu Segments allow you to specify a portion of your menu for display based on the parent menu item. Uses for menu segments could inclue Footer Sitemaps, Mega Menus, or all sorts of other custom menu layout needs.</p>
+
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/bSmLKjUT2ig?rel=0" frameborder="0" allowfullscreen></iframe>
+
+		<p>Build your custom menu layout in one of two ways:</p>
+
+		<h4 id="lo_easy"><strong>Easy Method (Widget)</strong></h4>
+
+		<p>The easiest way to get up and running quickly with WP Nav Plus is to make use of the widget. In this section I will show you how to implement a menu segment using the WP Nav Plus widget.</p> 
+
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Widgets screen (Under "Appearance")</li>
+			<li>Notice the new widget called "WP Nav Plus" (pictured below)<br />
+			<img src="assets/images/wp_nav_plus_inactive_widget.png" alt="WP Nav Plus Inactive Widget" /></li>
+			<li>Click and drag this widget into the desired sidebar placement (pictured below). NOTE: My sidebar is called "Primary Sidebar", your sidebar may be named differently. Please see your theme documentation for additional details about your sidebars.<br />
+			<img src="assets/images/wp_nav_plus_widget_segment_menu.png" alt="WP Nav Plus Active Widget" /></li>
+			<li>Find the parent menu item whose children you wish to display from the dropdown and select it.</li>
+			<li>Use multiple widgets as needed to complete your custom layout.</li>
+		</ol>
+
+		<h4 id="lo_adv"><strong>Advanced Method (Function)</strong></h4>
+
+		<p>The documentation above has focused on using the WP Nav Plus widget as the easiest way to get started with WP Nav Plus. However for advanced users who want more control over the output of their menu, WP Nav Plus can be used with the built in WordPress <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank">wp_nav_menu function</a></p>
+		
+		<p>WP Nav Plus adds a one argument to the wp_nav_menu function for us with menu segments.</p>
+		
+		<table>
+			<thead>
+				<th>option</th>
+				<th>type</th>
+				<th>default</th>
+				<th>desctiption</th>
+			</thead>
+			<tr>
+				<td><strong>segment</strong></td>
+				<td>mixed</td>
+				<td>false</td>
+				<td>Choose a segment of the menu to display by specifying the parent of the segment you wish to display. Specify a parent menu item using the items object_id (int) or menu title (string).</td>
+			</tr>
+		</table>
+
+		<p><strong>Basic Example:</strong></p>
+
+		<pre>
+		wp_nav_menu(
+			array(
+				'theme_location' => 'my_menu',
+				'segment' => 'About Us'
+			)
+		);
+		</pre>
+
+		<p>The above example would create a menu which displayed only the children of the 'About Us' section, regardless of the currently active page.</p>
+
+		<hr>
+		
+		<h3 id="all_options"><strong>G) All Advanced Method Options</strong> - <a href="#toc">top</a></h3>
+
+		<table>
+			<thead>
+				<th>option</th>
+				<th>type</th>
+				<th>default</th>
+				<th>desctiption</th>
+			</thead>
+			<tr>
+				<td><strong>start_depth</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Use this to specify the number of levels "deep" in a nested menu that you wish to start your output from. A setting of 1 will ignore all top level menu items, only showing the nested children menu items associated with the currently active page (if any).</td>
+			</tr>
+			<tr>
+				<td><strong>default_category</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>When the active page being viewed is a post that is not in the menu structure, it will automatically look for the post index page in your menu to associate the current page with. The default_category option can be used to specify a "fallback" if no post index page is located. Accepts category ID.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_html</strong></td>
+				<td>string</td>
+				<td>false</td>
+				<td>Enter any HTML here that you wish to be injected into your menu. WP Nav Plus will wrap your entered html with a container and place it into the middle of your menu output.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_offset</strong></td>
+				<td>int</td>
+				<td>0</td>
+				<td>The Divider HTML will automatically try to place itself into the middle of your menu output, however this can be tweaked using the divider_offset. Pass a positive number to move your Divider HTML down the DOM structure. Pass a negative number to move your Divider HTML up the DOM structure.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_class</strong></td>
+				<td>string</td>
+				<td>menu-divider-item</td>
+				<td>Override the Divider HTML element default class with any class name of your choice.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_id</strong></td>
+				<td>string</td>
+				<td>false</td>
+				<td>Add an ID to your Divider HTML element.</td>
+			</tr>
+			<tr>
+				<td><strong>divider_container</strong></td>
+				<td>string</td>
+				<td>li</td>
+				<td>Override the Divider container type with any valid HTML element of your choice.</td>
+			</tr>
+			<tr>
+				<td><strong>limit</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Limit the number of top-level menu items to return when displaying your menu. Given a menu with 10 top-level items in it, and a limit set to 5, only the first 5 top-level items would be displayed. All menu children belonging to the displayed top-level menu items will be left alone.</td>
+			</tr>
+			<tr>
+				<td><strong>offset</strong></td>
+				<td>int</td>
+				<td>false</td>
+				<td>Offset or "skip" a set number of top-level menu items when displaying your menu. Given a menu with 10 top-level items in it, and an offset of 3, only the last 7 top-level menu items would be displayed.</td>
+			</tr>
+			<tr>
+				<td><strong>segment</strong></td>
+				<td>mixed</td>
+				<td>false</td>
+				<td>Choose a segment of the menu to display by specifying the parent of the segment you wish to display. Specify a parent menu item using the items object_id (int) or menu title (string).</td>
+			</tr>
+		</table>
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

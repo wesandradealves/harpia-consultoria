@@ -1,0 +1,157 @@
+.page-template-contact {
+    #primary {
+        .map {
+            position: relative;
+            overflow: hidden;
+            height: 533px;
+            .container {
+                position: relative;
+                z-index: 3;
+                height: 100%;
+                > [class*="col-"] {
+                    background-color: white;
+                    position: relative;
+                    * {
+                        position: relative;
+                        z-index: 2;
+                    }
+                    &::before {
+                        top: 0;
+                        right: 100%;
+                        height: 100%;
+                        width: 100vw;
+                        background-color: white;
+                        z-index: 1;
+                        content: '';
+                        display: block;
+                        position: absolute;
+                    }
+                }
+            }
+            #map {
+                z-index: 1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                iframe {
+                    position: inherit;
+                    top: inherit;
+                    left: inherit;
+                    width: inherit;
+                    height: inherit;
+                    display: inherit;
+                }
+            }
+        }
+        .form-switcher,
+        .wpcf7-form {
+            .wpcf7-radio {
+                display: flex;
+                flex-flow: row wrap;
+                margin-bottom: -1rem;
+                .wpcf7-list-item {
+                    position: relative;
+                    margin: 0;
+                    height: 40px;
+                    margin-bottom: 1rem;
+                    &:not(:last-child) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (min-width: $screen-md-min) {
+                        flex: 0 0 auto;
+                    }
+                    input {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                        z-index: 2;
+                        &:hover,
+                        &:checked {
+                            & + .wpcf7-list-item-label {
+                                background-color: color(secondary, base);
+                                color: white
+                            }
+                        }
+                    }
+                    .wpcf7-list-item-label {
+                        border: 2px color(secondary, base) solid;
+                        color: color(secondary, base);
+                        padding: 0 15px;
+                        height: 100%;
+                        text-transform: uppercase;
+                        @include toRem(font-size, 12);
+                        text-align: center;
+                        border-radius: 5px;    
+                        z-index: 1;                
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
+                        @include toRem(letter-spacing, 2);  
+                        width: 100%;  
+                    }
+                }                
+            }
+            .wpcf7-response-output {
+                padding: 0;
+                border: 0;
+                color: color(gray, medium);
+                text-align: center;
+                text-transform: uppercase;
+                @include toRem(font-size, 12);                
+            }
+            .wpcf7-spinner {
+                vertical-align: middle;
+            }
+            .group-item {
+                position: relative;
+                [class*="fa"] {
+                    position: absolute;
+                    right: 0;
+                    top: calc(50% - 16px);
+                    background: white;
+                    z-index: 2;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                [data-name="curriculo"] + [class*="fa"] {
+                    right: 5px;
+                }
+                [data-name="linkedin"] + [class*="fa"] {
+                    right: 20px;
+                }                
+            }
+            select,
+            textarea,
+            input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]) {
+                border: 2px color(gray, medium) solid;
+                border-radius: 5px;
+                padding: 10px 15px;
+                color: color(gray, medium);
+                @include toRem(font-size, 16);
+                width: 100%;
+            }
+            label {
+                &.d-block {
+                    color: color(secondary, dark);
+                    @include toRem(font-size, 16);
+                }
+            }
+            .wpcf7-submit {
+                width: 100%;
+                @media screen and (min-width: $screen-md-min) {
+                    width: 160px;
+                }
+            }
+        }
+    }
+}

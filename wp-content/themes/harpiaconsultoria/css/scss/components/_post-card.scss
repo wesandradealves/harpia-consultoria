@@ -1,0 +1,29 @@
+.post-card {
+    cursor: pointer;
+    .card-inner {
+        border-bottom: 1px color(gray, light) solid;
+        min-height: 100%;
+    }
+    &:hover {
+        .title {
+            color: color(orange, base);
+        }
+    }
+    .thumbnail {
+        height: 270px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .text {
+        @include toRem(font-size, 13);
+        color: color(gray, light);
+        margin: 15px 0;
+        .date {
+            text-transform: capitalize;
+        }
+    }
+    .title {
+        color: color(gray, base);
+        @include toRem(font-size, 24);
+    }
+}

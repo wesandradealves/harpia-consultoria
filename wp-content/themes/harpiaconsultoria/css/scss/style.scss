@@ -1,0 +1,38 @@
+/*! 
+    Theme Name: .: Consultoria Empresarial em Curitiba - Harpia Consultoria:.
+    Theme URI: 
+    Author: Agência 904
+    Author URI: https://www.904.ag
+    Description: A Harpia Consultoria Empresarial é especializada em Consultoria em pequenas empresas: Consultoria Financeira, Consultoria Comercial,  Consultoria em Negócios
+    Version: 1.0
+    License: Agência 904
+    License URI: https://www.904.ag
+    Text Domain: harpiaconsultoria
+*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import 'breakpoints';
+@import 'colors';
+@import 'util';
+@import 'reset';
+@import 'general';
+@import './components/topbar';
+@import './components/header';
+@import './components/footer';
+@import './components/whatsapp';
+@import './components/contact-bar';
+@import './components/banner';
+@import './components/social-networks';
+@import './components/breadcrumbs';
+@import './components/dicas-e-novidades';
+@import './components/taxonomy-panel';
+@import './components/about';
+@import './components/accordion';
+@import './components/sidebar';
+@import './components/newsletter';
+@import './components/post-card';
+@import './pages/home';
+@import './pages/about';
+@import './pages/archive';
+@import './pages/single';
+@import './pages/404';
+@import './pages/contact';

@@ -1,0 +1,349 @@
+/**
+* Style Name: Solar
+* Description: Solar will brighten your forms with its subtle yellow & orange color variations. This smart, clean style will lift your forms out of the ordinary.
+* Instructions:
+* Version: 1.1
+* Version Date: 2020-03-08
+* Tags: yellow, orange, white, light
+**/
+
+/** Table of Contents
+* Import
+* Resets
+* Form & Controls
+* Fieldset, Legend, Label
+* Text Fields
+* Ordered & Unordered lists
+* Checkboxes, Radio Buttons and Drop Down Menus
+* Other Fields
+* Submit Buttons
+* Special Classes
+* Ready Styles
+ * Multi Styles
+*/
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-solar p {
+}
+
+.wpcf7 .cf7s-solar em {
+}
+
+.wpcf7 .cf7s-solar a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-solar {
+	padding: 20px;
+	color: #ad7f32;
+	border: 1px solid #f3c577;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-solar fieldset {
+	margin: 10px 0;
+	padding: 10px 25px;
+	border: 1px solid #f3c577;
+	background: #fdf8a1;
+}
+
+.wpcf7 .cf7s-solar legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #dfac59;
+	background: #efc278;
+}
+
+.wpcf7 .cf7s-solar label {
+}
+
+.wpcf7 .cf7s-solar fieldset p {
+}
+
+.wpcf7 .cf7s-solar fieldset fieldset {
+	margin: 10px 0;
+	background: #fcf68b;
+}
+
+.wpcf7 .cf7s-solar fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	color: #444209;
+	border: 1px solid #f3c577;
+	background: #fafafa;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-solar ol,
+.wpcf7 .cf7s-solar ul,
+.wpcf7 .cf7s-solar li {
+}
+
+.wpcf7 .cf7s-solar ol {
+}
+
+.wpcf7 .cf7s-solar li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-solar li label {
+}
+
+.wpcf7 .cf7s-solar .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-solar .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type='checkbox'],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type='radio'] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-solar select {
+	padding: 6px;  /* matches input fields */
+	color: #ad7f32;
+	border: 1px solid #f3c577;
+	background: #fffcc6;
+}
+
+.wpcf7 .cf7s-solar select option {
+}
+
+.wpcf7 .cf7s-solar select option:hover {
+	color: #fff;
+	background: #efc278;
+}
+
+.wpcf7 .cf7s-solar .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-solar .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type='submit'] {
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #dfac59;
+	background: #efc278;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar input[type='submit']:hover {
+	color: #ad7f32;
+	background: #fdf8a1;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-solar .singleline {
+}
+
+.wpcf7 .cf7s-solar .singleline li {
+}
+
+.wpcf7 .cf7s-solar .singleline input {
+}
+
+.wpcf7 .cf7s-solar .horizontal,
+.wpcf7 .cf7s-solar .checkbox-horizontal,
+.wpcf7 .cf7s-solar .radio-horizontal {
+}
+
+.wpcf7 .cf7s-solar .box {
+	padding: 10px;
+	border: 1px solid #f3c577;
+	background: #fcf68b;
+}
+
+.wpcf7 .cf7s-solar .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #f3c577;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined {
+	border-top: 1px solid #f3c577;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined [data-row-span] {
+	border-bottom: 1px solid #f3c577;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #f3c577;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #f3c577;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-solar .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #f3c577;
+			border-left: 1px solid #f3c577;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-solar.cf7multi {
+}
+
+.wpcf7 .cf7s-solar.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-solar.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-solar.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-solar.cf7multi .tab {
+	border: 1px solid #efc278;
+	border-bottom: none;
+	background: #efc278;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .tab a {
+	color: #fff;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .tab a.active {
+	color:#000;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .epanels {
+	border: 1px solid #efc278;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-solar.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-solar.cf7multi .navigation .previous,
+.wpcf7 .cf7s-solar.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #dfac59;
+	background: #efc278;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-solar.cf7multi .navigation .next:hover {
+	text-decoration: none;  /* Removes underline from button link */
+	color: #dfac59;
+	background: #fdf8a1;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-solar.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-solar.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #dfac59;
+	background: #efc278;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar.cf7multi .navigation .end:hover {
+	text-decoration: none;  /* Removes underline from button link */
+	color: #dfac59;
+	background: #fdf8a1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-solar.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-solar.cf7multi .cf7m-progress {
+	border: 1px solid #efc278;
+	background: #fdf8a1;
+}
+
+.wpcf7 .cf7s-solar.cf7multi .cf7m-progress div {
+	background: #efc278;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-solar.cf7multi .cf7m-thanks {
+}

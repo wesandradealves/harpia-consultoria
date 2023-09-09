@@ -1,0 +1,346 @@
+/**
+* Style Name: Topaz
+* Description: Topaz is a smart orange style, with subtle color variations, that will work well with themes that follow a similar color scheme.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: yellow, orange, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-topaz p {
+}
+
+.wpcf7 .cf7s-topaz em {
+}
+
+.wpcf7 .cf7s-topaz a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-topaz {
+	padding: 20px;
+	color: #d17534;
+	border: 1px solid #e0bf7a;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-topaz fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #e0bf7a;
+	background: #f8db9d;
+}
+
+.wpcf7 .cf7s-topaz legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #feeeca;
+	background: #d78148;
+}
+
+.wpcf7 .cf7s-topaz label {
+}
+
+.wpcf7 .cf7s-topaz fieldset p {
+}
+
+.wpcf7 .cf7s-topaz fieldset fieldset {
+	margin: 10px 0; /* Above CSS overwritten by cf7s-default */
+}
+
+.wpcf7 .cf7s-topaz fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	color: #d17534;
+	border: 1px solid #e0bf7a;
+	background: #fff5dc;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz textarea {
+	padding: 5px 7px;  /* deliberately different from Input */
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-topaz ol,
+.wpcf7 .cf7s-topaz ul,
+.wpcf7 .cf7s-topaz li {
+}
+
+.wpcf7 .cf7s-topaz ol {
+}
+
+.wpcf7 .cf7s-topaz li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-topaz li label {
+}
+
+.wpcf7 .cf7s-topaz .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-topaz .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-topaz select {
+	margin-bottom: 8px;
+	margin-left: 13px;
+	padding: 5px;
+	border: 1px solid #e0bf7a;
+	background: #fff5dc;
+}
+
+.wpcf7 .cf7s-topaz select option {
+}
+
+.wpcf7 .cf7s-topaz select option:hover {
+	background: #f9db9d;
+}
+
+.wpcf7 .cf7s-topaz .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-topaz .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #e0bf7a;
+	background: #d88249;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz input[type="submit"]:hover {
+	color: #d17437;
+	background: #f6d896;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-topaz .singleline {
+}
+
+.wpcf7 .cf7s-topaz .singleline li {
+}
+
+.wpcf7 .cf7s-topaz .singleline input {
+}
+
+.wpcf7 .cf7s-topaz .horizontal,
+.wpcf7 .cf7s-topaz .checkbox-horizontal,
+.wpcf7 .cf7s-topaz .radio-horizontal {
+}
+
+.wpcf7 .cf7s-topaz .box {
+	padding: 10px;
+	border: 1px solid #dec07a;
+	background: #f9db9d;
+}
+
+.wpcf7 .cf7s-topaz .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #fffded;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-lined {
+	border-top: 1px solid #dec07a;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-lined [data-row-span] {
+	border-bottom: 1px solid #dec07a;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #dec07a;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #dec07a;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-topaz .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #dec07a;
+			border-left: 1px solid #dec07a;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-topaz.cf7multi {
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-topaz.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .tab {
+	border: 1px solid #e0bf7a;
+	border-bottom: none;
+	background: #f8db9d;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .tab a {
+	color: #d17534;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .epanels {
+	border: 1px solid #e0bf7a;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-topaz.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .navigation .previous,
+.wpcf7 .cf7s-topaz.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #e0bf7a;
+	background: #d88249;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-topaz.cf7multi .navigation .next:hover {
+	color: #d17437;
+	background: #f6d896;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-topaz.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-topaz.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #e0bf7a;
+	background: #d88249;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz.cf7multi .navigation .end:hover {
+	color: #d17437;
+	background: #f6d896;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-topaz.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-topaz.cf7multi .cf7m-progress {
+	border: 1px solid #e0bf7a;
+	background: #f8db9d;
+}
+
+.wpcf7 .cf7s-topaz.cf7multi .cf7m-progress div {
+	background: #d78148;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-topaz.cf7multi .cf7m-thanks {
+}

@@ -1,0 +1,310 @@
+[
+    {
+        "cf7sType":"fieldset",
+        "cf7Name":"fieldset",
+        "cf7sLabel":"Survey Form",
+        "expanded":true,
+        "children":[
+            {
+                "cf7sType":"paragraph",
+                "cf7Name":"paragraph",
+                "cf7sContent":"Please help us to serve you better by completing this survey. It should take around 5 minutes to complete."
+            },
+            {
+                "cf7sType":"list-ol",
+                "cf7Name":"list-ol",
+                "expanded":true,
+                "children":[
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey1",
+                                "cf7sLabel":"Overall, how satisfied are you with our product / service?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Very Satisfied",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Satisfied",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Neutral",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Unsatisfied",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Very Unsatisfied",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"N/A",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey2",
+                                "cf7sLabel":"Would you recommend our product / service to others?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Definitely",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Probably",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Not Sure",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Probably Not",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Definitely Not",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey3",
+                                "cf7sLabel":"How long have you used our product / service?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Less than a month",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"1-6 months",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"1-3 years",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Over 3 Years",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Never used",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey4",
+                                "cf7sLabel":"How often do you use our product / service?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Once a week",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"2 to 3 times a month",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Once a month",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Less than once a month",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey5",
+                                "cf7sLabel":"What aspect of the product / service were you most satisfied by?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Quality",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Price",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Purchase Experience",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Usage Experience",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Customer Service",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey6",
+                                "cf7sLabel":"Overall, the product / service met my expectations?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Strongly Agree",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Agree",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Neutral",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Disagree",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Strongly Disagree",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Don't Know",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"textarea",
+                                "cf7Name":"cf7s-survey7",
+                                "cf7sLabel":"What do you like about the product / service?",
+                                "cf7Required":"",
+                                "cf7Values":"",
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    },
+                    {
+                        "cf7sType":"list-li",
+                        "cf7Name":"list-li",
+                        "expanded":true,
+                        "children":[
+                            {
+                                "cf7sType":"radio",
+                                "cf7Name":"cf7s-survey8",
+                                "cf7sLabel":"Thinking of similar products / services offered by others, how would you compare the product / service offered by us?",
+                                "cf7Options":[
+                                    {
+                                        "value":"Much Better",
+                                        "isChecked":true
+                                    },
+                                    {
+                                        "value":"Somewhat Better",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"About the Same",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Somewhat Worse",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Much Worse",
+                                        "isChecked":false
+                                    },
+                                    {
+                                        "value":"Don't Know",
+                                        "isChecked":false
+                                    }
+                                ],
+                                "cf7ClassAttribute":"",
+                                "cf7IdAttribute":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cf7sType":"submit",
+                "cf7Name":"submit",
+                "cf7sLabel":"Submit",
+                "cf7ClassAttribute":"",
+                "cf7IdAttribute":""
+            }
+        ]
+    },
+    {
+        "cf7sType":"paragraph",
+        "cf7Name":"paragraph",
+        "cf7sContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus pharetra vehicula. Aliquam pellentesque mi non scelerisque placerat."
+    }
+]

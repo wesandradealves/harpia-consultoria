@@ -1,0 +1,762 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Skins Visual 0.7.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-30T15:51:32+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@cf7skins.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../src/visual\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: visual.js:43745
+msgid "Save Visual"
+msgstr "Simpan Visual"
+
+#: visual.js:44210
+msgid "Field Type"
+msgstr "Tipe Field"
+
+#: visual.js:44224
+msgid "Spinbox"
+msgstr "Kotak Geser"
+
+#: visual.js:44226
+msgid "Slider"
+msgstr "Gelincir"
+
+#: visual.js:44235
+msgid "Required"
+msgstr "Diharuskan"
+
+#: visual.js:44248
+msgid "Name"
+msgstr "Nama"
+
+#: visual.js:44270
+msgid "Condition"
+msgstr "Kondisi"
+
+#: visual.js:44292 visual.js:49980
+msgid "Legend"
+msgstr "Lagenda"
+
+#: visual.js:44292
+msgid "Label"
+msgstr "Label"
+
+#: visual.js:44314
+msgid "Default Value"
+msgstr "Nilai Bawaan"
+
+#: visual.js:44329 visual.js:48998 visual.js:49031 visual.js:49087
+#: visual.js:49220 visual.js:49243 visual.js:49272 visual.js:49295
+msgid "Use this text as the placeholder of the field"
+msgstr "Gunakan teks ini sebagai wadah isian ruas"
+
+#: visual.js:44349
+msgid "This field requires author's name"
+msgstr "Ruas ini membutuhkan nama pengarang"
+
+#: visual.js:44356
+msgid "This field requires author's email address"
+msgstr "Ruas ini membutuhkan alamat surel pengarang"
+
+#: visual.js:44363
+msgid "This field requires author's URL"
+msgstr "Ruas ini membutuhkan URL pengarang"
+
+#: visual.js:44374
+msgid "Range"
+msgstr "Rentang"
+
+#: visual.js:44380
+msgid "Min"
+msgstr "Min"
+
+#: visual.js:44387
+msgid "Max"
+msgstr "Max"
+
+#: visual.js:44405
+msgid "Content"
+msgstr "Konten"
+
+#: visual.js:44421
+msgid "See paragraph permitted phrasing content specification"
+msgstr "Lihat spesifikasi konten yang diijikan untuk paragraf"
+
+#: visual.js:44436 visual.js:44479
+msgid "Options"
+msgstr "Pilihan"
+
+#: visual.js:44444 visual.js:48924
+msgid "Make this checkbox checked by default"
+msgstr "Buat kotak centangan ini di centang secara bawaan"
+
+#: visual.js:44450 visual.js:48929
+msgid "Make this work inversely"
+msgstr "Buat ini bekerja secara terbalik"
+
+#: visual.js:44456 visual.js:48934
+msgid "Make this checkbox optional"
+msgstr "Buat kotak centangan ini dicentang secara bawaan"
+
+#: visual.js:44487
+msgid "Default"
+msgstr "Bawaan"
+
+#: visual.js:44487
+msgid "Answer"
+msgstr "Jawaban"
+
+#: visual.js:44553
+msgid "Add Other as last option"
+msgstr "Tambahkan Lainnya sebagai pilihan terakhir"
+
+#: visual.js:44559 visual.js:49171
+msgid "Allow multiple selections"
+msgstr "Ijinkan banyak pilihan"
+
+#: visual.js:44565 visual.js:49176
+msgid "Insert a blank item as the first option"
+msgstr "Masukkan item kosong sebagai pilihan pertama"
+
+#: visual.js:44571 visual.js:48956 visual.js:49137
+msgid "Put a label first, a checkbox last"
+msgstr "Buat label pertama, kotak centangan terakhir"
+
+#: visual.js:44577 visual.js:48961 visual.js:49142
+msgid "Wrap each item with label element"
+msgstr "Bungkus setiap item dengan elemen label"
+
+#: visual.js:44585 visual.js:48966
+msgid "Make checkboxes exclusive"
+msgstr "Buat kotak centang ekslusif"
+
+#: visual.js:44595
+msgid "Other"
+msgstr "Lainnya"
+
+#: visual.js:44679 visual.js:49055
+msgid "File size limit (bytes)"
+msgstr "Batas ukuran berkas"
+
+#: visual.js:44701 visual.js:49059
+msgid "Acceptable file types"
+msgstr "Tipe berkas diizinkan"
+
+#: visual.js:44726
+msgid "Size"
+msgstr "Ukuran"
+
+#: visual.js:44735
+msgid "Normal"
+msgstr "Normal"
+
+#: visual.js:44742
+msgid "Compact"
+msgstr "Padat"
+
+#: visual.js:44746
+msgid "Theme"
+msgstr "Thema"
+
+#: visual.js:44755
+msgid "Light"
+msgstr "Terang"
+
+#: visual.js:44762
+msgid "Dark"
+msgstr "Gelap"
+
+#: visual.js:44775
+msgid "Id Attribute"
+msgstr "Atribut Id"
+
+#: visual.js:44797
+msgid "Class Attribute"
+msgstr "Atribut Kelas"
+
+#: visual.js:44926
+msgid "Save"
+msgstr "Simpan"
+
+#: visual.js:44926
+msgid "Done"
+msgstr "Selesai"
+
+#: visual.js:45133
+msgid "Drag/Move"
+msgstr "Geser/Pindah"
+
+#: visual.js:45149
+msgid "Collapse"
+msgstr "Sembunyi"
+
+#: visual.js:45149
+msgid "Expand"
+msgstr "Buka"
+
+#: visual.js:45685
+msgid "edit"
+msgstr "ubah"
+
+#: visual.js:45695
+msgid "duplicate"
+msgstr "gandakan"
+
+#: visual.js:45705
+msgid "delete"
+msgstr "hapus"
+
+#: visual.js:45718
+msgid "Add-on options"
+msgstr "Pilihan add-on"
+
+#: visual.js:46036
+msgid "Dismiss this notice"
+msgstr "Abaikan peringatan ini"
+
+#: visual.js:46420
+msgid ""
+"Forms are easier to follow along with when questions are on separate pages."
+msgstr ""
+
+#: visual.js:46424
+msgid "CF7 Skins Multi makes separate pages possible."
+msgstr ""
+
+#: visual.js:46424
+msgid ""
+"Your form is less likely to be completed if it’s too long. Separate it using"
+msgstr ""
+
+#: visual.js:46428 visual.js:46432 visual.js:46440
+msgid "CF7 Skins Multi."
+msgstr ""
+
+#: visual.js:46428
+msgid "Progress bars make long forms feel less daunting. Add this in using "
+msgstr ""
+
+#: visual.js:46432
+msgid "Emphasize privacy policy acceptance by putting them on a second page."
+msgstr ""
+
+#: visual.js:46436
+msgid "CF7 Skins Multi"
+msgstr ""
+
+#: visual.js:46436
+msgid " makes this easy to do."
+msgstr ""
+
+#: visual.js:46436
+msgid ""
+"Your form is more likely to be completed if it isn’t cluttered. Separate "
+"information onto different pages using"
+msgstr ""
+
+#: visual.js:46441
+msgid ""
+"Put name and email address fields beside each other easily using CF7 Skins "
+"Ready."
+msgstr ""
+
+#: visual.js:46445
+msgid "Read more about CF7 Skins Ready."
+msgstr ""
+
+#: visual.js:46445
+msgid ""
+"Don’t forget that your form fields need to be mobile optimized, especially "
+"if fields are beside each other."
+msgstr ""
+
+#: visual.js:46449
+msgid "CF7 Skins Ready handles this for you."
+msgstr ""
+
+#: visual.js:46449
+msgid "Make your form easier to read by grouping together similar fields."
+msgstr ""
+
+#: visual.js:46453 visual.js:46473 visual.js:46485
+msgid "CF7 Skins Ready makes this easy to do."
+msgstr ""
+
+#: visual.js:46453
+msgid ""
+"Visually grouping similar fields together improves the flow of your form. A "
+"good way to do this is by drawing a box around the group using"
+msgstr ""
+
+#: visual.js:46457 visual.js:46461 visual.js:46481
+msgid "CF7 Skins Ready."
+msgstr ""
+
+#: visual.js:46457
+msgid "Separate cluttered form content into 2 columns or more using"
+msgstr ""
+
+#: visual.js:46461
+msgid "Looking to arrange your form fields into 2 or more columns?"
+msgstr ""
+
+#: visual.js:46465
+msgid "CF7 Skins Ready "
+msgstr ""
+
+#: visual.js:46465
+msgid "makes this easy to do."
+msgstr ""
+
+#: visual.js:46465
+msgid ""
+"Increase the chances of your form being completed by aligning the fields. "
+"Use the grid structure in"
+msgstr ""
+
+#: visual.js:46469
+msgid "CF7 Skins Ready"
+msgstr ""
+
+#: visual.js:46469
+msgid "to get a head start."
+msgstr ""
+
+#: visual.js:46469
+msgid "More complex form layouts should follow a grid system."
+msgstr ""
+
+#: visual.js:46473
+msgid ""
+"You can align fields, put them side-by-side, and more with our easy-to-use"
+msgstr ""
+
+#: visual.js:46477
+msgid "CF7 Skins Ready Add-on."
+msgstr ""
+
+#: visual.js:46477
+msgid ""
+"Have a yes/no radio button field? Display them horizontally on the same line "
+"using"
+msgstr ""
+
+#: visual.js:46481
+msgid ""
+"Very good, good, neutral? For a survey form, put checkboxes or radio buttons "
+"on the same horizontal line."
+msgstr ""
+
+#: visual.js:46486
+msgid ""
+"It is more professional looking to have a form style that matches your site."
+msgstr ""
+
+#: visual.js:46490
+msgid "Find a better fit in our CF7 Skins Pro Styles."
+msgstr ""
+
+#: visual.js:46490
+msgid "Having more templates means you save time creating forms from scratch."
+msgstr ""
+
+#: visual.js:46494
+msgid "Get more templates to choose from."
+msgstr ""
+
+#: visual.js:46494
+msgid "For custom style options, you can use CSS to adjust the form’s style."
+msgstr ""
+
+#: visual.js:46497
+msgid "To get help, our premium email support team is available."
+msgstr ""
+
+#: visual.js:46497
+msgid "Ensure error-free forms by using templates and the visual editor."
+msgstr ""
+
+#: visual.js:46500
+msgid "Get more templates with the CF7 Skins Pro Add-on."
+msgstr ""
+
+#: visual.js:46501
+msgid "Show specific fields to customers based on their responses with"
+msgstr ""
+
+#: visual.js:46504 visual.js:46510
+msgid "CF7 Skins Logic."
+msgstr ""
+
+#: visual.js:46504
+msgid ""
+"You may not need to show all of the possible fields to all of your customers."
+msgstr ""
+
+#: visual.js:46507
+msgid "Keep forms short & relevant with CF7 Skins Logic."
+msgstr ""
+
+#: visual.js:46507
+msgid "You can dynamically show and hide form fields using"
+msgstr ""
+
+#: visual.js:46510
+msgid "Dynamic form fields are possibly when you add logic to the fields."
+msgstr ""
+
+#: visual.js:46513
+msgid "CF7 Skins Logic makes dynamic forms possible."
+msgstr ""
+
+#: visual.js:46514
+msgid ""
+"Feeling frustrated? Get 1-1 personalized, real-human responses to your tough "
+"questions with any of our"
+msgstr ""
+
+#: visual.js:46517
+msgid "CF7 Skins Add-ons."
+msgstr ""
+
+#: visual.js:46517
+msgid ""
+"Make sure your form is set up correctly the first time by talking to our "
+"trained support staff, available with our"
+msgstr ""
+
+#: visual.js:46520
+msgid "CF7 Skins Pro Add-on."
+msgstr ""
+
+#: visual.js:46520
+msgid ""
+"The WordPress support community is available to answer questions. Or, save "
+"time searching & ask us directly with our "
+msgstr ""
+
+#: visual.js:46523 visual.js:46526
+msgid "Premium Email support."
+msgstr ""
+
+#: visual.js:46523
+msgid ""
+"Double check your mail settings to avoid problems sending & receiving forms. "
+"Set it up correctly from the start with our"
+msgstr ""
+
+#: visual.js:46550
+msgid "Tip"
+msgstr ""
+
+#: visual.js:46681
+msgid "FIELDS (CF7 TAGS)"
+msgstr "RUAS (TAG CF7)"
+
+#: visual.js:46683
+msgid ""
+"Drag and drop or click a Contact Form 7 Tag to add it to the visual form "
+"editor."
+msgstr ""
+"Seret dan lepas atau klik Tag Contact Form 7 untuk menambahkannya ke editor "
+"formulir visual."
+
+#: visual.js:46683
+msgid ""
+"To see how Fields are used, select a template it's a great way to get "
+"started quickly."
+msgstr ""
+"Untuk melihat bagaimana Fields digunakan, pilih templat itu cara yang bagus "
+"untuk memulai dengan cepat."
+
+#: visual.js:46683
+msgid "Any field content can be changed by clicking Edit on the field."
+msgstr ""
+"Konten field apa pun dapat diubah dengan mengeklik Edit pada field tersebut."
+
+#: visual.js:46698
+msgid "FIELDS (CF7 SKINS ITEMS)"
+msgstr "RUAS (ITEM CF7 SKINS)"
+
+#: visual.js:46700
+msgid "Use CF7 Skins Fields for the layout of your form."
+msgstr "Gunakan CF7 Skins Fields untuk tata letak formulir Anda."
+
+#: visual.js:46700
+msgid ""
+"Fieldsets, legends, and lists are used to group related fields, and allow "
+"for more detailed styling."
+msgstr ""
+"Fieldset, legend dan list digunakan untuk mengelompokkan ruas yang "
+"berhubungan, dan memberikan penggaya yang terinci."
+
+#: visual.js:46850 visual.js:46855
+msgid "Form Options"
+msgstr "Opsi Formulir"
+
+#: visual.js:46851
+msgid "Configure this forms options"
+msgstr "Konfigurasikan opsi formulir ini"
+
+#: visual.js:46865 visual.js:46870
+msgid "Visual Data"
+msgstr "Data Visual"
+
+#: visual.js:46866
+msgid "Copy & paste visual form data"
+msgstr "Salin & tempel data formulir visual"
+
+#: visual.js:47157
+msgid "Error, the result is not an object or null."
+msgstr "Salah, hasilnya bukan merupakan sebuah object atau null."
+
+#: visual.js:47164
+msgid "Error: treeData, form or callbacks property is not available."
+msgstr "Salah: property treeData, form ataupun callbacks tidak tersedia."
+
+#: visual.js:47882
+msgid "Unable to add the item."
+msgstr "Tidak bias menambah item itu."
+
+#: visual.js:47917
+msgid "There is no edit field available for this item."
+msgstr "Tidak ada pengubahan yang tersedia untuk item ini."
+
+#: visual.js:48039
+msgid "Unable to duplicate!"
+msgstr "Tidak bisa menggandakan!"
+
+#: visual.js:48125
+msgid "Unable to change the item."
+msgstr "Tidak dapat mengubah item ini."
+
+#: visual.js:48330
+msgid "Visual Object Data is not valid ( JSON parse error )"
+msgstr "Data Obyek Visual tidak sah ( kesalahan penguraian JSON )"
+
+#: visual.js:48338
+msgid "Visual data is empty."
+msgstr "Data Visual tidak ada."
+
+#: visual.js:48359
+msgid "Visual data is not valid."
+msgstr "Data Visual tidak sah."
+
+#: visual.js:48714
+msgid "Error, templateTree is not an array!"
+msgstr "Salah, templateTree bukanlah sebuah array!"
+
+#: visual.js:48916
+msgid "Acceptance (confirm)"
+msgstr "Penerimaan (konfirmasi)"
+
+#: visual.js:48948
+msgid "Checkbox (option)"
+msgstr "Kotak centang (pilihan)"
+
+#: visual.js:48986
+msgid "Date"
+msgstr "Tanggal"
+
+#: visual.js:48993 visual.js:49082 visual.js:49215 visual.js:49238
+#: visual.js:49267 visual.js:49290
+msgid "Default value"
+msgstr "Nilai bawaan"
+
+#: visual.js:49002 visual.js:49091
+msgid "Range - min"
+msgstr "Rentang - min"
+
+#: visual.js:49006 visual.js:49095
+msgid "Range - max"
+msgstr "Rentang - max"
+
+#: visual.js:49019
+msgid "Email"
+msgstr "Surel"
+
+#: visual.js:49036 visual.js:49248 visual.js:49300
+msgid "Akismet - this field requires author's email address"
+msgstr "Akismet - ruas ini membutuhkan alamat surel pengarang"
+
+#: visual.js:49048
+msgid "File (upload)"
+msgstr "Berkas (upload)"
+
+#: visual.js:49070
+msgid "Number"
+msgstr "Nomor"
+
+#: visual.js:49110
+msgid "Quiz"
+msgstr "Kuis"
+
+#: visual.js:49117
+msgid "Question 1"
+msgstr "Pertanyaan 1"
+
+#: visual.js:49118
+msgid "Answer 1"
+msgstr "Jawaban 1"
+
+#: visual.js:49120
+msgid "Question 2"
+msgstr "Pertanyaan 2"
+
+#: visual.js:49121
+msgid "Answer 2"
+msgstr "Jawaban 2"
+
+#: visual.js:49129
+msgid "Radio Button (option)"
+msgstr "Tombol Radio (pilih)"
+
+#: visual.js:49147 visual.js:49181
+msgid "Option 1"
+msgstr "Pilihan 1"
+
+#: visual.js:49152 visual.js:49184
+msgid "Option 2"
+msgstr "Pilihan 2"
+
+#: visual.js:49163
+msgid "Select (dropdown)"
+msgstr "Pilih (Tarik turun)"
+
+#: visual.js:49195
+msgid "Submit"
+msgstr "Ajukan"
+
+#: visual.js:49208
+msgid "Telephone"
+msgstr "Telepon"
+
+#: visual.js:49231
+msgid "Text (short text)"
+msgstr "Teks ( singkat )"
+
+#: visual.js:49260
+msgid "Textarea (long text)"
+msgstr "Area teks (panjang)"
+
+#: visual.js:49283
+msgid "URL (website link)"
+msgstr "URL (tautan situs)"
+
+#: visual.js:49327
+msgid "Fieldset (with legend)"
+msgstr "Fieldset (dengan legend)"
+
+#: visual.js:49330
+msgid "Legend .."
+msgstr "Legend .."
+
+#: visual.js:49336
+msgid "List - ol"
+msgstr "List - ol"
+
+#: visual.js:49345
+msgid "List Item - li"
+msgstr "List Item - li"
+
+#: visual.js:49354
+msgid "Paragraph - p"
+msgstr "Paragrap - p"
+
+#: visual.js:49603
+msgid "Only one reCAPTCHA per form allowed."
+msgstr "Hanya satu reCAPTCHA per formulir diijinkan."
+
+#: visual.js:49618
+msgid "Only one submit for each form."
+msgstr "Hanya satu tombol ajukan yang diijinkan setiap formulir."
+
+#: visual.js:49781
+msgid "Only one %s allowed in a form."
+msgstr "Hanya satu %s yang diijinkan di sebuah formulir."
+
+#: visual.js:49786
+msgid "Node has recaptcha children. Only one recaptcha allowed in a form."
+msgstr ""
+"Ruas memiliki reCAPTCHA sebagai anakan. Hanya satu reCAPTCHA diijinkan untuk "
+"sebuah formulir."
+
+#: visual.js:49790
+msgid "Node has submit children. Only one submit allowed in a form."
+msgstr ""
+"Ruas memiliki tombol ajukan sebagai anakan. Hanya satu tombol yang diijinkan "
+"untuk sebuah formulir."
+
+#: visual.js:49987
+msgid "Your Name (required)"
+msgstr "Nama Anda (dibutuhkan)"
+
+#: visual.js:49993
+msgid "Email Address (required)"
+msgstr "Alamat Surel (dibutuhkan)"
+
+#: visual.js:50001
+msgid "Your Message"
+msgstr "Pesan Anda"
+
+#: visual.js:50008
+msgid "* Required"
+msgstr "* Dibutuhkan"
+
+#: visual.js:50011
+msgid "Send"
+msgstr "Kirim"
+
+#: visual.js:50045
+msgid "Can not save! window.cf7svisual or post ID does not exist."
+msgstr "Tidak bias menyimpan! window.cf7svisual atau nomor pos tidak ada."
+
+#: visual.js:50129
+msgid "Dismiss this notice."
+msgstr "Tutup pemberitahuan ini."
+
+#: visual.js:50132
+msgid "Visual saved!"
+msgstr "Visual disimpan!"
+
+#: visual.js:50150
+msgid "Namespace %s is undefined!"
+msgstr "Namespace %s belum ditentukan!"
+
+#: visual.js:50160
+msgid "Function %1$s.%2$s is undefined!"
+msgstr "Fungsi %1$s.%2$s belum ditentukan!"
+
+#: visual.js:50168
+msgid "Function %s is undefined!"
+msgstr "Function %s belum ditentukan!"
+
+#~ msgid "Visual Object Data is not valid ( Invalid Cf7sType )"
+#~ msgstr "Data Obyek Visual tidak sah ( Cf7sType tidak sah )"
+
+#~ msgid ""
+#~ "Drag and drop or click a Contact Form 7 Tag to add it to the visual form "
+#~ "editor. To see how Fields are used, select a template it's a great way to "
+#~ "get started quickly. Any field content can be changed by clicking Edit on "
+#~ "the field."
+#~ msgstr ""
+#~ "Geser dan letakkan atau klik di Contact Form 7 untuk menambah ke editor "
+#~ "formulir visual. Untuk melihat bagaiman Ruas digunakan, pilihlah sebuah "
+#~ "templat yang merupakan cara cepat untuk memulai. Segala konten ruas dapat "
+#~ "diubah dengan melakukan klik Ubah di ruas tersebut."

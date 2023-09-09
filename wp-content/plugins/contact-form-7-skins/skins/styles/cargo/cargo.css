@@ -1,0 +1,342 @@
+/**
+* Style Name: Cargo 
+* Description: Cargo is a soft olive style that will make an appealing addition to websites with a variety of themes - especially those with a similar color scheme.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: olive, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cargo p {
+}
+
+.wpcf7 .cf7s-cargo em {
+}
+
+.wpcf7 .cf7s-cargo a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cargo {
+	padding: 20px;
+	color: #544e2c;
+	border: 1px solid #d6d09e;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cargo fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #d6d09e;
+	background: #d6d09e;
+}
+
+.wpcf7 .cf7s-cargo legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	background: #b6b37c;
+}
+
+.wpcf7 .cf7s-cargo label {
+}
+
+.wpcf7 .cf7s-cargo fieldset p {
+}
+
+.wpcf7 .cf7s-cargo fieldset fieldset {
+	margin: 10px 0;
+	border: 1px solid #eae6c1;
+	background: #eae6c1;
+}
+
+.wpcf7 .cf7s-cargo fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo fieldset fieldset input, 
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo fieldset fieldset textarea {
+	background: #d7d19f;
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo textarea {
+	margin-bottom: 8px;
+	padding: 5px 7px;
+	border: 1px solid #d5d29f;
+	background: #eae6c1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cargo ol,
+.wpcf7 .cf7s-cargo ul,
+.wpcf7 .cf7s-cargo li {
+}
+
+.wpcf7 .cf7s-cargo ol {
+}
+
+.wpcf7 .cf7s-cargo li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-cargo li label {
+}
+
+.wpcf7 .cf7s-cargo .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-cargo .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-cargo select {
+	padding: 5px;
+	border: 1px solid #eae6c1;
+	background: #d7d1a1;
+}
+
+.wpcf7 .cf7s-cargo select option {
+}
+
+.wpcf7 .cf7s-cargo select option:hover {
+	background: #eae6c1;
+}
+
+.wpcf7 .cf7s-cargo .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-cargo .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	background: #b8b280;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo input[type="submit"]:hover {
+	color: #534f29;
+	background: #eae6c1;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cargo .singleline {
+}
+
+.wpcf7 .cf7s-cargo .singleline li {
+}
+
+.wpcf7 .cf7s-cargo .singleline input {
+}
+
+.wpcf7 .cf7s-cargo .horizontal,
+.wpcf7 .cf7s-cargo .checkbox-horizontal,
+.wpcf7 .cf7s-cargo .radio-horizontal {
+}
+
+.wpcf7 .cf7s-cargo .box {
+	padding: 10px;
+	border: 1px solid #d7d19f;
+	background: #eae6c1;
+}
+
+.wpcf7 .cf7s-cargo .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #fffded;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-lined {
+	border-top: 1px solid #b6b37c;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-lined [data-row-span] {
+	border-bottom: 1px solid #b6b37c;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #b6b37c;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #b6b37c;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-cargo .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #b6b37c;
+			border-left: 1px solid #b6b37c;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-cargo.cf7multi {
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-cargo.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .tab {
+	border: 1px solid #d6d09e;
+	border-bottom: none;
+	background: #d6d09e;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .tab a {
+	color: #544e2c;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .epanels {
+	border: 1px solid #d6d09e;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-cargo.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .navigation .previous,
+.wpcf7 .cf7s-cargo.cf7multi .navigation .next {
+	padding: 5px 15px;
+	color: #fff;
+	background: #b6b37c;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-cargo.cf7multi .navigation .next:hover {
+		color: #534f29;
+		background: #eae6c1;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-cargo.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-cargo.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo.cf7multi .navigation .end {
+	padding: 5px 15px;
+	color: #fff;
+	background: #b6b37c;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo.cf7multi .navigation .end:hover {
+	color: #534f29;
+	background: #eae6c1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cargo.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-cargo.cf7multi .cf7m-progress {
+	border: 1px solid #d5d29f;
+	background: #eae6c1;
+}
+
+.wpcf7 .cf7s-cargo.cf7multi .cf7m-progress div {
+	background: #b6b37c;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-cargo.cf7multi .cf7m-thanks {
+}

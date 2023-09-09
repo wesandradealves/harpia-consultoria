@@ -1,0 +1,674 @@
+/* Headings */
+#cf7s h2 {
+	clear: none;
+	font-size: auto;
+	margin: 0;
+	padding: 9px 15px 0 0;
+}
+
+#cf7s h2 a {
+	text-decoration: none;
+	outline: none;
+	font-family: Arial, HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+}
+
+#cf7s h4 {  /* Used in Details & Expanded View */
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+/* Nav Tab */
+#cf7s .nav-tab {
+	color: #666;
+}
+
+#cf7s .nav-tab:focus {
+	box-shadow: none;
+}
+
+#cf7s .nav-tab:hover,
+#cf7s .nav-tab-active {
+	border-color: #7E99AD;
+	border-bottom-color: #94B2CE;
+	background: none repeat scroll 0 0 #94B2CE;	
+	color: #fff;
+	border-bottom-color: transparent;
+}
+
+#cf7s .nav-tab-active {
+	border-bottom-color: #94B2CE;
+}
+
+#cf7s h2.nav-tab-wrapper,
+#cf7s h3.nav-tab-wrapper {
+	border-bottom-color: #94B2CE;
+}
+
+#cf7s .nav-tab-getting-started,
+#cf7s .nav-tab-add-ons {
+	float: right;
+}
+@media only screen and (max-width: 850px) {
+	#cf7s .nav-tab-getting-started,
+	#cf7s .nav-tab-add-ons {
+		display: none;
+	}
+}
+
+/* Help */
+#cf7s .help {
+	background-color: #d5d5d5;
+	border-radius: 50%;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 5px;
+	text-align: center;
+	width: 20px;
+}
+
+[data-balloon]:after { /* NRM too general */
+	text-align: initial;
+}
+
+#cf7s .ext-link {
+	float: right;
+	font-size: 12px;
+	margin-left: 30px;
+}
+
+#cf7s .nav-tab-content > div {  /* Tab Content */
+	background-color: #94B2CE;
+	border-top: 1px solid #7E99AD;
+	margin-left: -12px;
+	margin-right: -12px;
+	padding: 18px 0;
+	margin-top: -1px;
+	min-height: 353px;
+	display: none; /* @since 1.2.2 */
+}
+
+#cf7s .nav-tab-content > div.tab-active {  /* @since 1.2.2 */
+	display: block;
+}
+
+
+/* Filter Bar */
+#cf7s .wp-filter {
+	margin-top: 0;
+}
+
+#cf7s .wp-filter .search-form {
+	display: inline-block;
+	float: right;
+	margin: 9px 0 0;
+}
+
+#cf7s .theme-search {
+	float: right;
+	font-size: inherit;
+	margin-top: 3px;
+	width: 175px;
+}
+
+#cf7s .skins-sort {
+	border-right: 1px solid #ddd;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 11px;
+	padding-right: 15px;
+}
+
+#cf7s .skins-sort select {
+	font-size: inherit;
+}
+
+.cf7s .dashicons { /* @before #cf7s .dashicons */
+	color: #777;
+	height: 31px;
+	line-height: 31px;
+}
+
+.cf7s .dashicons:hover {
+	color: #2ea2cc;
+}
+
+#tab-template .filters-group {
+	width: 32.3%;
+}
+
+/* Skin List */
+#cf7s .nav-tab-content .skin {
+	float: left;
+	margin-bottom: 20px;
+	width: 25%;
+}
+
+#cf7s .skin-details > div,
+#cf7s .skin-list .wrapper {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#cf7s h4.feature-name {
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+
+#cf7s h4.skin-name {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 20px;
+	overflow: hidden;
+}
+
+#cf7s .skin-details .large-thumbnail { /* @since 0.7.0 */ 
+	border: 1px solid #888;
+	padding: 15px;
+	text-align: center;
+}
+
+#cf7s .skin-list .thumbnail {
+	background: none repeat scroll 0 0 #C4D9EE;
+	border: 1px solid #0978A5;
+	padding: 4%;
+}
+
+#cf7s .skin-list .skin-selected .thumbnail {
+	background: none repeat scroll 0 0 #0978A5;
+}
+
+#cf7s .skin-list .thumbnail img {
+	display: block;
+	max-width: 100%;
+}
+
+#cf7s .skin-list .spinner {  /* loading spinner */
+	display: none;
+	float: left;
+	margin-left: 49%;
+}
+
+/* skin-action */
+#cf7s ul.skin-action {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#cf7s ul.skin-action {
+	margin-top: 5px;
+}
+
+#cf7s ul.skin-action a {
+	color: #000;
+}
+
+#cf7s ul.skin-action a:hover {
+	color: #555;
+}
+
+#cf7s ul.skin-action a.selected {  /* remove anchor underline and change color if selected */
+	color: #FF0000;
+	text-decoration: none;
+}
+
+#cf7s ul.skin-action > li {
+	border-right: 1px solid #eee;
+	float: left;
+	margin-right: 15px;
+	padding: 3px 15px 3px 0;
+}
+
+#cf7s ul.skin-action > li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+/* Tab Content */
+#cf7s .tab-content.more-filters-opened .more-filters, /* WP3.9 */
+#cf7s .tab-content.more-filters-opened .more-filters:before, /* WP3.9 */
+#cf7s .tab-content.more-filters-opened .drawer-toggle, 
+#cf7s .tab-content.more-filters-opened .drawer-toggle:before {
+	background: none repeat scroll 0 0 #777777;
+	border: 0 none;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+
+#cf7s .tab-content.more-filters-opened .more-filters-container, /* WP3.9 */
+#cf7s .tab-content.more-filters-opened .filter-drawer {
+	display: block;
+	overflow: hidden;
+}
+
+#cf7s .tab-content.more-filters-opened .theme-section.current {
+	border-bottom: 0 none;
+}
+
+#cf7s .filter-drawer .filtering-by .tag { /* fix overflow many tags */
+	display: inline-block;
+	margin: 2px 5px 5px 0;
+}
+
+#cf7s p.no-skins { /* message wrapper if there is no style or template found using filter or search */
+	display: block;
+	margin-top: 70px;
+	color: #eee;
+}
+
+/* Details & Expanded View */
+#cf7s .expanded-view {  /* hide expanded view by default */
+	display: none;
+}
+
+#cf7s .block-thumbnail, 
+#cf7s .block-details {
+	width: 50%;
+	float: left;
+}
+
+#cf7s .block-thumbnail > img {
+	max-width: 100%;
+}
+
+#cf7s .block-details > div {
+	padding-left: 20px;
+}
+
+#cf7s p.description {
+	font-style: normal;
+}
+
+/* Selected Skin Info */
+#cf7s .selected-skin {
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 20px;
+	padding-top: 8px;
+	color: #FF0000;
+}
+
+#cf7s .selected-skin > span {
+	margin-left: 10px;
+}
+
+#cf7s .selected-skin > span > span {
+	padding: 0 5px;
+}
+
+@media only screen and (max-width: 1280px) {
+	#cf7s .wp-filter .search-form {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	#cf7s .wp-filter .skins-sort {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	#cf7s .wp-filter .filter-links {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#cf7s .wp-filter .selected-skin {
+		display: none;
+	}
+}
+
+#cf7s .nav-tab-content > div.info-tab { /* NRM move */
+	padding: 30px 20px;
+	background: #fff;
+}
+
+/* Settings section */
+#cf7skins-settings .tab-getting-started,
+#cf7skins-settings .tab-add-ons {
+	float: right;
+}
+/* NRM - these items in the Skins Meta box are styled inline as follows:
+<a class="nav-tab nav-tab-getting-started" style="float: right;
+" href="#tab-getting-started">Getting Started</a> */
+
+/* Information Tabs*/
+
+#cf7skins-settings .info-wrapper {
+	clear: both;
+	overflow: hidden;
+	background: #fff;
+}
+
+#cf7skins-settings .cf7s-info,
+#cf7s .cf7s-info {
+	float: left;
+}
+
+#cf7skins-settings .cf7s-info {
+	background: #fff;
+	padding: 10px 2% 10px 2%;
+	width: 62%;
+}
+
+#cf7skins-settings .form-table {
+/*    margin-top: 0; - not practical at this stage */
+}
+
+#cf7s .cf7s-info {
+	padding: 0 2% 0 0;
+	width: 62%;
+}
+
+#cf7s  .cf7s-info-sidebar,
+#cf7skins-settings .cf7s-info-sidebar {
+	float: left; 
+	width: 34%;  /* WAS width: 33%;  */
+	border-left: 1px solid #ccc; 
+	padding: 0 0 0 2%; 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#cf7skins-settings .cf7s-info-sidebar {
+	background: #fff;
+}
+
+#cf7skins-settings .cf7s-info img,
+#cf7s .cf7s-info img {
+	margin: 0 0 0 10px;
+}
+
+#cf7skins-settings .cf7s-info h2,
+#cf7s .cf7s-info h2 {
+}
+
+#cf7skins-settings .cf7s-info h3,
+#cf7s .cf7s-info h3 {
+}
+
+#cf7skins-settings .cf7s-info h4,
+#cf7s .cf7s-info h4 {
+}
+
+#cf7skins-settings .cf7s-btn,
+#cf7s .cf7s-btn {
+	border-radius: 8px;
+	background: #dd3333;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 14px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#cf7skins-settings .cf7s-btn:hover,
+#cf7s .cf7s-btn:hover {
+	background: #b92a2a;
+}
+
+/* Info Tabs Lists */
+#cf7skins-settings .cf7s-info ul,
+#cf7s .cf7s-info ul,
+#cf7skins-settings .cf7s-info-sidebar ul,
+#cf7s .cf7s-info-sidebar ul {
+	list-style: disc outside none;
+	margin: 0 1.5em;
+}
+
+/* For CF7 >= 4.2 */
+#cf7skins-42 h3.hndle {
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 8px 12px;
+	cursor: default;
+}
+
+#cf7skins-42 .handlediv:before {
+	right: 12px;
+	font: normal 20px/1 'dashicons';
+	speak: none;
+	display: inline-block;
+	padding: 8px 10px;
+	top: 0;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+	content: '\f142';
+}
+
+#cf7skins-42.closed .handlediv:before {
+	content: '\f140';
+}
+
+/* Visual Tab @since 2.0.0 */
+#cf7s #tab-visual {
+	padding: 20px;
+	background-color: #d3e398;
+	border-top: 1px solid #bcc986;
+}
+
+#cf7s .nav-tab-visual:hover, 
+#cf7s .nav-tab-visual.nav-tab-active {
+	background-color: #d3e398;
+	border-color: #bcc986;
+	border-bottom-color: transparent;
+	text-shadow: 0px 1px 4px #bcc986;
+}
+
+#cf7s .nav-tab-visual:hover .help, 
+#cf7s .nav-tab-visual.nav-tab-active .help {
+	background-color: #bcc986;
+}
+
+/* Media query based on users screen size */
+@media only screen and (max-width: 1160px) {
+	#cf7s .nav-tab-content .skin {
+		width: 33.3%;
+	}
+	#cf7s select {
+		font-size: 16px;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	#cf7s .nav-tab-content .skin {
+		width: 50%;
+	}
+	/* #cf7s .wp-filter .search-form,
+	#cf7s .skins-sort {
+		float: none;
+		display: block;
+	} */
+}
+
+@media only screen and (max-width: 480px) {
+	#cf7s .nav-tab-content .skin {
+		width: 100%;
+	}
+	#cf7s .block-thumbnail, #cf7s .block-details {
+		width: 100%;
+	}
+}
+
+
+/** Default Color Scheme **/
+
+#cf7s .default .nav-tab-style:hover {
+	background-color: #70A74A;
+	border-color: #699B45;
+}
+
+#cf7s .default .nav-tab-style.nav-tab-active {
+	background-color: #70A74A;
+	border-color: #699B45;
+}
+
+#cf7s .default #tab-style {
+	background-color: #70A74A;
+	border-top: 1px solid #699B45;
+}
+
+#cf7s .default #tab-style .skin-name {
+	color: #fff;
+}
+
+#cf7s .default #tab-style .thumbnail {
+	background-color: #C9F4B0;
+	border-color: #007236;
+}
+
+#cf7s .default #tab-style .skin-selected .thumbnail {
+	background-color: #629141;
+}
+
+#cf7s .default .nav-tab.nav-tab-active {
+	border-bottom-color: transparent;
+}
+
+
+/** Wheat Color Scheme **/
+
+#cf7s .wheat .nav-tab {
+	color: inherit;
+	border-color: #CCCCCC;
+}
+
+#cf7s .wheat .nav-tab:hover,
+#cf7s .wheat .nav-tab-active {
+	background-color: #EEEEEE;
+}
+
+#cf7s .wheat .tab-content {
+	background-color: #EEEEEE;
+	border-top: 1px solid #CCCCCC;
+}
+
+#cf7s .wheat .skin-name {
+	color: #A32D21;
+}
+
+#cf7s .wheat .thumbnail {
+	background-color: #E5E5E5;
+	border-color: #D1D1D1;
+}
+
+#cf7s .wheat .tab-content .skin-selected .thumbnail {
+	background-color: #FFFFFF;
+	border-color: #999999;
+}
+
+/* STYLE Tab */
+#cf7s .wheat .nav-tab-style {
+	border-color: #D2D69A;
+	background-color: #EFF7CD;
+}
+
+#cf7s .wheat .nav-tab-style:hover,
+#cf7s .wheat .nav-tab-style.nav-tab-active {
+	background-color: #E5EAA8;
+}
+
+#cf7s .wheat #tab-style {
+	background-color: #E5EAA8;
+	border-top: 1px solid #CCCCCC;
+}
+
+#cf7s .wheat #tab-style .skin-name {
+	color: #A32D21;
+}
+
+#cf7s .wheat #tab-style .thumbnail {
+	background-color: #DAE193;
+	border-color: #CED585;
+}
+
+#cf7s .wheat #tab-style .skin-selected .thumbnail {
+	background-color: #F2F9A4;
+	border-color: #BBBBBB;
+}
+
+#cf7s .wheat .nav-tab.nav-tab-active {
+	border-bottom-color: transparent;
+}
+
+
+/** Ocean Color Scheme **/
+
+#cf7s .ocean .nav-tab {
+	color: #555;
+	border-color: #93C6D7;
+	background-color: #fafafa;
+}
+
+#cf7s .ocean .nav-tab:hover,
+#cf7s .ocean .nav-tab-active {
+	background-color: #ECF7FB;
+}
+
+#cf7s .ocean .tab-content {
+	background-color: #ECF7FB;
+	border-top: 1px solid #93C6D7;
+}
+
+#cf7s .ocean .skin-name {
+	color: #6D9CB0;
+}
+
+#cf7s .ocean .thumbnail {
+	background-color: #CDE8F1;
+	border-color: #93C6D7;
+}
+
+#cf7s .ocean .skin-selected .thumbnail {
+	background-color: #CBF3B4;
+	border-color: #ADCE9A;
+}
+
+/* STYLE Tab */
+#cf7s .ocean .nav-tab-style {
+	border-color: #D8D8D8;
+	background-color: #E0F7D4; /* previous #ECF7FB */
+}
+
+#cf7s .ocean .nav-tab-style:hover,
+#cf7s .ocean .nav-tab-style.nav-tab-active {
+	background-color: #D6F9C1;
+}
+
+#cf7s .ocean #tab-style {
+	background-color: #D6F9C1;
+	border-top: 1px solid #D8D8D8;
+}
+
+#cf7s .ocean #tab-style .skin-name {
+	color: #70A749;
+}
+
+#cf7s .ocean #tab-style .thumbnail {
+	background-color: #C3F1A8;
+	border-color: #A4DA84;
+}
+
+#cf7s .ocean #tab-style .skin-selected .thumbnail {
+	background-color: #ECF7FB;
+	border-color: #B1CED3;
+}
+
+#cf7s .ocean .nav-tab.nav-tab-active {
+	border-bottom-color: transparent;
+}

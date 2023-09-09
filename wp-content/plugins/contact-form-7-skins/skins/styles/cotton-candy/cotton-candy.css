@@ -1,0 +1,353 @@
+/**
+* Style Name: Cotton Candy
+* Description:  Cotton Candy is a bright, eye-catching style that will stand out on your page with its bright and vibrant colors. This is a good style for any forms that need to stand out.
+* Instructions:
+* Version: 2.1
+* Version Date: 2020-03-08
+* Tags: aqua, pink, white, light
+**/
+
+/** Table of Contents
+ * Import
+ * Resets
+ * Form & Controls
+ * Fieldset, Legend, Label
+ * Text Fields
+ * Ordered & Unordered lists
+ * Checkboxes, Radio Buttons and Drop Down Menus
+ * Other Fields
+ * Submit Buttons
+ * Special Classes
+ * Ready Styles
+ * Multi Styles
+ */
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cotton-candy p {
+}
+
+.wpcf7 .cf7s-cotton-candy em {
+}
+
+.wpcf7 .cf7s-cotton-candy a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 Form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cotton-candy {
+	padding: 20px;
+	border: 1px solid #9ffffe;
+	background: #fff;
+	color: #158c8a;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cotton-candy fieldset {
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #9ffffe;
+	background: #e7ffff;
+}
+
+.wpcf7 .cf7s-cotton-candy legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #9ffffe;
+	background: #90ebec;
+}
+
+.wpcf7 .cf7s-cotton-candy label {
+}
+
+.wpcf7 .cf7s-cotton-candy fieldset p {
+}
+
+.wpcf7 .cf7s-cotton-candy fieldset fieldset {
+	margin: 10px 0; /* Above CSS overwritten by cf7s-default */
+    border: 1px solid #e9aefe;
+	background: #f4d8ff;
+}
+
+.wpcf7 .cf7s-cotton-candy fieldset fieldset legend {
+	border: 1px solid #e9aefe;
+	background: #e79aff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy fieldset fieldset input, 
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy fieldset fieldset textarea {
+	border: 1px solid #f0b8ff;
+	background: #fff;
+}
+
+.wpcf7 .cf7s-cotton-candy fieldset fieldset select {
+	border: 1px solid #f0b8ff;
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	color: #999;
+	border: 1px solid #9ffffe;
+	background: #fff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy textarea {
+	padding: 5px 7px;  /* deliberately different from Input */
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cotton-candy ol,
+.wpcf7 .cf7s-cotton-candy ul,
+.wpcf7 .cf7s-cotton-candy li {
+}
+
+.wpcf7 .cf7s-cotton-candy ol {
+}
+
+.wpcf7 .cf7s-cotton-candy li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-cotton-candy li label {
+}
+
+.wpcf7 .cf7s-cotton-candy .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-cotton-candy .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-cotton-candy select {
+	margin-bottom: 8px;
+	margin-left: 0; /* same as Input */
+	padding: 5px;
+	border: 1px solid #9ffffe;
+}
+
+.wpcf7 .cf7s-cotton-candy select option {
+}
+
+.wpcf7 .cf7s-cotton-candy select option:hover {
+	background: #f4d8ff;
+}
+
+.wpcf7 .cf7s-cotton-candy .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-cotton-candy .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #6ccbcb;
+	background: #91ebeb;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy input[type="submit"]:hover {
+	background: #e59bff;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-cotton-candy .singleline {
+}
+
+.wpcf7 .cf7s-cotton-candy .singleline li {
+}
+
+.wpcf7 .cf7s-cotton-candy .singleline input {
+}
+
+.wpcf7 .cf7s-cotton-candy .horizontal,
+.wpcf7 .cf7s-cotton-candy .checkbox-horizontal,
+.wpcf7 .cf7s-cotton-candy .radio-horizontal {
+}
+
+.wpcf7 .cf7s-cotton-candy .box {
+	padding: 10px;
+	border: 1px solid #eaafff;
+	background: #f4d8ff;
+}
+
+.wpcf7 .cf7s-cotton-candy .boxselect {
+	border: 1px solid #f0b8ff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #f4d8ff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined {
+	border-top: 1px solid #eaafff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined [data-row-span] {
+	border-bottom: 1px solid #eaafff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #eaafff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #eaafff;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7  .wpcf7-form.cf7skins.cf7s-cotton-candy .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #eaafff;
+			border-left: 1px solid #eaafff;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-cotton-candy.cf7multi {
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-cotton-candy.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .tab {
+	border: 1px solid #9ffffe;
+	border-bottom: none;
+	background: #e7ffff;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .tab a {
+	color: #158c8a;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .tab a.active {
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .epanels {
+	border: 1px solid #9ffffe;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .previous,
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #6ccbcb;
+	background: #91ebeb;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .next:hover {
+		background: #e59bff;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-cotton-candy.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #6ccbcb;
+	background: #91ebeb;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy.cf7multi .navigation .end:hover {
+	background: #e59bff;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-cotton-candy.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-cotton-candy.cf7multi .cf7m-progress {
+	border: 1px solid #9ffffe;
+	background: #e7ffff;
+}
+
+.wpcf7 .cf7s-cotton-candy.cf7multi .cf7m-progress div {
+	background: #90ebec;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-cotton-candy.cf7multi .cf7m-thanks {
+}

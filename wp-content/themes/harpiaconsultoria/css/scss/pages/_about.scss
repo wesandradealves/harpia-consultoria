@@ -1,0 +1,102 @@
+ .page-template-about {
+    .quem-somos {
+        > .container {
+            padding-bottom: 40px;
+            .section-header {
+                .text {
+                    display: flex !important;
+                    flex-wrap: wrap;
+                    // @include toRem(font-size, 20);
+                    color: color(gray, base); 
+                    h2 {
+                        flex: 0 0 auto;
+                        width: 100%;
+                        @include toRem(font-size, 30);
+                        margin-bottom: 27px;
+                        color: black;
+                    }
+                    p {
+                        flex: 0 0 auto;
+                        width: 100%;                        
+                        font-size: inherit;
+                        color: inherit;
+                        line-height: inherit;                        
+                    }
+                    ul, ol,
+                    p {
+                        &:not(:first-child) {
+                            margin-top: 1rem;
+                        }
+                    } 
+                    ul, ol {
+                        list-style: disc;
+                        padding-left: 18px;
+                    }                      
+                    blockquote {
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                        flex: 0 0 auto;
+                        width: 50%;
+                        margin-top: 49px;
+                        line-height: 1.4;
+                        @include toRem(font-size, 16);
+                        color: color(gray, medium);                        
+                        &:first-of-type {
+                            padding-right: 14px;
+                            & ~ blockquote {
+                                padding-left: 14px
+                            }
+                        }
+                        p {
+                            font-size: inherit;
+                            color: inherit;
+                            line-height: inherit;
+                        }
+                        h3 {
+                            @include toRem(font-size, 18);
+                            color: color(orange, base);
+                            margin-bottom: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .diferentials {
+        > .container {
+            // padding-bottom: 40px;
+            .section-header {
+                @media screen and (min-width: $screen-xl-min) {
+                    padding-bottom: 0;
+                }
+                .container {
+                    display: flex;
+                    flex-flow: column;
+                    height: 100%;
+                    .btn {
+                        @media screen and (min-width: $screen-xl-min) {
+                            margin-top: auto !important
+                        }
+                    }
+                }
+            }
+        }
+
+        &-list {
+            margin-bottom: -3rem;
+            &-item {
+                .title {
+                    @include toRem(font-size, 20);
+                }
+                .text {
+                    @include toRem(font-size, 14);
+                }
+                .icon {
+                    width: 75px;
+                }
+            }
+        }
+    }      
+ }
+
+ 

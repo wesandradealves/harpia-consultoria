@@ -1,0 +1,350 @@
+/**
+* Style Name: Lavender
+* Description: Lavender is a soft violet style that will blend in with many themes, particularly those that include similar colors. It was designed to be both delicate and smart.
+* Instructions:
+* Version: 1.1
+* Version Date: 2020-03-08
+* Tags: purple, grey, light
+**/
+
+/** Table of Contents
+* Import
+* Resets
+* Form & Controls
+* Fieldset, Legend, Label
+* Text Fields
+* Ordered & Unordered lists
+* Checkboxes, Radio Buttons and Drop Down Menus
+* Other Fields
+* Submit Buttons
+* Special Classes
+* Ready Styles
+ * Multi Styles
+*/
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-lavender p {
+}
+
+.wpcf7 .cf7s-lavender em {
+}
+
+.wpcf7 .cf7s-lavender a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-lavender {
+	padding: 20px;
+	color: #826581;
+	border: 1px solid #d7d0d7;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-lavender fieldset {
+	margin: 10px 0;
+	padding: 10px 25px;
+	border: 1px solid #d7d0d7;
+	background: #efe2f3;
+}
+
+.wpcf7 .cf7s-lavender legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #d9cfda;
+	background: #d3b2d1;
+}
+
+.wpcf7 .cf7s-lavender label {
+}
+
+.wpcf7 .cf7s-lavender fieldset p {
+}
+
+.wpcf7 .cf7s-lavender fieldset fieldset {
+	margin: 10px 0;
+	background: #f2f2f2;
+}
+
+.wpcf7 .cf7s-lavender fieldset fieldset legend {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	background: #fafafa;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-lavender ol,
+.wpcf7 .cf7s-lavender ul,
+.wpcf7 .cf7s-lavender li {
+}
+
+.wpcf7 .cf7s-lavender ol {
+}
+
+.wpcf7 .cf7s-lavender li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-lavender li label {
+}
+
+.wpcf7 .cf7s-lavender .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-lavender .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender select {
+	margin-bottom: 8px;  /* same as Input */
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	background: #fafafa;
+}
+
+.wpcf7 .cf7s-lavender select option {
+}
+
+.wpcf7 .cf7s-lavender select option:hover {
+	color: #d9cfda;
+	background: #826581;
+}
+
+.wpcf7 .cf7s-lavender .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-lavender .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type='submit'] {
+	padding: 5px 15px;
+	color: #816780;
+	border: 1px solid #d8ced9;
+	background: #f2f2f2;
+}
+
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender input[type="submit"]:hover {
+	color: #fff;
+	background: #d3b2d1;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-lavender .singleline {
+}
+
+.wpcf7 .cf7s-lavender .singleline li {
+}
+
+.wpcf7 .cf7s-lavender .singleline input {
+}
+
+.wpcf7 .cf7s-lavender .horizontal,
+.wpcf7 .cf7s-lavender .checkbox-horizontal,
+.wpcf7 .cf7s-lavender .radio-horizontal {
+}
+
+.wpcf7 .cf7s-lavender .box {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #d9cfda;
+	background: #f2f2f2;
+}
+
+.wpcf7 .cf7s-lavender .box select {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #d3b2d1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined {
+	border-top: 1px solid #d3b2d1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined [data-row-span] {
+	border-bottom: 1px solid #d3b2d1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #d3b2d1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #d3b2d1;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #d3b2d1;
+			border-left: 1px solid #d3b2d1;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-lavender.cf7multi {
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-lavender.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .tab {
+	border: 1px solid #d3b2d1;
+	border-bottom: none;
+	background: #d3b2d1;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .tab a {
+	color: #fff;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .tab a.active {
+	color:#000;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .epanels {
+	border: 1px solid #d3b2d1;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-lavender.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .navigation .previous,
+.wpcf7 .cf7s-lavender.cf7multi .navigation .next {
+	color: #816780;
+	border: 1px solid #d8ced9;
+	background: #f2f2f2;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-lavender.cf7multi .navigation .next:hover {
+	text-decoration: none;  /* Removes underline from button link */
+	color: #fff;
+	background: #d3b2d1;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-lavender.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-lavender.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #816780;
+	border: 1px solid #d8ced9;
+	background: #f2f2f2;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender.cf7multi .navigation .end:hover {
+	text-decoration:none;  /* Removes underline from button link */
+	color: #fff;
+	background: #d3b2d1;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-lavender.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-lavender.cf7multi .cf7m-progress {
+	border: 1px solid #d3b2d1;
+	background: #efe2f3;
+}
+
+.wpcf7 .cf7s-lavender.cf7multi .cf7m-progress div {
+	background: #d3b2d1;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-lavender.cf7multi .cf7m-thanks {
+}

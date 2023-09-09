@@ -1,0 +1,354 @@
+/**
+* Style Name: Mushroom
+* Description: Mushroom is a funky colorful style – its darker colors and stand out Legends are bound to draw attention.
+* Instructions:
+* Version: 1.1
+* Version Date: 2020-03-08
+* Tags: olive, brown, pink, dark
+**/
+
+/** Table of Contents
+* Import
+* Resets
+* Form & Controls
+* Fieldset, Legend, Label
+* Text Fields
+* Ordered & Unordered lists
+* Checkboxes, Radio Buttons and Drop Down Menus
+* Other Fields
+* Submit Buttons
+* Special Classes
+* Ready Styles
+ * Multi Styles
+*/
+
+/** Import
+Use to import other style sheets
+------------------------------------------------------------ */
+/* @import url('../parent/style.css'); */
+
+/** Resets
+Use to reset HTML form elements within CF7 forms
+------------------------------------------------------------ */
+.wpcf7 .cf7s-mushroom p {
+}
+
+.wpcf7 .cf7s-mushroom em {
+}
+
+.wpcf7 .cf7s-mushroom a {
+}
+
+/** Form & Controls
+Use to style the overall CF7 form
+------------------------------------------------------------ */
+.wpcf7 .cf7s-mushroom {
+	padding: 20px;
+	color: #000;
+	border: 1px solid #715f51;
+	background: #fff;
+}
+
+/** Fieldset, Legend, Label
+------------------------------------------------------------ */
+.wpcf7 .cf7s-mushroom fieldset {
+	margin: 10px 0;
+	padding: 10px 25px;
+	color: #ebe44b;
+	border: 1px solid #715f51;
+	background: #757448;
+}
+
+.wpcf7 .cf7s-mushroom legend {
+	font-size: 1.2em;
+	padding: 3px 20px;
+	color: #fff;
+	border: 1px solid #715f51;
+	background: #ff0052;
+}
+
+.wpcf7 .cf7s-mushroom label {
+}
+
+.wpcf7 .cf7s-mushroom fieldset p {
+}
+
+.wpcf7 .cf7s-mushroom fieldset fieldset {
+	margin: 10px 0;
+	border: 1px solid #715f51;
+	background: #4a480b;
+}
+
+.wpcf7 .cf7s-mushroom fieldset fieldset legend {
+	border: 1px solid #4a480b;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom fieldset fieldset input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom fieldset fieldset textarea {
+}
+
+/** Text Fields
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom textarea {
+	margin-bottom: 8px;
+	padding: 7px;
+	color: #444209;
+	border: 1px solid #715f51;
+	background: #e2df9a;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="text"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="email"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="tel"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="url"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="number"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="range"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type=date],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type=file] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="text"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="email"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="tel"] {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom textarea {
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+.wpcf7 .cf7s-mushroom ol,
+.wpcf7 .cf7s-mushroom ul,
+.wpcf7 .cf7s-mushroom li {
+}
+
+.wpcf7 .cf7s-mushroom ol {
+}
+
+.wpcf7 .cf7s-mushroom li {
+	margin-bottom: 5px;
+}
+
+.wpcf7 .cf7s-mushroom li label {
+}
+
+.wpcf7 .cf7s-mushroom .wpcf7-list-item {
+}
+
+.wpcf7 .cf7s-mushroom .wpcf7-list-item-label {
+	margin-right: 7px;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="checkbox"],
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="radio"] {
+	margin-right: 6px;
+	background: none;
+}
+
+.wpcf7 .cf7s-mushroom select {
+	padding: 6px;  /* matches input fields */
+	color:#000;
+	border: 1px solid #86832a;
+	background: #e2df9a;
+}
+
+.wpcf7 .cf7s-mushroom select option {
+}
+
+.wpcf7 .cf7s-mushroom select option:hover {
+	color: #ebe44b;
+	background: #4a480b;
+}
+
+.wpcf7 .cf7s-mushroom .wpcf7-checkbox .wpcf7-list-item,
+.wpcf7 .cf7s-mushroom .wpcf7-radio .wpcf7-list-item {
+	margin-left: 13px;
+}
+
+/** Other Fields
+------------------------------------------------------------ */
+
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="submit"] {
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #715f51;
+	background: #ff0052;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom input[type="submit"]:hover {
+	color: #ebe44b;
+	background: #4a480b;
+}
+
+/** Special Classes
+NOTE: Special Classes are classes added in the CF7 Form HTML for a particular form 
+------------------------------------------------------------ */
+
+
+/** Ready Styles
+------------------------------------------------------------ */
+.wpcf7 .cf7s-mushroom .singleline {
+}
+
+.wpcf7 .cf7s-mushroom .singleline li {
+}
+
+.wpcf7 .cf7s-mushroom .singleline input {
+}
+
+.wpcf7 .cf7s-mushroom .horizontal,
+.wpcf7 .cf7s-mushroom .checkbox-horizontal,
+.wpcf7 .cf7s-mushroom .radio-horizontal {
+}
+
+.wpcf7 .cf7s-mushroom .box {
+	padding: 10px;
+	color: #ebe44b;
+	border: 1px solid #715f51;
+	background: #444209;
+}
+
+.wpcf7 .cf7s-mushroom .box select {
+	color: #444209;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-hover [data-row-span] [data-field-span]:hover {
+	background: #444209;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined {
+	border-top: 1px solid #444209;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined [data-row-span] {
+	border-bottom: 1px solid #444209;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined [data-row-span] [data-field-span] {
+	border-right: 1px solid #444209;
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined [data-row-span] [data-field-span]:first-child {
+	border-left: 1px solid #444209;
+}
+
+	/* Needed to over-write Ready Default styling in cf7s-ready.css */
+	@media only screen and (min-width: 0) and (max-width: 700px) {
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined [data-row-span] {
+			border-bottom: none;  /* Needed so don't get additional line */
+		}
+		.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom .grid-lined [data-row-span] [data-field-span] {
+			border-bottom: 1px solid #444209;
+			border-left: 1px solid #444209;
+		}
+	}
+
+/** Multi Styles
+------------------------------------------------------------ */
+
+/* Multi Fixes */
+.wpcf7 .cf7s-mushroom.cf7multi {
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .etabs li {
+}
+
+/* Easytabs */
+.wpcf7 .cf7s-mushroom.cf7multi .tab-container {
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .etabs {
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .tab {
+	border: 1px solid #444209;
+	border-bottom: none;
+	background: #757448;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .tab a {
+	color: #ebe44b;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .tab.active {
+	background: #fff;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .tab a.active {
+	color:#000;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .epanels {
+	border: 1px solid #444209;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .panel-container {
+}
+
+/* Navigation */
+.wpcf7 .cf7s-mushroom.cf7multi .navigation {
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .previous,
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .next {
+	color: #fff;
+	border: 1px solid #715f51;
+	background: #ff0052;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .previous:hover,
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .next:hover {
+	text-decoration: none;  /* Removes underline from button link */
+	color: #ebe44b;
+	background: #4a480b;
+}
+
+/* Pagination */
+.wpcf7 .cf7s-mushroom.cf7multi .pagination {
+}
+
+/* Start & End Tabs */
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .start,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom.cf7multi .navigation .end {
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid #715f51;
+	background: #ff0052;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .navigation .start:hover,
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom.cf7multi .navigation .end:hover {
+	color: #ebe44b;
+	background: #4a480b;
+	text-decoration:none;  /* Removes underline from button link */
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom.cf7multi .navigation .end {
+}
+
+.wpcf7 .wpcf7-form.cf7skins.cf7s-mushroom.cf7multi .navigation .end:hover {
+}
+
+/* Progress Bar */
+.wpcf7 .cf7s-mushroom.cf7multi .cf7m-progress {
+	border: 1px solid #757448;
+	background: #4a480b;
+}
+
+.wpcf7 .cf7s-mushroom.cf7multi .cf7m-progress div {
+	background: #757448;
+}
+
+/* Thank You Tab */
+.wpcf7 .cf7s-mushroom.cf7multi .cf7m-thanks {
+}

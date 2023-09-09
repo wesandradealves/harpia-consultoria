@@ -1,0 +1,27 @@
+$palettes: (
+    primary: (base: #EA5428),
+    secondary: (base: #2C4C59, light: #18495D, dark: #051B2B),
+    gray: (base: #363940, medium: #6A818B, light: #95A1BB, dark: #6D7278, lightest: #F6F7FA),
+    white: (base: #FFF, medium: #F5F5F5, light: #F4F4F4),
+    green: (base: #42C412),
+    orange: (base: #F06C26)
+);
+
+@function color($color,$tone){
+
+    @if map-has-key($palettes,$color){
+        $color: map-get($palettes,$color);
+
+            @if map-has-key($color,$tone){
+                $tone: map-get($color,$tone);
+                @return $tone;
+            }
+
+            @warn "unknown tone `#{$tone}` in color";
+            @return null;        
+    }
+
+    @warn "unknown color `#{$color}` in palette";
+    @return null;
+   
+}
